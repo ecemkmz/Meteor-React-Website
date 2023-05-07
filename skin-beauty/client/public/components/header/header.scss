@@ -89,3 +89,63 @@ $background-color_2: #fff;
     }
   }
   
+
+  @media (max-width: 1088px) {
+    .header {
+      padding: 18px 60px;
+    }
+  }
+  @media (max-width: 991px) {
+    .header {
+      padding: 18px 4%;
+    }
+  }
+  @media (max-width: 852px) {
+    .header {
+      padding: 12px 4%;
+    }
+    #menuIcon {
+      display: initial;
+    }
+    .navbar {
+      position: absolute;
+      top: -570px;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-color);
+      // box-shadow: 4px 4px 0 4px rgb(14 55 54 /15%);
+      transition: 0.2s all linear;
+      text-align: left;
+      text-align: center;
+      a {
+        border-bottom: 1px solid black;
+        margin: 1rem;
+        display: block;
+        transition: transform 0.1s;
+        &:hover {
+          transform: scale(1.01);
+        }
+      }
+    }
+    .navbar.active {
+      top: 100%;
+      transition: all;
+    }
+    .menuItem {
+      margin: 0;
+      padding: 0;
+      height: 2.8rem;
+      border-bottom: none;
+      &:hover {
+        a {
+          color: $color_1;
+        }
+      }
+    }
+    li {
+      color: $color_1;
+    }
+  }
+  

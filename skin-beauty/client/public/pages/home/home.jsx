@@ -4,6 +4,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
 
+
 export const Home = () => {
     return (
         <div>
@@ -85,7 +86,7 @@ export const Home = () => {
             </div>
             <div className="categoryContainer">
   {categories.categories.map((category, i) => (
-    <div className={`boxContainer ${i === 0 ? 'active' : ''}`}>
+    <div className="boxContainer">
       <div
         className="box "
         id="boxProducts"
@@ -109,6 +110,7 @@ export const Home = () => {
         <a href="/Product">Kuru Cilt</a>
         <a href="/Product">Hassas Cilt</a>
         <a href="/Product">Atopik Cilt</a>
+        <a href="/Product">Olgun Cilt</a>
         <i
           className="bx bx-right-arrow-alt closeModal"
           onClick={() => {
@@ -145,3 +147,4 @@ export const Home = () => {
         </div>
       );
 }
+

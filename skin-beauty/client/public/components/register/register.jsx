@@ -1,9 +1,26 @@
-import React from "react";
+import React,{useState} from "react";
 export const Register = () => {
-    return (
+
+    const HandleClick = () => {
+      const registration = document.querySelector(".registration");
+      registration.classList.contains("active")? 
+      registration.classList.remove("active"):
+      registration.classList.add("active")
+    };
+   
+    const closeRegistration = () => {
+      const registration = document.querySelector(".registration");
+      registration.classList.remove("active");
+      registration.style.transform = 'scale(0)';
+    }
+    // const closeRegistration = () => {
+    //   isActive(false);
+    // };
+    // const [isActive, setIsActive] = useState(true);
+    return  (
       <div className="registration">
         <span className="icon-close">
-          <i className="bx bx-x" />
+          <i className="bx bx-x" onClick={closeRegistration} />
         </span>
         <div className="form-box login">
           <h2>Üye Girişi</h2>
@@ -28,10 +45,10 @@ export const Register = () => {
             <button type="submit" className="btn-login">
               Giriş Yap
             </button>
-            <div className="login-register">
+            <div className="login-register"  >
               <p>
                 Henüz Üye Değil Misin?
-                <a href="#" className="register-link">
+                <a href="#" className="register-link" onClick={HandleClick} >
                   Üye Ol
                 </a>
               </p>
@@ -68,7 +85,7 @@ export const Register = () => {
             <div className="login-register">
               <p>
                 Hesabın Mı Var?
-                <a href="#" className="login-link">
+                <a href="#" className="login-link" onClick={HandleClick} >
                   Giriş Yap
                 </a>
               </p>

@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Register } from "../register/register";
 
 export const Header = () => {
-    const [header, setHeader] = useState("header");
+
+  const [header, setHeader] = useState("header");
 
   useEffect(() => {
     function scroll() {
@@ -20,6 +21,9 @@ export const Header = () => {
     };
   }, []);
   //  scroll()
+  const [isRegistrationActive, setIsRegistrationActive] = useState(false);
+  
+
   return (
     <header className={header}>
       <a href="#" className="logo">
@@ -74,12 +78,7 @@ export const Header = () => {
               </a>
             </li>
             <li>
-              <a className="a" onClick={ () => {
-                return(<div>
-                  <Register/>
-                  </div>
-                )
-              }}>
+              <a className="a" onClick={() => setIsRegistrationActive(true)}>
                 <i className="bx bx-lock-alt" />
                 Üye Ol
               </a>
@@ -94,6 +93,7 @@ export const Header = () => {
           </ul>
         </li>
       </ul>
+      {isRegistrationActive && <Register />}
     </header>
   );
 
