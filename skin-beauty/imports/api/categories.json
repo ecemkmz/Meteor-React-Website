@@ -1,0 +1,40 @@
+{
+    "categories":[
+           {
+               "color":"#e9f4e3",
+               "name":"Temizleme Jelleri",
+               "items":"22 items",
+               "image": "/assets/face-cleansing-gel.jpg"
+               
+           },
+           {
+               "color":"#fef4ea",
+               "name":"Nemlendiriciler",
+               "items":"22 items",
+               "image": "/assets/moisturizer.jpg"
+               
+           },
+           {
+               "color":"#faeaea",
+               "name":"Serumlar",
+               "items":"22 items",
+               "image": "/assets/serum.jpg"
+               
+           },
+           {
+               "color":"#eeeef9",
+               "name":"Maskeler",
+               "items":"22 items",
+               "image": "/assets/face-mask.jpg"
+               
+           },
+           {
+               "color":"#f7f6d7",
+               "name":"Güneş Kremleri",
+               "items":"22 items",
+               "image": "/assets/sun-cream.jpg"
+               
+           }
+           
+       ]
+   }

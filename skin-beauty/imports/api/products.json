@@ -1,0 +1,151 @@
+{
+    "products":[
+        {
+            "id":"1",
+            "name":"Yüz Temizleme",
+            "brand":"La Roche Posay",
+            "category":"Temizleme Jeli",
+            "categoryId":"1",
+            "image_link": "https://caudalie-europe.imgix.net/media/catalog/product/2/9/297-2-instant-firming-serum.jpg?auto=format,compress&cs=srgb&fm=auto&w=600"
+            
+        },
+        {
+            "id":"2",
+            "name":"Serum",
+            "brand":"Sinoz",
+            "category":"Yüz Temizleme",
+            "image_link":"https://caudalie-europe.imgix.net/media/catalog/product/f/i/fiche-pp_vp_serumvp_01.jpg?auto=format,compress&cs=srgb&fm=auto&w=600"
+        },
+        {
+            "id":"3",
+            "name":"Yüz Temizleme",
+            "brand":"Neutrogena",
+            "category":"Yüz Temizleme",
+            "image_link":"https://m.media-amazon.com/images/I/61yIdgAZHfL.jpg"
+        },
+        {
+            "id":"4",
+            "name":"Maske",
+            "brand":"Nivea",
+            "category":"Yüz Temizleme",
+            "image_link":"https://m.media-amazon.com/images/I/41EFcn3vhRL.jpg"
+        },
+        {
+            "id":"5",
+            "name":"Güneş Kremi",
+            "brand":"Garnier",
+            "category":"Yüz Temizleme",
+            "image_link":"https://cdn.dsmcdn.com/ty758/product/media/images/20230302/17/293639735/78436769/1/1_org_zoom.jpg"
+        },
+        {
+            "id":"6",
+            "name":"Yüz Temizleme",
+            "brand":"Celenes",
+            "category":"Yüz Temizleme",
+            "image_link":"https://www.laroche-posay.com.tr/-/media/project/loreal/brand-sites/lrp/emea/tr/products/effaclar/effaclar-ultra-concentrated-serum/larocheposay-product-effaclar-serum-fss-30ml-1200x1200pxl.png"
+        },
+        {
+            "id":"7",
+            "name":"Serum",
+            "brand":"Missha",
+            "category":"Yüz Temizleme",
+            "image_link":"https://cdn.shopify.com/s/files/1/2357/8799/products/I_mFromGinsengSerumKorendy1-467677.jpg?v=1654327309"
+        },
+        {
+            "id":"8",
+            "name":"Maske",
+            "brand":"Cosrx",
+            "category":"Yüz Temizleme",
+            "image_link":"https://d.neoldu.com/news/80902.jpg"
+        },
+        {
+            "id":"9",
+            "name":"Maske",
+            "brand":"Mara",
+            "category":"",
+            "image_link":"https://cdn.dermogrup.net//uriage-hyseac-spf50-fluid-50-ml-uriage-161864-96-B.jpg"
+        },
+        {
+            "id":"10",
+            "name":"Güneş Kremi",
+            "brand":"Foodaholic",
+            "category":"",
+            "image_link":"https://cdn.cimri.io/image/1000x1000/missha-8809530067123-oryantal-bitkisel-icerikli-yaprak-maske-_414589406.jpg"
+        },
+        {
+            "id":"1",
+            "name":"Yüz Temizleme",
+            "brand":"La Roche Posay",
+            "category":"Temizleme Jeli",
+            "image_link": "https://caudalie-europe.imgix.net/media/catalog/product/2/9/297-2-instant-firming-serum.jpg?auto=format,compress&cs=srgb&fm=auto&w=600"
+            
+        },
+        {
+            "id":"2",
+            "name":"Serum",
+            "brand":"Sinoz",
+            "category":"Yüz Temizleme",
+            "image_link":"https://caudalie-europe.imgix.net/media/catalog/product/f/i/fiche-pp_vp_serumvp_01.jpg?auto=format,compress&cs=srgb&fm=auto&w=600"
+        },
+        {
+            "id":"3",
+            "name":"Yüz Temizleme",
+            "brand":"Neutrogena",
+            "category":"Yüz Temizleme",
+            "image_link":"https://m.media-amazon.com/images/I/61yIdgAZHfL.jpg"
+        },
+        {
+            "id":"4",
+            "name":"Maske",
+            "brand":"Nivea",
+            "category":"Yüz Temizleme",
+            "image_link":"https://m.media-amazon.com/images/I/41EFcn3vhRL.jpg"
+        },
+        {
+            "id":"5",
+            "name":"Güneş Kremi",
+            "brand":"Garnier",
+            "category":"Yüz Temizleme",
+            "image_link":"https://cdn.dsmcdn.com/ty758/product/media/images/20230302/17/293639735/78436769/1/1_org_zoom.jpg"
+        },
+        {
+            "id":"6",
+            "name":"Yüz Temizleme",
+            "brand":"Celenes",
+            "category":"Yüz Temizleme",
+            "image_link":"https://www.laroche-posay.com.tr/-/media/project/loreal/brand-sites/lrp/emea/tr/products/effaclar/effaclar-ultra-concentrated-serum/larocheposay-product-effaclar-serum-fss-30ml-1200x1200pxl.png"
+        },
+        {
+            "id":"7",
+            "name":"Serum",
+            "brand":"Missha",
+            "category":"Yüz Temizleme",
+            "image_link":"https://cdn.shopify.com/s/files/1/2357/8799/products/I_mFromGinsengSerumKorendy1-467677.jpg?v=1654327309"
+        },
+        {
+            "id":"8",
+            "name":"Maske",
+            "brand":"Cosrx",
+            "category":"Yüz Temizleme",
+            "image_link":"https://d.neoldu.com/news/80902.jpg"
+            
+        },
+        {
+            "id":"9",
+            "name":"Maske",
+            "brand":"Mara",
+            "category":"",
+            "image_link":"https://cdn.dermogrup.net//uriage-hyseac-spf50-fluid-50-ml-uriage-161864-96-B.jpg"
+        },
+        {
+            "id":"10",
+            "name":"Güneş Kremi",
+            "brand":"Foodaholic",
+            "category":"",
+            "image_link":"https://cdn.cimri.io/image/1000x1000/missha-8809530067123-oryantal-bitkisel-icerikli-yaprak-maske-_414589406.jpg"
+        }
+    ]
+}
+
+
+

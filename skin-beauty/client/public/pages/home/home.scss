@@ -1,0 +1,196 @@
+$color_1: var(--text-color);
+$color_2: var(--bg-color);
+$color_3: var(--green-color);
+$color_4: var(--dark-color);
+
+.home {
+  height: 100vh;
+  .homeSwiper {
+    height: 100vh;
+  }
+  .slideContainer {
+    position: relative;
+    width: 100%;
+    min-height: 40%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .slideText {
+      padding: 250px;
+      span {
+        font-size: 2.5rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: $color_1;
+      }
+      h1 {
+        font-weight: 200;
+        font-style: normal;
+        font-size: 2.4rem;
+        font-weight: 200;
+        margin-bottom: 1rem;
+      }
+      .btn {
+        padding: 0.6rem 1rem;
+        background: rgba(255, 255, 255, 0.419);
+        color: $color_1;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 00.5rem;
+        max-width: 160px;
+        border-radius: 0.1rem;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        font-style: normal;
+        .bx {
+          padding: 3px;
+          color: $color_1;
+          border-radius: 1rem;
+          font-size: 20px;
+          margin: auto;
+        }
+        &:hover {
+          .bx {
+            color: $color_2;
+          }
+          background: rgba(225, 219, 225, 0.667);
+          color: $color_2;
+          transition: 0.3s ease;
+        }
+      }
+    }
+  }
+}
+.categories {
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+    span {
+      color: $color_3;
+    }
+  }
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+  .categoryContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+    .boxContainer {
+      .box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-radius: 0rem;
+        box-shadow: 0 5px 10px #999999;
+        img {
+          width: 150px;
+          height: 150px;
+          object-fit: contain;
+          object-position: center;
+        }
+        h2 {
+          margin-top: 0.5rem;
+          font-size: 1rem;
+          font-weight: 600;
+        }
+        span {
+          font-size: 0.8rem;
+          font-weight: 400;
+          margin-bottom: 1rem;
+        }
+        .bx {
+          padding: 10px;
+          background: var(--green-color);
+          color: $color_2;
+          border-radius: 5rem;
+          margin-top: 1rem;
+          position: absolute;
+          bottom: -8%;
+          display: none;
+          &:hover {
+            background: var(--orange-color);
+            transition: 0.2s all linear;
+          }
+        }
+        &:hover {
+          .bx {
+            display: block;
+            transition: 0.2s all linear;
+          }
+        }
+      }
+      position: relative;
+      display: flex;
+      gap: 0;
+      transition: height 0.2s ease;
+      #boxProducts {
+        transition: transform 0.18s ease;
+        transform: translateY(0);
+        transform: scale(1);
+        width: 180px;
+      }
+      #boxCategories {
+        position: absolute;
+        transition: none;
+        transform: translateY(400px);
+        transform: scale(0);
+        height: 240px;
+        width: 180px;
+      }
+    }
+    .boxContainer.active {
+      #boxProducts {
+        transition: none;
+        transform: translateY(-450px);
+      }
+      #boxCategories {
+        transition: transform 0.18s ease;
+        transform: translateY(0);
+      }
+    }
+  }
+}
+.allBox {
+  a {
+    color: $color_4;
+    margin-top: 0.8rem;
+    &:hover {
+      color: $color_1;
+    }
+  }
+}
+.about {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, auto));
+  align-items: center;
+  gap: 1.5rem;
+  .aboutImg {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .aboutText {
+    span {
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $color_4;
+    }
+    p {
+      font-style: normal;
+      margin: 0.5rem 0 1rem;
+    }
+  }
+}

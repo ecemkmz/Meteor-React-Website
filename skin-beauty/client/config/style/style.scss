@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+* {
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-weight: 100 ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --grey-color: #efeeee;
+  --orange-color: #e9ccb1;
+  --brown-color: #d3c4be;
+  --pink-color: #ebcfc4;
+  --dark-color: #999999;
+  --green-color: #e8e6d9;
+  --dark-green-color: #dbf4d2;
+  --blue-color: #b5c3cb;
+  --text-color: #000000;
+  --bg-color: #fff;
+  --yesilbox-color: #e9f4e3;
+  --tenbox-color: #fef4ea;
+  --pembebox-color: #faeaea;
+  --morbox-color: #eeeef9;
+  --sarıbox-color: #f7f6d7;
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+  background: rgba(225, 219, 225, 0.667);
+}
+::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  background: rgba(95, 110, 101, 0.382);
+}
+section {
+  padding: 4.5rem 0 1.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  color: var(--text-color);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+// @import '{}/node_modules/swiper/swiper.css';
+
