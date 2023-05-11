@@ -1,171 +1,521 @@
 {
-    "products":[
-        {
-            "id":"1",
-            "name":"Yüz Temizleme",
-            "brand":"La Roche Posay",
-            "category":"Temizleme Jeli",
-            "categoryId":"1",
-            "image_link": "https://caudalie-europe.imgix.net/media/catalog/product/2/9/297-2-instant-firming-serum.jpg?auto=format,compress&cs=srgb&fm=auto&w=600",
-            "skin_type" : "Yağlı Cilt"
-            
-        },
-        {
-            "id":"2",
-            "name":"Serum",
-            "brand":"Sinoz",
-            "category":"Temizleme Jeli",
-            "image_link":"https://caudalie-europe.imgix.net/media/catalog/product/f/i/fiche-pp_vp_serumvp_01.jpg?auto=format,compress&cs=srgb&fm=auto&w=600",
-            "skin_type" : "Yağlı Cilt"
-        },
-        {
-            "id":"3",
-            "name":"Yüz Temizleme",
-            "brand":"Neutrogena",
-            "category":"Maske",
-            "image_link":"https://m.media-amazon.com/images/I/61yIdgAZHfL.jpg",
-            "skin_type" : "Olgun Cilt"
-        },
-        {
-            "id":"4",
-            "name":"Maske",
-            "brand":"Nivea",
-            "category":"Güneş Kremi",
-            "image_link":"https://m.media-amazon.com/images/I/41EFcn3vhRL.jpg",
-            "skin_type" : "Kuru Cilt"
-        },
-        {
-            "id":"5",
-            "name":"Güneş Kremi",
-            "brand":"Garnier",
-            "category":"Yüz Temizleme",
-            "image_link":"https://cdn.dsmcdn.com/ty758/product/media/images/20230302/17/293639735/78436769/1/1_org_zoom.jpg",
-            "skin_type" : "Kuru Cilt"
-        },
-        {
-            "id":"6",
-            "name":"Yüz Temizleme",
-            "brand":"Celenes",
-            "category":"Yüz Temizleme",
-            "image_link":"https://www.laroche-posay.com.tr/-/media/project/loreal/brand-sites/lrp/emea/tr/products/effaclar/effaclar-ultra-concentrated-serum/larocheposay-product-effaclar-serum-fss-30ml-1200x1200pxl.png",
-            "skin_type" : "Yağlı Cilt"
-        },
-        {
-            "id":"7",
-            "name":"Serum",
-            "brand":"Missha",
-            "category":"Serum",
-            "image_link":"https://cdn.shopify.com/s/files/1/2357/8799/products/I_mFromGinsengSerumKorendy1-467677.jpg?v=1654327309",
-            "skin_type" : "Olgun Cilt"
-        },
-        {
-            "id":"8",
-            "name":"Maske",
-            "brand":"Cosrx",
-            "category":"Maske",
-            "image_link":"https://d.neoldu.com/news/80902.jpg",
-            "skin_type" : "Olgun Cilt"
-        },
-        {
-            "id":"9",
-            "name":"Maske",
-            "brand":"Mara",
-            "category":"Maske",
-            "image_link":"https://cdn.dermogrup.net//uriage-hyseac-spf50-fluid-50-ml-uriage-161864-96-B.jpg",
-            "skin_type" : "Hassas Cilt"
-        },
-        {
-            "id":"10",
-            "name":"Güneş Kremi",
-            "brand":"Foodaholic",
-            "category":"",
-            "image_link":"https://cdn.cimri.io/image/1000x1000/missha-8809530067123-oryantal-bitkisel-icerikli-yaprak-maske-_414589406.jpg",
-            "skin_type" : "Hassas Cilt"
-        },
-        {
-            "id":"11",
-            "name":"Yüz Temizleme",
-            "brand":"La Roche Posay",
-            "category":"Temizleme Jeli",
-            "image_link": "https://caudalie-europe.imgix.net/media/catalog/product/2/9/297-2-instant-firming-serum.jpg?auto=format,compress&cs=srgb&fm=auto&w=600",
-            "skin_type" : "Yağlı Cilt"
-            
-        },
-        {
-            "id":"12",
-            "name":"Serum",
-            "brand":"Sinoz",
-            "category":"Serum",
-            "image_link":"https://caudalie-europe.imgix.net/media/catalog/product/f/i/fiche-pp_vp_serumvp_01.jpg?auto=format,compress&cs=srgb&fm=auto&w=600",
-            "skin_type" : "Kuru Cilt"
-        },
-        {
-            "id":"13",
-            "name":"Yüz Temizleme",
-            "brand":"Neutrogena",
-            "category":"Yüz Temizleme",
-            "image_link":"https://m.media-amazon.com/images/I/61yIdgAZHfL.jpg",
-            "skin_type" : "Hassas Cilt"
-        },
-        {
-            "id":"14",
-            "name":"Maske",
-            "brand":"Nivea",
-            "category":"Maske",
-            "image_link":"https://m.media-amazon.com/images/I/41EFcn3vhRL.jpg",
-            "skin_type" : "Atopik Cilt"
-        },
-        {
-            "id":"15",
-            "name":"Güneş Kremi",
-            "brand":"Garnier",
-            "category":"Güneş Kremi",
-            "image_link":"https://cdn.dsmcdn.com/ty758/product/media/images/20230302/17/293639735/78436769/1/1_org_zoom.jpg",
-            "skin_type" : "Hassas Cilt"
-        },
-        {
-            "id":"16",
-            "name":"Yüz Temizleme",
-            "brand":"Celenes",
-            "category":"Temizleme Jeli",
-            "image_link":"https://www.laroche-posay.com.tr/-/media/project/loreal/brand-sites/lrp/emea/tr/products/effaclar/effaclar-ultra-concentrated-serum/larocheposay-product-effaclar-serum-fss-30ml-1200x1200pxl.png",
-            "skin_type" : "Atopik Cilt"
-        },
-        {
-            "id":"17",
-            "name":"Serum",
-            "brand":"Missha",
-            "category":"Serum",
-            "image_link":"https://cdn.shopify.com/s/files/1/2357/8799/products/I_mFromGinsengSerumKorendy1-467677.jpg?v=1654327309",
-            "skin_type" : "Atopik Cilt"
-        },
-        {
-            "id":"18",
-            "name":"Maske",
-            "brand":"Cosrx",
-            "category":"Maske",
-            "image_link":"https://d.neoldu.com/news/80902.jpg",
-            "skin_type" : "Kuru Cilt"
-            
-        },
-        {
-            "id":"19",
-            "name":"Maske",
-            "brand":"Mara",
-            "category":"Maske",
-            "image_link":"https://cdn.dermogrup.net//uriage-hyseac-spf50-fluid-50-ml-uriage-161864-96-B.jpg",
-            "skin_type" : "Atopik Cilt"
-        },
-        {
-            "id":"20",
-            "name":"Güneş Kremi",
-            "brand":"Foodaholic",
-            "category":"Güneş Kremi",
-            "image_link":"https://cdn.cimri.io/image/1000x1000/missha-8809530067123-oryantal-bitkisel-icerikli-yaprak-maske-_414589406.jpg",
-            "skin_type" : "Kuru Cilt"
-        }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "name": "Köpüren Temizleyici",
+      "brand": "CeraVe",
+      "category": "Yüz Temizleme",
+      "image_link": "https://www.cerave.com.tr/-/media/Project/Loreal/BrandSites/CeraVe/Master/CeraveEuroHub/Turkey/Product/cleansers/foaming-cleanser.png",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Nemlendiren Temizleyici",
+      "brand": "CeraVe",
+      "category": "Yüz Temizleme",
+      "image_link": "https://www.cerave.com.tr/-/media/Project/Loreal/BrandSites/CeraVe/Master/CeraveEuroHub/Turkey/Product/Gallery/CeraVe_HC_16oz_LBL_GP1_Front_NewImage.png",
+      "skin_type": "Kuru Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Effaclar Gel",
+      "brand": "La Roche Posay",
+      "category": "Yüz Temizleme",
+      "image_link": "https://cdn.dermogrup.net//la-roche-posay-effaclar-yagli-ciltler-icin-temizleme-jeli-400ml-la-roche-posay-136200-23-O.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Cleanance Gel Nettoyant Cleansing Gel",
+      "brand": "Avene",
+      "category": "Yüz Temizleme",
+      "image_link": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sepjsrpih6p5tiq9phkwz4qu384y/pf_square/u5wa3z31qn5sepjsrpih6p5tiq9phkwz4qu384y?t=resize&height=700",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Atopia Cleansing Cream",
+      "brand": "Cosmed",
+      "category": "Yüz Temizleme",
+      "image_link": "https://www.cosmed.com.tr/Content/Urun/750x1000%20CLEANSING%20CREAM.jpg",
+      "skin_type": "Atopik Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Cleansing Foam",
+      "brand": "EffectHA",
+      "category": "Yüz Temizleme",
+      "image_link": "https://st2.myideasoft.com/idea/fr/60/myassets/products/013/effectha-temizleme-kopugu_min.jpg?revision=1641200610",
+      "skin_type": "Kuru Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Brightening Cleansing Foam",
+      "brand": "Mineaderm",
+      "category": "Yüz Temizleme",
+      "image_link": "https://www.mineaderm.com/wp-content/uploads/2021/07/Mineaderm-foam-yatay.jpg",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Beta Glucan Cleanser",
+      "brand": "Alchimiste",
+      "category": "Yüz Temizleme",
+      "image_link": "https://productimages.hepsiburada.net/s/318/1100/110000312261608.jpg/format:webp",
+      "skin_type": "Kuru Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Sebum Balancing Purifying",
+      "brand": "Jeuvenile",
+      "category": "Yüz Temizleme",
+      "image_link": "https://st.myideasoft.com/idea/cm/58/myassets/products/559/188_min.png?revision=1675516941",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Sensitive Skin Cleansing Gel",
+      "brand": "Mia Klinika",
+      "category": "Yüz Temizleme",
+      "image_link": "https://st1.myideasoft.com/idea/hq/43/myassets/products/038/6.jpg?revision=1635183214",
+      "skin_type": "Atopik Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Ultra 90 Gel",
+      "brand": "Heliocare",
+      "category": "Güneş Kremi",
+      "image_link": "https://cdn.dermogrup.net//heliocare-ultra-90-gel-krem-spf50-50-ml-heliocare-152489-12-B.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Ultra 90 Gel",
+      "brand": "Heliocare",
+      "category": "Güneş Kremi",
+      "image_link": "https://cdn.dermogrup.net//heliocare-ultra-90-gel-krem-spf50-50-ml-heliocare-152489-12-B.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Hyseac Fluide",
+      "brand": "Uriage",
+      "category": "Güneş Kremi",
+      "image_link": "https://st1.myideasoft.com/idea/cm/58/myassets/products/826/ads-c4-b1z-20tasar-c4-b1m-20-202022-07-07t105743808.png?revision=1657180786",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Solar Baarier SPF 50+ PA++++",
+      "brand": "Dermaction Plus",
+      "category": "Güneş Kremi",
+      "image_link": "https://www.watsons.com.tr/medias/sys_master/prd-images/hae/hbf/9300740964382/prd-front-1343377_365x385/prd-front-1343377-365x385.png",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Sun Essential SPF 50+ Mineral PA++++",
+      "brand": "Cosmed",
+      "category": "Güneş Kremi",
+      "image_link": "https://www.cosmed.com.tr/Content/Urun/750%20X%201000%20mineral.jpg",
+      "skin_type": "Hassas Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Sun Essential SPF 50+ Fluid PA++++",
+      "brand": "Cosmed",
+      "category": "Güneş Kremi",
+      "image_link": "https://www.cosmed.com.tr/Content/Urun/750%20X%201000%20fluid.jpg",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Organik Sertifikalı Güneş Koruyucu SPF 35+",
+      "brand": "Soltis",
+      "category": "Güneş Kremi",
+      "image_link": "https://cdn.cimri.io/image/480x480/soltis-spf35-50-ml-organik-sertifikali-gunes-koruyucu-krem_425240917.jpg",
+      "skin_type": "Kuru Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Anthelios Uvmune 400 50+",
+      "brand": "La Roche Posay",
+      "category": "Güneş Kremi",
+      "image_link": "https://www.laroche-posay.com.tr/-/media/project/loreal/brand-sites/lrp/emea/tr/products/anthelios/anthelios-uvmune-400-invisible-fluid-spf50--plus-non-perfumed/221811-laroche-1200x1200-anthelios-uvmune-50-fluido-senza-profumo-d9.jpg?cx=0&cy=0&cw=600&ch=600&hash=3F8C470A0AE0A627B929E93C8F5E427064265E6A",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Revitalift Clinical",
+      "brand": "Loreal Paris",
+      "category": "Güneş Kremi",
+      "image_link": "https://cdn.cimri.io/image/480x480/loreal-paris-revitalift-clinical-spf50-50-ml-yuz-gunes-kremi_722950870.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Acne Mat Face Protection Gel Cream",
+      "brand": "Dermoskin",
+      "category": "Güneş Kremi",
+      "image_link": "https://n11scdn.akamaized.net/a1/450/kozmetik-kisisel-bakim/gunes-kremleri/dermoskin-acne-mat-face-protection-gel-gunes-kremi-spf-50-50-ml__0104974204524617.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Pigmentyl Sun Protection SPF 50+ Cream",
+      "brand": "Dermoskin",
+      "category": "Güneş Kremi",
+      "image_link": "https://cdn.suslusozluk.com/content/images/original/4598_1589224089.jpg",
+      "skin_type": "Kuru Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Nemlendirici Krem",
+      "brand": "CeraVe",
+      "category": "Nemlendirici",
+      "image_link": "https://www.cerave.com.tr/-/media/Project/Loreal/BrandSites/CeraVe/Master/CeraveEuroHub/Turkey/Product/Moisturizers/Moisturizing-cream-1.jpg",
+      "skin_type": "Kuru Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Nemlendirici Losyon",
+      "brand": "CeraVe",
+      "category": "Nemlendirici",
+      "image_link": "https://www.cerave.com.tr/-/media/Project/Loreal/BrandSites/CeraVe/Master/CeraveEuroHub/Turkey/Product/Gallery/Moisturizing-Lotion_Side.png",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Ultra Moisturizing & Nourishing Cream",
+      "brand": "Cosmed",
+      "category": "Nemlendirici",
+      "image_link": "https://www.cosmed.com.tr/Content/Urun/750x1000%20ULTRA%20MOISTURIZING%20NOURISHING%20CREAM.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Protecting & Moisturizing Cream ",
+      "brand": "Cosmed",
+      "category": "Nemlendirici",
+      "image_link": "https://www.cosmed.com.tr/Content/Urun/750x1000%20PROTECTING%20MOISTURIZING%20CREAM.jpg",
+      "skin_type": "Atopik Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Vichy Mineral 89 Boosting Nemlendirici Bakım Kremi",
+      "brand": "Vichy",
+      "category": "Nemlendirici",
+      "image_link": "https://st3.myideasoft.com/idea/cm/58/myassets/products/308/ads-c4-b1z-20tasar-c4-b1m-20-202023-05-04t094724868.png?revision=1683185626",
+      "skin_type": "Kuru Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Caudalie Vinergetic 3 in 1 C Vitamini Enerji Verici Nemlendirici",
+      "brand": "Caudalie",
+      "category": "Nemlendirici",
+      "image_link": "https://st1.myideasoft.com/idea/cm/58/myassets/products/043/43.png?revision=1668238672",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "La Roche Posay Cicaplast Baume B5 Nemlendirici",
+      "brand": "La Roche Posay",
+      "category": "Nemlendirici",
+      "image_link": "https://st3.myideasoft.com/idea/cm/58/myassets/products/954/ads-c4-b1z-20tasar-c4-b1m-20-202022-10-08t103209517.png?revision=1665654040",
+      "skin_type": "Kuru Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Uriage Eau Thermale Hafif Su Bazlı Nemlendirici Krem",
+      "brand": "Uriage",
+      "category": "Nemlendirici",
+      "image_link": "https://st1.myideasoft.com/idea/cm/58/myassets/products/034/ads-c4-b1z-20tasar-c4-b1m-20-202022-07-16t104733034.png?revision=1657957790",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Bioderma Sebium Hydra Yatıştırıcı Krem ",
+      "brand": "Bioderma",
+      "category": "Nemlendirici",
+      "image_link": "https://st.myideasoft.com/idea/cm/58/myassets/products/233/adsiz-tasarim-4.png?revision=1676643931",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Collagen Booster Lotion",
+      "brand": "Mary & May",
+      "category": "Nemlendirici",
+      "image_link": "https://st2.myideasoft.com/idea/cm/58/myassets/products/350/ads-c4-b1z-20tasar-c4-b1m-20-202023-04-10t145222377.png?revision=1681127606",
+      "skin_type": "Olgun Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Centella Özlü Leke Kremi",
+      "brand": "Luv it!",
+      "category": "Nemlendirici",
+      "image_link": "https://st.myideasoft.com/idea/cm/58/myassets/products/211/7.png?revision=1676453988",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": " Niacinamide 10% + Zinc 1%",
+      "brand": "The Ordinary",
+      "category": "Serum",
+      "categoryId": "1",
+      "image_link": "https://shimmer.com.tr/wp-content/uploads/2019/02/the-ordinary-niacinamide-10pct-zinc-1pct-30ml-769915190311.png",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": " AHA 30% + BHA 2% Peeling Solution",
+      "brand": "The Ordinary",
+      "category": "Serum",
+      "categoryId": "2",
+      "image_link": "https://shimmer.com.tr/wp-content/uploads/2019/02/the-ordinary-aha-30pct-bha-2pct-peeling-solution-30ml.png",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Tranaxamic Serum",
+      "brand": "Cos De Baha",
+      "category": "Serum",
+      "categoryId": "3",
+      "image_link": "https://productimages.hepsiburada.net/s/255/500/110000238206856.jpg",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Liposomal Vitamin C %17 Serum",
+      "brand": "Jeuvenile",
+      "category": "Serum",
+      "categoryId": "4",
+      "image_link": "https://caudalie-europe.imgix.net/media/catalog/product/2/9/297-2-instant-firming-serum.jpg?auto=format,compress&cs=srgb&fm=auto&w=600",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Alight Brightening Vitamin C Serum",
+      "brand": "Cosmed",
+      "category": "Serum",
+      "categoryId": "5",
+      "image_link": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty710/product/media/images/20230130/12/270010130/219099091/1/1_org_zoom.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "H.A. Intense Hyaluronıc Serum",
+      "brand": "Mineaderm",
+      "category": "Serum",
+      "categoryId": "6",
+      "image_link": "https://www.mineaderm.com/wp-content/uploads/2022/05/Intense-HA-scaled.jpg",
+      "skin_type": "Olgun Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Leke Gidermeye Yardımcı Aydınlatıcı Arbutin Serum",
+      "brand": "Mineaderm",
+      "category": "Serum",
+      "categoryId": "7",
+      "image_link": "https://www.mineaderm.com/wp-content/uploads/2023/02/arbutin_dikey_kutulu.jpg",
+      "skin_type": "Normal Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Be Bright Liposomal Collagen Peptide Complex Serum",
+      "brand": "Dermoskin",
+      "category": "Serum",
+      "categoryId": "8",
+      "image_link": "https://www.dermoskin.com.tr/content/images/Serum/LipCollagen.jpg",
+      "skin_type": "Olgun Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Peptide + Hyaluronic Acid Serum",
+      "brand": "Cyrene",
+      "category": "Serum",
+      "categoryId": "9",
+      "image_link": "https://cdn.shopify.com/s/files/1/0020/7405/0639/products/peptide_yeni3_1024x1024.jpg?v=1596111399",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Leke Karşıtı Cilt Beyazlatıcı Serum",
+      "brand": "Pure Choice",
+      "category": "Serum",
+      "categoryId": "10",
+      "image_link": "https://cdn.shopify.com/s/files/1/0436/6152/5157/files/pc1.png?v=1682437230",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Cosmic Shimmer Hologram Foil Sheet Yüz Maskesi",
+      "brand": "Pure Beauty",
+      "category": "Maske",
+      "categoryId": "1",
+      "image_link": "https://cdn.dsmcdn.com/ty23/product/media/images/20201116/20/26798770/66823402/1/1_org_zoom.jpg",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Air Snowy Dengeleyici Maske",
+      "brand": "Frudia",
+      "category": "Maske",
+      "categoryId": "2",
+      "image_link": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty441/product/media/images/20220530/9/118094022/490265966/1/1_org_zoom.jpg",
+      "skin_type": "Hassas Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Stres Karşıtı Papatya Özlü Kağıt Maske",
+      "brand": "Skinlite",
+      "category": "Maske",
+      "categoryId": "3",
+      "image_link": "https://storage.googleapis.com/material_image_bucket/materials_image_approved/1013541_1_LARGE.jpg",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Aloe vera Kil Maske",
+      "brand": "Peau",
+      "category": "Maske",
+      "categoryId": "4",
+      "image_link": "https://storage.googleapis.com/material_image_bucket/materials_image_approved/1024465_1_LARGE.jpg",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Peptaronic Hyaluronic Maske",
+      "brand": "Snp Prep",
+      "category": "Maske",
+      "categoryId": "5",
+      "image_link": "https://cdn.shopify.com/s/files/1/0567/7491/8353/products/97.png?v=1641167209",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Peach Pore Refining Maske",
+      "brand": "Love My Glow",
+      "category": "Maske",
+      "categoryId": "6",
+      "image_link": "https://www.watsons.com.tr/medias/sys_master/prd-images/h14/h4a/9059924049950/prd-front-1316693_365x385/prd-front-1316693-365x385.png",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Vita Caviar Black Maske",
+      "brand": "Dewytree",
+      "category": "Maske",
+      "categoryId": "7",
+      "image_link": "https://cdn.shopify.com/s/files/1/0080/3707/2959/products/002000000155_5e4412e8-a70a-40bb-ae77-3867483cc47c_2000x.jpg?v=1577685136",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Amazon Red Clay Pore Mask",
+      "brand": "Missha",
+      "category": "Maske",
+      "categoryId": "8",
+      "image_link": "https://missha.com.tr/cnt/urunler/5815/prd/5815.jpg&size=287",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "AcGun Arındırıcı Maske",
+      "brand": "Dermoskin",
+      "category": "Maske",
+      "categoryId": "9",
+      "image_link": "https://www.eczafix.com/uploaded/750x750/dermoskin-acnegun-arindirici-maske-30-ml-621.jpg",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "AHA/BHA Vitamin C Daily Tonik",
+      "brand": "Cream Co.",
+      "category": "Tonik",
+      "categoryId": "1",
+      "image_link": "https://cdn.dsmcdn.com/ty102/product/media/images/20210416/16/80675519/56132637/1/1_org_zoom.jpeg",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Manuka Akneli Cilt Gözenek Sıkılaştırıcı Arındırıcı Tonik",
+      "brand": "Ziaja",
+      "category": "Tonik",
+      "categoryId": "2",
+      "image_link": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty499/product/media/images/20220804/10/154524374/64946062/1/1_org_zoom.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Effaclar Mikro Soyucu Tonik",
+      "brand": "La Roche Posay",
+      "category": "Tonik",
+      "categoryId": "3",
+      "image_link": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSxZeN41esEmpp80HdGA1QVO-8WL4v3IDM2zwM5LUeoEtlLOeX3l9jCUPZnGPFQAlBud2vIP5HvKMmCHrOp0_uM2LVPDiaI&usqp=CAY",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Gözenek Sıkılıştarıcı Ve Arındırıcı Glycolic Acid 7%",
+      "brand": "The Ordinary",
+      "category": "Tonik",
+      "categoryId": "4",
+      "image_link": "https://shimmer.com.tr/wp-content/uploads/2019/02/the-ordinary-glycolic-acid-7pct-toning-solution-240ml.png",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Clarifying Lotion Arındırıcı Losyon Tonik ",
+      "brand": "Clinique",
+      "category": "Tonik",
+      "categoryId": "5",
+      "image_link": "https://www.clinique.com.tr/media/export/cms/products/1200x1500/cl_sku_76WY01_1200x1500_0.png",
+      "skin_type": "Kuru Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Vinopure Temizleyici Tonik",
+      "brand": "Caudalie",
+      "category": "Tonik",
+      "categoryId": "6",
+      "image_link": "https://cdn.dermogrup.net//caudalie-vinopure-temizleyici-tonik-200-ml-caudalie-155134-48-B.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Sebo Pure Vegetal Tonik",
+      "brand": "Yves Rocher",
+      "category": "Tonik",
+      "categoryId": "7",
+      "image_link": "https://productimages.hepsiburada.net/s/33/500/10406123667506.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Vitamin Hyaluronic Acid Vitalizing Tonik",
+      "brand": "Iunik",
+      "category": "Tonik",
+      "categoryId": "8",
+      "image_link": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty751/product/media/images/20230227/19/291407514/136556643/1/1_org_zoom.jpg",
+      "skin_type": "Yağlı Cilt"
+    },
+    {
+      "id": "1",
+      "name": "Mature Skin Micellar Skin Tonik",
+      "brand": "Janssen Cosmetics",
+      "category": "Tonik",
+      "categoryId": "9",
+      "image_link": "https://cdn.dsmcdn.com/ty499/product/media/images/20220804/10/154524374/64946062/1/1_org_zoom.jpg",
+      "skin_type": "Tüm Cilt Tipleri"
+    },
+    {
+      "id": "1",
+      "name": "Glyc-Alright Gözenek Sıkılaştırıcı Tonik",
+      "brand": "She Vec",
+      "category": "Tonik",
+      "categoryId": "10",
+      "image_link": "https://www.dermokozmetika.com.tr/she-vec-glyc-alright-tonic-gozenek-karsiti-tonik-200ml-45481-33-O.jpg",
+      "skin_type": "Yağlı Cilt"
+    }
+  ]
 }
-
-
-
