@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Footer = () => {
-    return(
+  return (
     <div>
       <footer className="footer">
         <div className="footerBox">
@@ -49,7 +49,7 @@ export const Footer = () => {
             Bütün gelişmelerden <br />
             anında haberdar ol
           </p>
-          <form action>
+          <form action="true">
             <i className="bx bxs-envelope" />
             <input type="email" placeholder="Email'inizi giriniz" />
             <i className="bx bx-arrow-back bx-rotate-100" />
@@ -61,5 +61,4 @@ export const Footer = () => {
       </div>
     </div>
   );
-
-}
+};
