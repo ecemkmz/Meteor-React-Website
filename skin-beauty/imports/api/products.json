@@ -6,7 +6,7 @@
       "brand": "CeraVe",
       "category": "Yüz Temizleme",
       "image_link": "https://www.cerave.com.tr/-/media/Project/Loreal/BrandSites/CeraVe/Master/CeraveEuroHub/Turkey/Product/cleansers/foaming-cleanser.png",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -22,7 +22,7 @@
       "brand": "La Roche Posay",
       "category": "Yüz Temizleme",
       "image_link": "https://cdn.dermogrup.net//la-roche-posay-effaclar-yagli-ciltler-icin-temizleme-jeli-400ml-la-roche-posay-136200-23-O.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -30,7 +30,7 @@
       "brand": "Avene",
       "category": "Yüz Temizleme",
       "image_link": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sepjsrpih6p5tiq9phkwz4qu384y/pf_square/u5wa3z31qn5sepjsrpih6p5tiq9phkwz4qu384y?t=resize&height=700",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -70,7 +70,7 @@
       "brand": "Jeuvenile",
       "category": "Yüz Temizleme",
       "image_link": "https://st.myideasoft.com/idea/cm/58/myassets/products/559/188_min.png?revision=1675516941",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -86,15 +86,7 @@
       "brand": "Heliocare",
       "category": "Güneş Kremi",
       "image_link": "https://cdn.dermogrup.net//heliocare-ultra-90-gel-krem-spf50-50-ml-heliocare-152489-12-B.jpg",
-      "skin_type": "Yağlı Cilt"
-    },
-    {
-      "id": "1",
-      "name": "Ultra 90 Gel",
-      "brand": "Heliocare",
-      "category": "Güneş Kremi",
-      "image_link": "https://cdn.dermogrup.net//heliocare-ultra-90-gel-krem-spf50-50-ml-heliocare-152489-12-B.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -102,7 +94,7 @@
       "brand": "Uriage",
       "category": "Güneş Kremi",
       "image_link": "https://st1.myideasoft.com/idea/cm/58/myassets/products/826/ads-c4-b1z-20tasar-c4-b1m-20-202022-07-07t105743808.png?revision=1657180786",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -110,7 +102,7 @@
       "brand": "Dermaction Plus",
       "category": "Güneş Kremi",
       "image_link": "https://www.watsons.com.tr/medias/sys_master/prd-images/hae/hbf/9300740964382/prd-front-1343377_365x385/prd-front-1343377-365x385.png",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -150,7 +142,7 @@
       "brand": "Loreal Paris",
       "category": "Güneş Kremi",
       "image_link": "https://cdn.cimri.io/image/480x480/loreal-paris-revitalift-clinical-spf50-50-ml-yuz-gunes-kremi_722950870.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -158,7 +150,7 @@
       "brand": "Dermoskin",
       "category": "Güneş Kremi",
       "image_link": "https://n11scdn.akamaized.net/a1/450/kozmetik-kisisel-bakim/gunes-kremleri/dermoskin-acne-mat-face-protection-gel-gunes-kremi-spf-50-50-ml__0104974204524617.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -182,7 +174,7 @@
       "brand": "CeraVe",
       "category": "Nemlendirici",
       "image_link": "https://www.cerave.com.tr/-/media/Project/Loreal/BrandSites/CeraVe/Master/CeraveEuroHub/Turkey/Product/Gallery/Moisturizing-Lotion_Side.png",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -190,7 +182,7 @@
       "brand": "Cosmed",
       "category": "Nemlendirici",
       "image_link": "https://www.cosmed.com.tr/Content/Urun/750x1000%20ULTRA%20MOISTURIZING%20NOURISHING%20CREAM.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -230,7 +222,7 @@
       "brand": "Uriage",
       "category": "Nemlendirici",
       "image_link": "https://st1.myideasoft.com/idea/cm/58/myassets/products/034/ads-c4-b1z-20tasar-c4-b1m-20-202022-07-16t104733034.png?revision=1657957790",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -238,7 +230,7 @@
       "brand": "Bioderma",
       "category": "Nemlendirici",
       "image_link": "https://st.myideasoft.com/idea/cm/58/myassets/products/233/adsiz-tasarim-4.png?revision=1676643931",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -263,7 +255,7 @@
       "category": "Serum",
       "categoryId": "1",
       "image_link": "https://shimmer.com.tr/wp-content/uploads/2019/02/the-ordinary-niacinamide-10pct-zinc-1pct-30ml-769915190311.png",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -290,7 +282,7 @@
       "category": "Serum",
       "categoryId": "4",
       "image_link": "https://caudalie-europe.imgix.net/media/catalog/product/2/9/297-2-instant-firming-serum.jpg?auto=format,compress&cs=srgb&fm=auto&w=600",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -299,7 +291,7 @@
       "category": "Serum",
       "categoryId": "5",
       "image_link": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty710/product/media/images/20230130/12/270010130/219099091/1/1_org_zoom.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -443,7 +435,7 @@
       "category": "Tonik",
       "categoryId": "2",
       "image_link": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty499/product/media/images/20220804/10/154524374/64946062/1/1_org_zoom.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -452,7 +444,7 @@
       "category": "Tonik",
       "categoryId": "3",
       "image_link": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSxZeN41esEmpp80HdGA1QVO-8WL4v3IDM2zwM5LUeoEtlLOeX3l9jCUPZnGPFQAlBud2vIP5HvKMmCHrOp0_uM2LVPDiaI&usqp=CAY",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -479,7 +471,7 @@
       "category": "Tonik",
       "categoryId": "6",
       "image_link": "https://cdn.dermogrup.net//caudalie-vinopure-temizleyici-tonik-200-ml-caudalie-155134-48-B.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -488,7 +480,7 @@
       "category": "Tonik",
       "categoryId": "7",
       "image_link": "https://productimages.hepsiburada.net/s/33/500/10406123667506.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -497,7 +489,7 @@
       "category": "Tonik",
       "categoryId": "8",
       "image_link": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty751/product/media/images/20230227/19/291407514/136556643/1/1_org_zoom.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     },
     {
       "id": "1",
@@ -515,7 +507,7 @@
       "category": "Tonik",
       "categoryId": "10",
       "image_link": "https://www.dermokozmetika.com.tr/she-vec-glyc-alright-tonic-gozenek-karsiti-tonik-200ml-45481-33-O.jpg",
-      "skin_type": "Yağlı Cilt"
+      "skin_type": "Karma-Yağlı Cilt"
     }
   ]
 }
