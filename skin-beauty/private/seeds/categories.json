@@ -1,15 +1,43 @@
 [
   {
-    "category_1": "Yüz Temizleme",
+    "title": "Yüz Temizleme",
+    "color":"#e9f4e3",
+    "item":"22 items",
+    "image": "/assets/face-cleansing-gel.jpg"
+  },
+  {
+    "title": "Güneş Kremi",
+    "color":"#fef4ea",
+    "item":"22 items",
+    "image": "/assets/sun-cream.jpg"
+  },
 
-    "category_2": "Güneş Kremi",
+  { 
+    "title": "Nemlendirici",
+    "color":"#faeaea",
+    "item":"22 items",
+    "image": "/assets/moisturizer.jpg"
+  },
 
-    "category_3": "Nemlendirici",
+  { 
+    "title": "Tonik",
+    "color":"#eeeef9",
+    "item":"22 items",
+    "image": "/assets/face-cleansing-gel.jpg"
+  },
 
-    "category_4": "Tonik",
+  { 
+    "title": "Serum",
+    "color":"#f7f6d7",
+    "item":"22 items",
+    "image": "/assets/serum.jpg"
+  },
 
-    "category_5": "Serum",
-
-    "category_6": "Maske"
+  {
+    "title": "Maske",
+    "color":"#e9f4e3",
+    "item":"22 items",
+    "image": "/assets/face-mask.jpg"
   }
+  
 ]

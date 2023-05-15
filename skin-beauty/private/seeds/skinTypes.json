@@ -1,15 +1,26 @@
 [
   {
-    "skinType_1": "Karma-Yağlı Cilt",
+    "title": "Karma-Yağlı Cilt"
+  },
 
-    "skinType_2": "Kuru Cilt",
+  {
+    "title": "Kuru Cilt"
+  },
 
-    "skinType_3": "Atopik Cilt",
+  {
+    "title": "Atopik Cilt"
+  },
 
-    "skinType_4": "Hassas Cilt",
+  {
+    "title": "Hassas Cilt"
+  },
 
-    "skinType_5": "Tüm Cilt Tipleri",
+  {
+    "title": "Tüm Cilt Tipleri"
+  },
 
-    "skinType_6": "Olgun Cilt"
+  {
+    "title": "Olgun Cilt"
   }
+  
 ]

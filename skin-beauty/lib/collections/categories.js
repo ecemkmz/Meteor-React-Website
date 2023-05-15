@@ -1,9 +1,14 @@
 import SimpleSchema from "simpl-schema";
 
-Category = new Mongo.Collection("category");
+Categories = new Mongo.Collection("categories");
 
 CategorySchema = new SimpleSchema({
-  category: String,
+  title : String,
+  color : String,
+  item : String,
+  image : String
+
 });
 
-Category.attachSchema(CategorySchema);
+Categories.attachSchema(CategorySchema);
+
