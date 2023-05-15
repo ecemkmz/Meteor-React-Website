@@ -95,7 +95,7 @@
 // };
 import React, { useState } from "react";
 import { resultInitalState } from "./constants";
-import { questions as skinTypeQuestions } from "../../../../imports/api/skinTypeText.json";
+// import { questions as skinTypeQuestions } from "../../../../imports/api/skinTypeText.json";
 
 export const SkinTypeText = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);

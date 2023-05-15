@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import data from "../../../../imports/api/blogTexts.json"
+// import data from "../../../../imports/api/blogTexts.json"
 
 
 export const Blog = () => {
-    const [popUpBackgroundDisplay, setPopUpBackgroundDisplay] = useState(false);
-  const [activePopUpContent, setActivePopUpContent] = useState("");
+  //   const [popUpBackgroundDisplay, setPopUpBackgroundDisplay] = useState(false);
+  // const [activePopUpContent, setActivePopUpContent] = useState("");
 
-  const openPopUp = (id) => {
-    setPopUpBackgroundDisplay(true);
-    setActivePopUpContent(id);
-    document.body.style.overflow = "hidden"; // body scroll'u kapatılıyor
-  };
-  const closePopUp = () => {
-    setPopUpBackgroundDisplay(false);
-    setActivePopUpContent("");
-    document.body.style.overflow = "auto"; // body scroll'u tekrar açılıyor
-  };
+  // const openPopUp = (id) => {
+  //   setPopUpBackgroundDisplay(true);
+  //   setActivePopUpContent(id);
+  //   document.body.style.overflow = "hidden"; // body scroll'u kapatılıyor
+  // };
+  // const closePopUp = () => {
+  //   setPopUpBackgroundDisplay(false);
+  //   setActivePopUpContent("");
+  //   document.body.style.overflow = "auto"; // body scroll'u tekrar açılıyor
+  // };
 
   useEffect(() => {
     AOS.init();
@@ -56,7 +56,7 @@ export const Blog = () => {
       </div>
 
       <section className="blogLeftColumn">
-        {data.blogTexts.map((blogText) => {
+        {/* {data.blogTexts.map((blogText) => {
           return (
             <div key={blogText.dataId}>
               <div
@@ -108,7 +108,7 @@ export const Blog = () => {
               </popup>
             </div>
           );
-        })}
+        })} */}
       </section>
       <sidebar className="sidebar">
         <div className="popularPosts">

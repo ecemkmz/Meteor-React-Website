@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Product from "./product.jsx";
-import data from "../../../../imports/api/products.json";
+// import data from "../../../../imports/api/products.json";
 
 export const Products = () => {
   const handleChevronClick = (i) => {
@@ -10,32 +10,32 @@ export const Products = () => {
       ? "flex"
       : "none";
   };
-  const [selectedBrand, setSelectedBrand] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("");
-  const [selectedSkinType, setSelectedSkinType] = useState("");
+  // const [selectedBrand, setSelectedBrand] = useState("");
+  // const [selectedCategory, setSelectedCategory] = useState("");
+  // const [selectedSkinType, setSelectedSkinType] = useState("");
 
-  const brands = Array.from(
-    new Set(data.products.map((product) => product.brand))
-  );
-  const categories = Array.from(
-    new Set(data.products.map((product) => product.category))
-  );
-  const skinTypes = Array.from(
-    new Set(data.products.map((product) => product.skin_type))
-  );
+  // const brands = Array.from(
+  //   new Set(data.products.map((product) => product.brand))
+  // );
+  // const categories = Array.from(
+  //   new Set(data.products.map((product) => product.category))
+  // );
+  // const skinTypes = Array.from(
+  //   new Set(data.products.map((product) => product.skin_type))
+  // );
 
-  const handleFilterSelect = (brand, category, skinType) => {
-    setSelectedBrand(brand);
-    setSelectedCategory(category);
-    setSelectedSkinType(skinType);
-  };
+  // const handleFilterSelect = (brand, category, skinType) => {
+  //   setSelectedBrand(brand);
+  //   setSelectedCategory(category);
+  //   setSelectedSkinType(skinType);
+  // };
 
-  const filteredProducts = data.products.filter(
-    (product) =>
-      (!selectedBrand || product.brand === selectedBrand) &&
-      (!selectedCategory || product.category === selectedCategory) &&
-      (!selectedSkinType || product.skin_type === selectedSkinType)
-  );
+  // const filteredProducts = data.products.filter(
+  //   (product) =>
+  //     (!selectedBrand || product.brand === selectedBrand) &&
+  //     (!selectedCategory || product.category === selectedCategory) &&
+  //     (!selectedSkinType || product.skin_type === selectedSkinType)
+  // );
 
   return (
     <div className="productSection">
@@ -54,8 +54,8 @@ export const Products = () => {
             <div id="skinType" className="panelContainer">
               <div className="panelBody">
                 <ul className="categoryList">
-                  {categories.map((category) => (
-                    <li>
+                 {/* {categories.map((category) => (
+                    <li> 
                       <a
                         href="#"
                         className={
@@ -66,7 +66,7 @@ export const Products = () => {
                         {category}
                       </a>
                     </li>
-                  ))}
+                  ))} */}
                 </ul>
               </div>
             </div>
@@ -83,7 +83,7 @@ export const Products = () => {
             <div id="prodType" className="panelContainer">
               <div className="panelBody">
                 <ul className="skinTypeList">
-                  {skinTypes.map((skinType) => (
+                  {/* {skinTypes.map((skinType) => (
                     <li>
                       <a
                         href="#"
@@ -95,7 +95,7 @@ export const Products = () => {
                         {skinType}
                       </a>
                     </li>
-                  ))}
+                  ))} */}
                 </ul>
               </div>
             </div>
@@ -105,7 +105,7 @@ export const Products = () => {
         <h4>Marka</h4>
         <div className="brandContainer">
           <ul className="brandList">
-            {brands.map((brand) => (
+            {/* {brands.map((brand) => (
               <li>
                 <a
                   href="#"
@@ -115,15 +115,15 @@ export const Products = () => {
                   {brand}
                 </a>
               </li>
-            ))}
+            ))} */}
           </ul>
         </div>
         {/*/brands_products*/}
       </div>
       <div className="productContainer">
-        {filteredProducts.map((product) => (
+        {/* {filteredProducts.map((product) => (
           <Product {...product} key={product.id} />
-        ))}
+        ))} */}
       </div>
     </div>
   );
