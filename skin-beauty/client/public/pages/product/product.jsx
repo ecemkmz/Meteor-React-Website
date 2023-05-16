@@ -4,7 +4,7 @@ export default function Product(product) {
     return (
         <div>
           <div className="productCard">
-            <img src={product.image_link} alt="" />
+            <img src={product.imageLink} alt="" />
             <h2>{product.name}</h2>
             <h2>{product.brand}</h2>
           </div>

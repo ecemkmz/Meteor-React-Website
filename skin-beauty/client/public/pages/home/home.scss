@@ -139,14 +139,17 @@ $color_4: var(--dark-color);
         transition: transform 0.18s ease;
         transform: translateY(0);
         transform: scale(1);
+        height: 260px;
         width: 180px;
+        
+
       }
       #boxCategories {
         position: absolute;
         transition: none;
         transform: translateY(400px);
         transform: scale(0);
-        height: 240px;
+        height: 260px;
         width: 180px;
       }
     }

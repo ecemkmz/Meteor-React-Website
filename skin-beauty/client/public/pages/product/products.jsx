@@ -1,8 +1,16 @@
 import React, { useState } from "react";
 import Product from "./product.jsx";
-// import data from "../../../../imports/api/products.json";
+import { useTracker } from 'meteor/react-meteor-data';
+import { Categories  } from "../../../../lib/collections/categories";
+import { Brands  } from "../../../../lib/collections/brands.js";
+import {SkinTypes} from "../../../../lib/collections/skinTypes";
+import {Products} from "../../../../lib/collections/products.js";
 
-export const Products = () => {
+export const ProductsPage = () => {
+  const categories = useTracker(() => Categories.find({}).fetch());
+  const brands = useTracker(() => Brands.find({}).fetch());
+  const skinTypes = useTracker(() => SkinTypes.find({}).fetch());
+  const products = useTracker(() => Products.find({}).fetch());
   const handleChevronClick = (i) => {
     const panel = document.querySelectorAll(".panelBody");
     panel[i].classList.toggle("active");
@@ -10,32 +18,23 @@ export const Products = () => {
       ? "flex"
       : "none";
   };
-  // const [selectedBrand, setSelectedBrand] = useState("");
-  // const [selectedCategory, setSelectedCategory] = useState("");
-  // const [selectedSkinType, setSelectedSkinType] = useState("");
+  const [selectedBrand, setSelectedBrand] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedSkinType, setSelectedSkinType] = useState("");
 
-  // const brands = Array.from(
-  //   new Set(data.products.map((product) => product.brand))
-  // );
-  // const categories = Array.from(
-  //   new Set(data.products.map((product) => product.category))
-  // );
-  // const skinTypes = Array.from(
-  //   new Set(data.products.map((product) => product.skin_type))
-  // );
+ 
+  const handleFilterSelect = (brand, category, skinType) => {
+    setSelectedBrand(brand);
+    setSelectedCategory(category);
+    setSelectedSkinType(skinType);
+  };
 
-  // const handleFilterSelect = (brand, category, skinType) => {
-  //   setSelectedBrand(brand);
-  //   setSelectedCategory(category);
-  //   setSelectedSkinType(skinType);
-  // };
-
-  // const filteredProducts = data.products.filter(
-  //   (product) =>
-  //     (!selectedBrand || product.brand === selectedBrand) &&
-  //     (!selectedCategory || product.category === selectedCategory) &&
-  //     (!selectedSkinType || product.skin_type === selectedSkinType)
-  // );
+  const filteredProducts = products.filter(
+    (product) =>
+      (!selectedBrand || product.brand === selectedBrand) &&
+      (!selectedCategory || product.category === selectedCategory) &&
+      (!selectedSkinType || product.skin_type === selectedSkinType)
+  );
 
   return (
     <div className="productSection">
@@ -54,19 +53,19 @@ export const Products = () => {
             <div id="skinType" className="panelContainer">
               <div className="panelBody">
                 <ul className="categoryList">
-                 {/* {categories.map((category) => (
+                 {categories.map((category) => (
                     <li> 
                       <a
                         href="#"
                         className={
-                          selectedCategory === category ? "selected" : ""
+                          selectedCategory === category.title ? "selected" : ""
                         }
-                        onClick={() => handleFilterSelect("", category, "")}
+                        onClick={() => handleFilterSelect("", category.title, "")}
                       >
-                        {category}
+                        {category.title}
                       </a>
                     </li>
-                  ))} */}
+                  ))}
                 </ul>
               </div>
             </div>
@@ -83,19 +82,19 @@ export const Products = () => {
             <div id="prodType" className="panelContainer">
               <div className="panelBody">
                 <ul className="skinTypeList">
-                  {/* {skinTypes.map((skinType) => (
+                  {skinTypes.map((skinType) => (
                     <li>
                       <a
                         href="#"
                         className={
-                          selectedSkinType === skinType ? "selected" : ""
+                          selectedSkinType === skinType.title ? "selected" : ""
                         }
-                        onClick={() => handleFilterSelect("", "", skinType)}
+                        onClick={() => handleFilterSelect("", "", skinType.title)}
                       >
-                        {skinType}
+                        {skinType.title}
                       </a>
                     </li>
-                  ))} */}
+                  ))}
                 </ul>
               </div>
             </div>
@@ -105,25 +104,24 @@ export const Products = () => {
         <h4>Marka</h4>
         <div className="brandContainer">
           <ul className="brandList">
-            {/* {brands.map((brand) => (
+            {brands.map((brand) => (
               <li>
                 <a
                   href="#"
-                  className={selectedBrand === brand ? "selected" : ""}
-                  onClick={() => handleFilterSelect(brand, "", "")}
+                  className={selectedBrand === brand.title ? "selected" : ""}
+                  onClick={() => handleFilterSelect(brand.title, "", "")}
                 >
-                  {brand}
+                  {brand.title}
                 </a>
               </li>
-            ))} */}
+            ))}
           </ul>
         </div>
-        {/*/brands_products*/}
       </div>
       <div className="productContainer">
-        {/* {filteredProducts.map((product) => (
-          <Product {...product} key={product.id} />
-        ))} */}
+        {filteredProducts.map((product) => (
+          <Product {...product} key={product._id} />
+        ))}
       </div>
     </div>
   );

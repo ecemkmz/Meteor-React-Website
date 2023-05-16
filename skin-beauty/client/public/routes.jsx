@@ -5,7 +5,7 @@ import { Footer } from "./components/footer/footer";
 import { Home } from "./pages/home/home";
 import { Blog } from "./pages/blog/blog";
 // import { Register } from "./components/register/register";
-import { Products } from "./pages/product/products";
+import { ProductsPage } from "./pages/product/products";
 import { SkinTypeText } from "./pages/skinTypeText/skinTypeText";
 // import { jsQuizz } from "./pages/skinTypeText/constants";
 
@@ -19,7 +19,7 @@ export const PublicLayout = () => {
           <Route path="Blog" element={<Blog />} />
           <Route path="About" element={<SkinTypeText />} />
           {/* questions={jsQuizz.questions} */}
-          <Route path="Product" element={<Products />} />
+          <Route path="Product" element={<ProductsPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

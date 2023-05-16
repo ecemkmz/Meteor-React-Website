@@ -1,6 +1,6 @@
 import SimpleSchema from "simpl-schema";
 
-BlogTexts = new Mongo.Collection("blogTexts");
+export const BlogTexts = new Mongo.Collection("blogTexts");
 
 BlogTextSchema = new SimpleSchema({
   dataId: String,
