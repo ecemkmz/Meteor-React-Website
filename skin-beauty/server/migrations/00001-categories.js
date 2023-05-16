@@ -4,7 +4,7 @@ Migrations.add({
   up: function () {
     const categories = JSON.parse(Assets.getText("seeds/categories.json"));
     categories.forEach((category) => {
-      Category.insert(category);
+      Categories.insert(category);
     });
   },
 });

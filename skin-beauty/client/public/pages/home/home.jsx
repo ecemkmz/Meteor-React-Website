@@ -1,5 +1,5 @@
 import React from "react";
-import categories from "../../../../imports/api/categories.json"
+// import categories from "../../../../imports/api/categoriesss.json"
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
@@ -85,7 +85,7 @@ export const Home = () => {
               </a>
             </div>
             <div className="categoryContainer">
-  {categories.categories.map((category, i) => (
+  {/* {categories.categories.map((category, i) => (
     <div className="boxContainer">
       <div
         className="box "
@@ -120,7 +120,7 @@ export const Home = () => {
         />
       </div>
     </div>
-  ))}
+  ))} */}
 </div>
 
           </section>
