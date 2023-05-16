@@ -1,7 +1,8 @@
 
 import SimpleSchema from "simpl-schema";
 
-Brands = new Mongo.Collection("brands");
+
+export const Brands = new Mongo.Collection("brands");
 
 BrandSchema = new SimpleSchema({
   title : String,

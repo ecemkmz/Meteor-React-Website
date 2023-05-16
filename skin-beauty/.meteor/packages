@@ -28,5 +28,6 @@ percolate:migrations
 aldeed:collection2
 aldeed:autoform
 aldeed:simple-schema
+mdg:validated-method
 autopublish@1.0.7
 insecure@1.0.7

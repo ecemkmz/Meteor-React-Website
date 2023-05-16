@@ -1,6 +1,6 @@
 import SimpleSchema from "simpl-schema";
 
-Categories = new Mongo.Collection("categories");
+export const Categories = new Mongo.Collection("categories");
 
 CategorySchema = new SimpleSchema({
   title : String,
@@ -11,4 +11,6 @@ CategorySchema = new SimpleSchema({
 });
 
 Categories.attachSchema(CategorySchema);
+
+
 

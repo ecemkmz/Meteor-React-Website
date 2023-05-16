@@ -16,6 +16,7 @@
     "jsonfile": "^6.1.0",
     "meteor-node-stubs": "^1.2.5",
     "react": "^18.2.0",
+    "react-addons-pure-render-mixin": "^15.6.3",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.1",
     "simpl-schema": "^3.4.1",

@@ -1,11 +1,17 @@
-import React from "react";
-// import categories from "../../../../imports/api/categoriesss.json"
+import React  from 'react';
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
+import { Categories  } from "../../../../lib/collections/categories";
+import {SkinTypes} from "../../../../lib/collections/skinTypes";
+import { useTracker } from 'meteor/react-meteor-data';
+
 
 
 export const Home = () => {
+  const categories = useTracker(() => Categories.find({}).fetch());
+  const skinTypes = useTracker(() => SkinTypes.find({}).fetch());
+
     return (
         <div>
           <div className="home">
@@ -85,42 +91,44 @@ export const Home = () => {
               </a>
             </div>
             <div className="categoryContainer">
-  {/* {categories.categories.map((category, i) => (
-    <div className="boxContainer">
-      <div
-        className="box "
-        id="boxProducts"
-        style={{ background: category.color }}
-      >
-        <img src={category.image} alt="" />
-        <h2>{category.name}</h2>
-        <span>{category.items}</span>
-        <i
-          className="bx bx-right-arrow-alt openModal"
-          onClick={() => {
-            const boxes = document.querySelectorAll('.boxContainer');
-            boxes.forEach((box) => box.classList.remove('active'));
-            boxes[i].classList.add('active');
-          }}
-        />
-      </div>
-      <div className="box allBox" id="boxCategories" style={{ background: category.color }} >
-        <h2>Cilt Tipi</h2>
-        <a href="/Product">Karma-Yağlı Cilt</a>
-        <a href="/Product">Kuru Cilt</a>
-        <a href="/Product">Hassas Cilt</a>
-        <a href="/Product">Atopik Cilt</a>
-        <a href="/Product">Olgun Cilt</a>
-        <i
-          className="bx bx-right-arrow-alt closeModal"
-          onClick={() => {
-            const boxes = document.querySelectorAll('.boxContainer');
-            boxes[i].classList.remove('active');
-          }}
-        />
-      </div>
-    </div>
-  ))} */}
+            {categories.map((category, i) => (
+            <div className="boxContainer" key={category._id}>
+              <div
+                className="box"
+                id="boxProducts"
+                style={{ background: category.color }}
+              >
+                <img src={category.image} alt="" />
+                <h2>{category.title}</h2>
+                <span>{category.item}</span>
+                <i
+                  className="bx bx-right-arrow-alt openModal"
+                  onClick={() => {
+                    const boxes = document.querySelectorAll(".boxContainer");
+                    boxes.forEach((box) => box.classList.remove("active"));
+                    boxes[i].classList.add("active");
+                  }}
+                />
+              </div>
+              <div
+                className="box allBox"
+                id="boxCategories"
+                style={{ background: category.color }}
+              >
+                <h2>Cilt Tipi</h2>
+                {skinTypes.map((skinType)=>(
+                <a href="/Product">{skinType.title}</a>
+                ))}
+                <i
+                  className="bx bx-right-arrow-alt closeModal"
+                  onClick={() => {
+                    const boxes = document.querySelectorAll(".boxContainer");
+                    boxes[i].classList.remove("active");
+                  }}
+                />
+              </div>
+            </div>
+          ))}
 </div>
 
           </section>
@@ -146,5 +154,4 @@ export const Home = () => {
           </section>
         </div>
       );
-}
-
+};

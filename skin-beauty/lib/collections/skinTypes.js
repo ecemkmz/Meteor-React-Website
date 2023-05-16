@@ -1,6 +1,6 @@
 import SimpleSchema from 'simpl-schema';
 
-SkinTypes = new Mongo.Collection('skinTypes');
+export const SkinTypes = new Mongo.Collection('skinTypes');
 
 SkinTypeSchema = new SimpleSchema({
   title: String
