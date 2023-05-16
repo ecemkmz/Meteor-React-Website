@@ -1,43 +1,45 @@
 [
   {
-    "title": "Yüz Temizleme",
-    "color":"#e9f4e3",
-    "item":"22 items",
-    "image": "/assets/face-cleansing-gel.jpg"
-  },
-  {
-    "title": "Güneş Kremi",
-    "color":"#fef4ea",
-    "item":"22 items",
-    "image": "/assets/sun-cream.jpg"
-  },
-
-  { 
-    "title": "Nemlendirici",
-    "color":"#faeaea",
-    "item":"22 items",
-    "image": "/assets/moisturizer.jpg"
-  },
-
-  { 
-    "title": "Tonik",
-    "color":"#eeeef9",
-    "item":"22 items",
-    "image": "/assets/face-cleansing-gel.jpg"
-  },
-
-  { 
-    "title": "Serum",
-    "color":"#f7f6d7",
-    "item":"22 items",
-    "image": "/assets/serum.jpg"
-  },
-
-  {
-    "title": "Maske",
-    "color":"#e9f4e3",
-    "item":"22 items",
-    "image": "/assets/face-mask.jpg"
-  }
+    "_id" : "yXCYpBDKRCDrMpvb4",
+    "title" : "Yüz Temizleme",
+    "color" : "#e9f4e3",
+    "item" : "22 items",
+    "image" : "/assets/face-cleansing-gel.jpg"
+},
+{
+    "_id" : "zu8D9WociP5HoGjL7",
+    "title" : "Güneş Kremi",
+    "color" : "#fef4ea",
+    "item" : "22 items",
+    "image" : "/assets/sun-cream.jpg"
+},
+{
+    "_id" : "YW6u9gmqrZow7pCSZ",
+    "title" : "Nemlendirici",
+    "color" : "#faeaea",
+    "item" : "22 items",
+    "image" : "/assets/moisturizer.jpg"
+},
+{
+    "_id" : "bceGKaAtTBFskP7s9",
+    "title" : "Tonik",
+    "color" : "#eeeef9",
+    "item" : "22 items",
+    "image" : "/assets/face-cleansing-gel.jpg"
+},
+{
+    "_id" : "uiCj5nh2t5LfAFPCr",
+    "title" : "Serum",
+    "color" : "#f7f6d7",
+    "item" : "22 items",
+    "image" : "/assets/serum.jpg"
+},
+{
+    "_id" : "tmAtpGmrKbLBe9NWP",
+    "title" : "Maske",
+    "color" : "#e9f4e3",
+    "item" : "22 items",
+    "image" : "/assets/face-mask.jpg"
+}
   
 ]

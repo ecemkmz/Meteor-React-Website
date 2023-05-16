@@ -5,7 +5,7 @@ Products = new Mongo.Collection('products');
 ProductSchema = new SimpleSchema({
   name: String,
   brand: String,
-  category: String,
+  categoryId: String,
   imageLink: String,
   skinType: String
 });
