@@ -1,15 +1,20 @@
 [
   {
-    "category_1": "Yüz Temizleme",
-
-    "category_2": "Güneş Kremi",
-
-    "category_3": "Nemlendirici",
-
-    "category_4": "Tonik",
-
-    "category_5": "Serum",
-
-    "category_6": "Maske"
+    "category": "Yüz Temizleme"
+  },
+  {
+    "category": "Güneş Kremi"
+  },
+  {
+    "category": "Nemlendirici"
+  },
+  {
+    "category": "Tonik"
+  },
+  {
+    "category": "Serum"
+  },
+  {
+    "category": "Maske"
   }
 ]
