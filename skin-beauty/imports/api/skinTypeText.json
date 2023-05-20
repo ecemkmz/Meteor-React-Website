@@ -2,98 +2,114 @@
   "questions": [
     {
       "key": "question1",
-      "text": "Cildinin nem ihtiyacı genelde nasıldır?",
+      "text": "Temel bir cilt bakımının üç adımı ve sırası nedir?",
       "choices": [
-        "Gün içinde birkaç kere nemlendirici sürmezsem gerilir.",
-        "Çok ihtiyaç duymam, sadece kuru hissettiğim zaman nemlendirici sürerim.",
-        "Sürsem de iyi gelmez, rahatsız hissederim.",
-        "Her gün aksatmadan nemlendirici uygularım."
+        "Temizleme, Tonik, Nemlendirme",
+        "Temizleme, Nemlendirme, Tonik",
+        "Tonik, Nemlendirme, Temizleme",
+        "Tonik, Peeling, Serum"
       ],
       "correctAnswer": 0
     },
     {
       "key": "question2",
-      "text": "Sabahları uyandığında cildini nasıl hissedersin?",
+      "text": "Ne sıklıkla peeling yapman gerektiğini biliyor musun?",
       "choices": [
-        "Herkeste olduğu kadar sanırım, çok belirgin değiller.",
-        "Gözenek değil ama siyah noktalarla başım dertte!",
-        "En büyük derdim! Geniş gözeneklerimi sıkılaştırmanın yollarını arıyorum!",
-        "Genellikle burun çevremde ve alnımda vardır."
+        "Günde bir",
+        "Günde iki",
+        "Haftada 1-2 kere",
+        "Yılda birkaç kez"
       ],
       "correctAnswer": 2
     },
     {
       "key": "question3",
-      "text": "Cildin hangi durumlarda kızarır?",
+      "text": "Sivilcelerle mücadelede hangisi en etkili serum seç bakalım!",
       "choices": [
-        "Ara sıra, genelde soğukta yanaklarım kızarır.",
-        "Cildimin pek kızarmadığını düşünüyorum.",
-        "Bölgesel kızarık, çünkü sivilcelerim var.",
-        "Yeni bir ürün denediğim anda kızarır."
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "key": "question4",
-      "text": "Cildinin parlama oranını bize söyler misin?",
-      "choices": [
-        "Hiç parlamaz, genelde kurudur.",
-        "Genellikle burnumun üzeri, alnım ve belki biraz çenem.",
-        "Yanaklarım, burnum, alnımın geneli hep parlar.",
-        "Parlama değil ama batma hissini daha çok yaşarım."
+        "Peptit Serumu",
+        "Collagen Serum",
+        "BHA Serum",
+        "C Vitamini Serumu"
       ],
       "correctAnswer": 2
     },
     {
-      "key": "question5",
-      "text": "Cildine dokunduğunda nasıl hissediyorsun?",
+      "key": "question4",
+      "text": "Güneş kremini ne sıklıkla yenilemek gerekir?",
       "choices": [
-        "Gergin ve sert",
-        "Dengesiz, yanaklarım kuru ama onun dışında iyi.",
-        "Yapışkan ve yağlı",
-        "Hafif sıcak ve kaşıntılı"
+        "15 dakikada bir",
+        "Birkaç saatte bir",
+        "Günde bir",
+        "Haftada bir"
       ],
       "correctAnswer": 1
     },
     {
-      "key": "question6",
-      "text": "Yüzünü yıkadıktan sonra genelde nasıl hissedersin?",
+      "key": "question5",
+      "text": "Güneş kremi ne zaman kullanılır?",
       "choices": [
-        "Anında gerilir ve ilk iş nemlendirici sürerim.",
-        "Bazen nemlendirici sürsem mi kestiremem.",
-        "Tertemiz, keşke bütün gün böyle temiz ve arınmış görünse",
-        "Kaşınır ve biraz kurur."
+        "Yaz kış fark etmeksizin her dışarıya çıktığımızda",
+        "Sadece yaz aylarında"
       ],
       "correctAnswer": 0
     },
     {
-      "key": "question7",
-      "text": "Cildinle ilgili canını en çok sıkan problem aşağıdakilerden hangisi?",
+      "key": "question6",
+      "text": "C vitamini içeren serumların hangi amaçla kullanıldığını bulabilecek misin?",
       "choices": [
-        "Sürekli gerginlik hissi",
-        "Pek yok gibi :)",
-        "Parlaması beni deli eder",
-        "Kaşınması, kızarması",
-        "Kırışıklıklar"
+        "Cildi sıkılaştırmak",
+        "Cildi aydınlatmak ve cilt tonu düzensizliklerini önlemek",
+        "Cildi Nemlendirmek",
+        "Gözenekleri küçültmek"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "key": "question7",
+      "text": "Hangi Ürünler Birlikte Kullanılabilir?",
+      "choices": [
+        "Azelaik Asit + AHA-BHA",
+        "Retinol + Glikolik Asit",
+        "C vitamini + Niacinamide",
+        "C vitamini + BHA"
       ],
       "correctAnswer": 2
     },
     {
       "key": "question8",
-      "text": "Peki sivilce durumunu sorsak?",
+      "text": "Göz Altı Morluğu İçin Hangi İçerik Kullanılmaz?",
       "choices": [
-        "Benim cildimde sivilce çıkmaz.",
-        "Arada bir çıkar, sanırım yediklerimle alakalı.",
-        "Dönemsel mutlaka 3-4 tane çıkar.",
-        "Varlıklarını artık kabul ettim, onlarla yaşıyorum."
+        "C Vitamini",
+        "Tranexamic Asit",
+        "Retinol",
+        "Caffeine",
+        "Glutatyon"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 2
     },
     {
       "key": "question9",
-      "text": "Son olarak bize yaş aralığını söyler misin?",
-      "choices": ["18 altı", "18-24", "25-34", "35-44", "45+"],
+      "text": "Hangisi Anti-Aging İçerik Değildir?",
+      "choices": [
+        "Hyaluronik Asit",
+        "Retinol",
+        "Salisilik Asit",
+        "Kolajen",
+        "Resveratrol"
+      ],
       "correctAnswer": 2
+    },
+    {
+      "key": "question10",
+      "text": "Cilt Bariyerini Güçlendirmek İçin Hangi Ürün Kullanılmaz",
+      "choices": [
+        "Centella Asiatica",
+        "Seramidler",
+        "Hyalüronik Asit",
+        "Tranexamic Asit",
+        "Cica Kremler"
+      ],
+      "correctAnswer": 3
     }
   ]
 }
