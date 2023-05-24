@@ -1,9 +1,9 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { Meteor } from "meteor/meteor";
-import "boxicons";
+import { Meteor } from "meteor/meteor";   
 
-import { PublicLayout } from "./public/routes";
+
+import { PublicLayout } from "./app/public/routes";
 
 Meteor.startup(() => {
   const container = document.getElementById("react-target");
