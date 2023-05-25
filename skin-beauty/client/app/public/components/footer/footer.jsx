@@ -28,16 +28,16 @@ export const Footer = () => {
           </p>
           <div className="social">
             <a href="#">
-              <i className="bx bxl-facebook" />
+              <i className="fa-brands fa-facebook fa-xl" />
             </a>
             <a href="#">
-              <i className="bx bxl-twitter" />
+              <i className="fa-brands fa-twitter fa-xl" />
             </a>
             <a href="#">
-              <i className="bx bxl-instagram" />
+              <i className="fa-brands fa-instagram fa-xl" />
             </a>
             <a href="#">
-              <i className="bx bxl-youtube" />
+              <i className="fa-brands fa-youtube fa-xl" />
             </a>
           </div>
         </div>
@@ -64,7 +64,7 @@ export const Footer = () => {
           <form action="true">
             <i className="bx bxs-envelope" />
             <input type="email" placeholder="Email'inizi giriniz" />
-            <i className="bx bx-arrow-back bx-rotate-100" />
+            <i className="fa-solid fa-envelope fa-xl" />
           </form>
         </div>
       </footer>
@@ -72,7 +72,6 @@ export const Footer = () => {
         <p>© A&amp;E Production All Right Reserved.</p>
       </div>
       {/* <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> */}
-
     </div>
   );
 };

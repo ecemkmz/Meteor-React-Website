@@ -1,3 +1,4 @@
+import { Categories } from "../../lib/collections/categories";
 Migrations.add({
   version: 1,
   name: "Created Category",
@@ -8,5 +9,3 @@ Migrations.add({
     });
   },
 });
-
-

@@ -45,7 +45,7 @@ $color_4: var(--dark-color);
         border-radius: 0.1rem;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
         font-style: normal;
-        .fa-light{
+        .fa-solid {
           padding: 3px;
           color: $color_1;
           border-radius: 1rem;
@@ -53,7 +53,7 @@ $color_4: var(--dark-color);
           margin: auto;
         }
         &:hover {
-          .fa-light{
+          .fa-solid {
             color: $color_2;
           }
           background: rgba(225, 219, 225, 0.667);
@@ -110,7 +110,7 @@ $color_4: var(--dark-color);
           font-weight: 400;
           margin-bottom: 1rem;
         }
-        .fa-light{
+        .openModal {
           padding: 10px;
           background: var(--green-color);
           color: $color_2;
@@ -125,13 +125,13 @@ $color_4: var(--dark-color);
           }
         }
         &:hover {
-          .fa-light{
+          .closeModal {
             display: block;
             transition: 0.2s all linear;
           }
         }
       }
-      
+
       position: relative;
       display: flex;
       gap: 0;
@@ -142,8 +142,6 @@ $color_4: var(--dark-color);
         transform: scale(1);
         height: 280px;
         width: 180px;
-        
-
       }
       #boxCategories {
         position: absolute;
