@@ -40,10 +40,7 @@ export const Home = () => {
               </h1>
               <a href="#" className="btn">
                 Devam Et{" "}
-                <i
-                  className="fa-solid fa-arrow-right"
-                  style={{ color: "#000000" }}
-                />
+                <i className='bx bx-right-arrow-alt'/>
               </a>
             </div>
           </SwiperSlide>
@@ -60,10 +57,7 @@ export const Home = () => {
               </h1>
               <a href="#" className="btn">
                 Devam Et{" "}
-                <i
-                  className="fa-solid fa-arrow-right"
-                  style={{ color: "#000000" }}
-                />
+                <i className='bx bx-right-arrow-alt'/>
               </a>
             </div>
           </SwiperSlide>
@@ -80,10 +74,7 @@ export const Home = () => {
               </h1>
               <a href="#" className="btn">
                 Devam Et{" "}
-                <i
-                  className="fa-solid fa-arrow-right"
-                  style={{ color: "#000000" }}
-                />
+                <i className='bx bx-right-arrow-alt'/>
               </a>
             </div>
           </SwiperSlide>
@@ -98,10 +89,7 @@ export const Home = () => {
           </h1>
           <a href="/Product" className="btn">
             Şimdi İncele{" "}
-            <i
-              className="fa-solid fa-arrow-right"
-              style={{ color: "#000000" }}
-            />
+            <i className='bx bx-right-arrow-alt'/>
           </a>
         </div>
         <Swiper
@@ -123,8 +111,7 @@ export const Home = () => {
                   <img src={category.image} alt="" />
                   <h2>{category.title}</h2>
                   <span>{category.item}</span>
-                  <i
-                    className="fa- fa-arrow-right openModal"
+                  <i className='bx bx-right-arrow-alt openModal'
                     onClick={() => {
                       const boxes = document.querySelectorAll(".boxContainer");
                       boxes.forEach((box) => box.classList.remove("active"));
@@ -141,8 +128,7 @@ export const Home = () => {
                   {skinTypes.map((skinType) => (
                     <a href="/Product">{skinType.title}</a>
                   ))}
-                  <i
-                    className="fa-solid fa-arrow-right closeModal"
+                    <i className='bx bx-right-arrow-alt closeModal'
                     onClick={() => {
                       const boxes = document.querySelectorAll(".boxContainer");
                       boxes[i].classList.remove("active");
@@ -171,10 +157,7 @@ export const Home = () => {
           </p>
           <a href="/About" className="btn">
             Devam Et
-            <i
-              className="fa-solid fa-arrow-right"
-              style={{ color: "#000000" }}
-            />
+            <i className='bx bx-right-arrow-alt'/>
           </a>
         </div>
       </section>
