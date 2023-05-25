@@ -124,7 +124,7 @@ export const Home = () => {
                   <h2>{category.title}</h2>
                   <span>{category.item}</span>
                   <i
-                    className="fa-solid fa-arrow-right openModal"
+                    className="fa- fa-arrow-right openModal"
                     onClick={() => {
                       const boxes = document.querySelectorAll(".boxContainer");
                       boxes.forEach((box) => box.classList.remove("active"));
