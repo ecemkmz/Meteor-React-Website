@@ -5,7 +5,7 @@ $color_4: #333;
 $font-family_1: "Raleway", sans-serif;
 
 .productSection {
-  margin-top: 2rem;
+  margin: 4rem;
   display: grid;
   grid-template-columns: 25% 73%;
   line-height: 1.5;
@@ -90,8 +90,8 @@ $font-family_1: "Raleway", sans-serif;
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
       padding: 1rem;
       position: relative;
-      width: 15rem;
-      height: 20rem;
+      width: 12rem;
+      height: 16rem;
       transition: transform 0.2s;
  
       &:hover {
@@ -102,15 +102,15 @@ $font-family_1: "Raleway", sans-serif;
         border-radius: 1%;
         box-shadow: 0 0 0 rem rgba(0, 0, 0, 0.1);
         object-fit: cover;
-        width: 10rem;
-        height: 10rem;
-        margin-top: 1rem;
+        width: 9rem;
+        height: 9rem;
+        margin-top: 0.7rem;
       }
       h2 {
         font-style: normal;
         font-weight: 400;
         margin-top: 1rem;
-        font-size: 1.3rem;
+        font-size: 1rem;
         color: $color_4;
       }
     }

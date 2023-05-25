@@ -28,16 +28,16 @@ export const Footer = () => {
           </p>
           <div className="social">
             <a href="#">
-              <i className="fa-brands fa-facebook fa-xl" />
+              <i className="bx bxl-facebook" />
             </a>
             <a href="#">
-              <i className="fa-brands fa-twitter fa-xl" />
+              <i className="bx bxl-twitter " />
             </a>
             <a href="#">
-              <i className="fa-brands fa-instagram fa-xl" />
+              <i className="bx bxl-instagram " />
             </a>
             <a href="#">
-              <i className="fa-brands fa-youtube fa-xl" />
+              <i className="bx bxl-youtube" />
             </a>
           </div>
         </div>
@@ -64,7 +64,6 @@ export const Footer = () => {
           <form action="true">
             <i className="bx bxs-envelope" />
             <input type="email" placeholder="Email'inizi giriniz" />
-            <i className="fa-solid fa-envelope fa-xl" />
           </form>
         </div>
       </footer>

@@ -110,7 +110,7 @@ $color_4: var(--dark-color);
           font-weight: 400;
           margin-bottom: 1rem;
         }
-        .openModal {
+        .bx {
           padding: 10px;
           background: var(--green-color);
           color: $color_2;
@@ -125,7 +125,7 @@ $color_4: var(--dark-color);
           }
         }
         &:hover {
-          .closeModal {
+          .bx {
             display: block;
             transition: 0.2s all linear;
           }

@@ -62,7 +62,7 @@ export const Header = () => {
             </li>
             <li className="dropdown">
               <a href="#" >
-              <span>Kullanıcı</span><i className="fas fa-chevron-down" />
+              <span>Kullanıcı</span><i className="bx bx-chevron-down bx-sm" />
               </a>
               <ul ul style={{"display": "block"}}>
                 <li>

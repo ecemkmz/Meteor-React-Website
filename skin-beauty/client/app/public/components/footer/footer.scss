@@ -29,7 +29,7 @@ $color_7: var(--text-color);
       display: flex;
       align-items: center;
       column-gap: 0.5rem;
-      .fa-brands {
+      .bx {
         padding: 10px;
         background: var(--bg-color);
         color: $color_1;
@@ -66,14 +66,14 @@ $color_7: var(--text-color);
         border: none;
         outline: none;
       }
-      .fa-solid {
+      .bx {
         font-size: 20px;
         color: $color_5;
         cursor: pointer;
-      }
-      .fa-envelope {
+        &:hover{
         color: $color_6;
       }
+    }
     }
   }
 }
