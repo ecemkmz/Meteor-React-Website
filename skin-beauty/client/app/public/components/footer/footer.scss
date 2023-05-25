@@ -7,7 +7,7 @@ $color_6: var(--green-color);
 $color_7: var(--text-color);
 
 .footer {
-  max-width: 968px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -29,7 +29,7 @@ $color_7: var(--text-color);
       display: flex;
       align-items: center;
       column-gap: 0.5rem;
-      .bx {
+      .fa-brands {
         padding: 10px;
         background: var(--bg-color);
         color: $color_1;
@@ -66,12 +66,12 @@ $color_7: var(--text-color);
         border: none;
         outline: none;
       }
-      .bx {
+      .fa-solid {
         font-size: 20px;
         color: $color_5;
         cursor: pointer;
       }
-      .bxs-envelope {
+      .fa-envelope {
         color: $color_6;
       }
     }
