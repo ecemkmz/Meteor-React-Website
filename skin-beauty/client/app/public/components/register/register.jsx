@@ -18,9 +18,7 @@ export const Register = () => {
   // const [isActive, setIsActive] = useState(true);
   return (
     <div className="registration">
-      <span className="icon-close">
-        <i className="bx bx-x" onClick={closeRegistration} />
-      </span>
+     
       <div className="form-box login">
         <h2>Üye Girişi</h2>
         <form action="true">

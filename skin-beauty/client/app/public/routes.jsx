@@ -8,6 +8,8 @@ import { ProductsPage } from "./pages/product/products";
 import { SkinTypeText } from "./pages/skinTypeText/skinTypeText";
 import { ProductDetail } from "./pages/product/productDetail";
 import { SignIn } from "../auth/pages/signIn/signIn";
+import { Register } from "./components/register/register";
+import { SignUp } from "../auth/pages/signUp/signUp";
 
 export const PublicLayout = () => {
   return (
@@ -17,7 +19,7 @@ export const PublicLayout = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="Blog" element={<Blog />} />
-          <Route path="About" element={<SkinTypeText />} />
+          <Route path="About" element={<SignUp />} />
           <Route path="Product" element={<ProductsPage />} />
           <Route path="Product/:productId" element={<ProductDetail />} />
         </Routes>
