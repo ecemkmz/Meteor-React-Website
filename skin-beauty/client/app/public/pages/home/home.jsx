@@ -9,7 +9,6 @@ import 'swiper/modules/navigation/navigation.scss';
 
 export const Home = () => {
   const categories = useTracker(() => Categories.find({}).fetch());
-  console.log(categories);
   const skinTypes = useTracker(() => SkinTypes.find({}).fetch());
 
   return (
@@ -34,13 +33,13 @@ export const Home = () => {
           >
             {" "}
             <div className="slideText">
-              <span>Skin Beauty'e Hoş Geldin!</span>
+              <span>Skin Beauty'e Hoş Geldİn!</span>
               <h1>
                 Aradığın Her Şey <br />
                 Burada...
               </h1>
-              <a href="#" className="btn">
-                Devam Et{" "}
+              <a href="/auth/signup" className="btn">
+                Üye Ol
                 <i className='bx bx-right-arrow-alt'/>
               </a>
             </div>
@@ -51,12 +50,12 @@ export const Home = () => {
           >
             {" "}
             <div className="slideText">
-              <span>Skin Beauty'e Hoş Geldin!</span>
+              <span>İlgİnİ Çekebİlecek Yazılarımız var...</span>
               <h1>
-                Aradığın Her Şey <br />
-                Burada...
+                Blog Sayfamızı İncelemek <br />
+                İster Misin?
               </h1>
-              <a href="#" className="btn">
+              <a href="/Blog" className="btn">
                 Devam Et{" "}
                 <i className='bx bx-right-arrow-alt'/>
               </a>
@@ -68,13 +67,12 @@ export const Home = () => {
           >
             {" "}
             <div className="slideText">
-              <span>Skin Beauty'e Hoş Geldin!</span>
+              <span>Cİlt Bakımı Hakkında Neler Bİlİyorsun?</span>
               <h1>
-                Aradığın Her Şey <br />
-                Burada...
+                Haydi Kendini Dene..
               </h1>
-              <a href="#" className="btn">
-                Devam Et{" "}
+              <a href="/SkinTypeTests" className="btn">
+                Teste Git{" "}
                 <i className='bx bx-right-arrow-alt'/>
               </a>
             </div>
@@ -178,10 +176,7 @@ export const Home = () => {
             Hakkımızda daha çok şey mi bilmek istiyorsun ama bilemezsin çünkü
             hakkımızda sayfasında bir test var orayı düzeltmedik
           </p>
-          <a href="/About" className="btn">
-            Devam Et
-            <i className='bx bx-right-arrow-alt'/>
-          </a>
+          
         </div>
       </section>
     </div>

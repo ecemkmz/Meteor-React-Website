@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
+import {useTracker} from 'meteor/react-meteor-data';
 import { NavLink } from "react-router-dom";
 
 export const Header = () => {
+  const user = useTracker(() => Meteor.user());
   const [scrolled, setScrolled] = useState(false);
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
@@ -56,13 +58,13 @@ export const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/About" className="nav-link scrollto" activeClassName="active">
-                Hakkımızda
+              <NavLink to="/SkinTypeTests" className="nav-link scrollto" activeClassName="active">
+                Testler
               </NavLink>
             </li>
             <li className="dropdown">
               <a href="#" >
-              <span>Kullanıcı</span><i className="bx bx-chevron-down bx-sm" />
+              {user? (Meteor.user().profile.firstName):(`Kullanıcı`)}<i className="bx bx-chevron-down bx-sm"/>
               </a>
               <ul ul style={{"display": "block"}}>
                 <li>
@@ -75,7 +77,8 @@ export const Header = () => {
                   <a href="#">Yardım&amp;Sorular</a>
                 </li>
                 <li>
-                  <a href="#">Giriş Yap</a>
+
+                  {user? (<a onClick={() => { Meteor.logout()}}>Çıkış Yap</a>) :(<a href="/auth/signup">Üye Ol</a>)}
                 </li>
               </ul>
             </li>

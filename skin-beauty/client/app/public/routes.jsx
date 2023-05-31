@@ -9,6 +9,8 @@ import { SkinTypeTests } from "./pages/test/skinTypeTests";
 import { SkinTypeTestDetail } from "./pages/test/skinTypeTestDetail";
 import { ProductDetail } from "./pages/product/productDetail";
 import { SignIn } from "../auth/pages/signIn/signIn";
+import { SignUp } from "../auth/pages/signUp/signUp";
+import { ForgotPassword } from "../auth/pages/forgotPassword/forgotPassword";
 
 export const PublicLayout = () => {
   return (
@@ -19,14 +21,16 @@ export const PublicLayout = () => {
           <Route path="/" element={<Home />} />
           <Route path="Blog" element={<Blog />} />
           <Route path="SkinTypeTests" element={<SkinTypeTests />} />
-          <Route path="About" element={<SignIn />} />
           <Route path="Product" element={<ProductsPage />} />
           <Route path="Product/:productId" element={<ProductDetail />} />
           <Route
             path="SkinTypeTests/:testId"
             element={<SkinTypeTestDetail />}
           />
-        </Routes>
+          <Route  path="auth/signup" element={<SignUp />} />
+          <Route  path="auth/signin" element={<SignIn />} />
+          <Route  path="auth/forgotPassword" element={<ForgotPassword />} />
+          </Routes>
         <Footer />
       </BrowserRouter>
     </div>

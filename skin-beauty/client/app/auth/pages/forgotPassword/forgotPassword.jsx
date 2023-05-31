@@ -2,28 +2,22 @@ import React from "react";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
-import Link from "@mui/material/Link";
-import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-import { useNavigate } from 'react-router-dom';
 
-export const SignIn = () => {
-  const navigate = useNavigate();
+export const ForgotPassword = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     const email = event.target.email.value;
-    const password = event.target.password.value;
 
-    Meteor.loginWithPassword(email, password, (error) => {
+    Accounts.forgotPassword({ email }, (error) => {
       if (error) {
+        // Hata mesajını burada işleyebilirsiniz.
         console.log(error.reason);
       } else {
-        console.log("Kullanıcı girişi başarılı!");
-        navigate('/');
+        // Şifre sıfırlama e-postası başarıyla gönderildi.
+        console.log('Şifre sıfırlama e-postası gönderildi.');
       }
     });
   };
@@ -39,7 +33,7 @@ export const SignIn = () => {
       >
         <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}></Avatar>
         <Typography component="h1" variant="h5">
-          Giriş Formu
+          Şifre Kurtarma
         </Typography>
         <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
           <TextField
@@ -52,40 +46,15 @@ export const SignIn = () => {
             autoComplete="email"
             autoFocus
           />
-          <TextField
-            margin="normal"
-            required
-            fullWidth
-            name="password"
-            label="Şifre"
-            type="password"
-            id="password"
-            autoComplete="current-password"
-          />
-          <FormControlLabel
-            control={<Checkbox value="remember" color="primary" />}
-            label="Beni Hatırla"
-          />
           <Button
             type="submit"
             fullWidth
             variant="contained"
             sx={{ mt: 3, mb: 2 }}
           >
-            Giriş Yap
+            Gönder
           </Button>
-          <Grid container>
-            <Grid item xs>
-              <Link href="/auth/forgotPassword" variant="body2">
-                Şifreni mi unuttun?
-              </Link>
-            </Grid>
-            <Grid item>
-              <Link href="/auth/signup" variant="body2">
-                {"Hesabın yok mu? Üye Ol"}
-              </Link>
-            </Grid>
-          </Grid>
+         
         </Box>
       </Box>
     </Container>

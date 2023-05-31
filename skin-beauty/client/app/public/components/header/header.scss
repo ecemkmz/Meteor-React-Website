@@ -54,6 +54,7 @@
 
 .navbar li {
   position: relative;
+
 }
 
 .navbar a,
@@ -62,8 +63,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.945);
   white-space: nowrap;
   transition: 0.3s;
@@ -72,7 +73,7 @@
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -126,7 +127,7 @@
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   text-transform: none;
   color: #000000;

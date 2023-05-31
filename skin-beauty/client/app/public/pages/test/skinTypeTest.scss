@@ -14,9 +14,9 @@
   li {
     list-style: none;
   }
-  span {
-    display: block;
-  }
+  // span {
+  //   display: block;
+  // }
   .flex {
     display: flex;
     align-items: center;
@@ -37,6 +37,7 @@
     opacity: 0.7;
   }
   .secTitle {
+    display: block;
     text-align: center;
     padding: 1rem 0;
     font-size: 25px;
@@ -86,7 +87,7 @@
       width: 100%;
       padding: 5rem 1.5rem;
       background: linear-gradient(rgba(0, 0, 1, 0.42), rgba(0, 0, 1, 0.549));
-      background-image: url("https://i.pinimg.com/564x/cf/d4/b5/cfd4b5bdff8419fd02c38406635fcf37.jpg");
+      background-image: url("https://i.hizliresim.com/73pt448.jpg");
       background-position: center;
       object-fit: cover;
       background-size: cover;
@@ -96,6 +97,7 @@
       row-gap: 3rem;
       .homeText {
         .spanText {
+          display: block;
           color: var(--secHoverColor);
           font-weight: 800;
         }
@@ -190,6 +192,7 @@
             .tourInfo {
               padding: 0.1rem;
               .tourTitle {
+                display: block;
                 font-size: 20px;
                 color: var(--secHoverColor);
                 font-weight: 600;
@@ -240,6 +243,7 @@
           text-align: center;
           gap: 1rem;
           .title {
+            display: block;
             font-size: 24px;
             font-weight: 900;
             color: var(--secHoverColor);
