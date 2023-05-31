@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useTracker } from 'meteor/react-meteor-data';
-import {BlogTexts} from "../../../../../lib/collections/blogTexts"
- 
+import { useTracker } from "meteor/react-meteor-data";
+import { BlogTexts } from "../../../../../lib/collections/blogTexts";
+
 export const Blog = () => {
   const blogTexts = useTracker(() => BlogTexts.find({}).fetch());
   const [popUpBackgroundDisplay, setPopUpBackgroundDisplay] = useState(false);
@@ -27,8 +27,9 @@ export const Blog = () => {
   return (
     <div>
       <div className="imgContainer">
-        <div className="imgItem" 
-      style={{ backgroundImage: `url("/assets/background/bg11.jpg")` }}
+        <div
+          className="imgItem"
+          style={{ backgroundImage: `url("/assets/background/bg11.jpg")` }}
         >
           <h1 className="imgText">
             CİLDİNİZİ
@@ -36,8 +37,9 @@ export const Blog = () => {
             TANIYIN
           </h1>
         </div>
-        <div className="imgItem" 
-      style={{ backgroundImage: `url("/assets/background/bg5.jpg")` }}
+        <div
+          className="imgItem"
+          style={{ backgroundImage: `url("/assets/background/bg5.jpg")` }}
         >
           <h1 className="imgText">
             CİLDİNİZE UYGUN
@@ -45,8 +47,9 @@ export const Blog = () => {
             ÜRÜNÜ BULUN
           </h1>
         </div>
-        <div className="imgItem" 
-        style={{ backgroundImage: `url("/assets/background/bg13.jpg")` }}
+        <div
+          className="imgItem"
+          style={{ backgroundImage: `url("/assets/background/bg13.jpg")` }}
         >
           <h1 className="imgText">
             CİLT BAKIMI
@@ -116,11 +119,7 @@ export const Blog = () => {
           <h2>Popüler Postlar</h2>
           <div className="popularPost">
             <div className="postImage">
-              <img
-                src="/assets/background/bg2.jpg"
-                className="img"
-                alt=""
-              />
+              <img src="/assets/background/bg2.jpg" className="img" alt="" />
             </div>
             <div className="postTitle">
               <a href="#">
@@ -130,11 +129,7 @@ export const Blog = () => {
           </div>
           <div className="popularPost">
             <div className="postImage">
-              <img
-                src="/assets/background/bg15.jpg"
-                className="img"
-                alt=""
-              />
+              <img src="/assets/background/bg15.jpg" className="img" alt="" />
             </div>
             <div className="postTitle">
               <a href="#">
@@ -144,11 +139,7 @@ export const Blog = () => {
           </div>
           <div className="popularPost">
             <div className="postImage">
-              <img
-                src="/assets/background/bg14.jpg"
-                className="img"
-                alt=""
-              />
+              <img src="/assets/background/bg14.jpg" className="img" alt="" />
             </div>
             <div className="postTitle">
               <a href="#">
@@ -160,4 +151,4 @@ export const Blog = () => {
       </sidebar>
     </div>
   );
-}
+};

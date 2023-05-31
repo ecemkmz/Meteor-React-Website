@@ -77,6 +77,19 @@ $font-family_1: "Raleway", sans-serif;
         }
       }
     }
+    h4 {
+      padding-top: 10px;
+      width: 100%;
+      height: 50px;
+      color: $color_4;
+      border-bottom: 2px solid #ffffff;
+      text-transform: uppercase;
+      font-size: 22px;
+      font-weight: 900;
+      margin: 0 auto 30px;
+      text-align: center;
+      position: relative;
+    }
   }
   .productContainer {
     margin-top: 5%;
@@ -93,7 +106,7 @@ $font-family_1: "Raleway", sans-serif;
       width: 12rem;
       height: 16rem;
       transition: transform 0.2s;
- 
+
       &:hover {
         transform: scale(1.1);
       }
@@ -133,18 +146,4 @@ $font-family_1: "Raleway", sans-serif;
       }
     }
   }
-
-}
-h4 {
-  padding-top: 10px;
-  width: 100%;
-  height: 50px;
-  color: $color_4;
-  border-bottom: 2px solid #ffffff;
-  text-transform: uppercase;
-  font-size: 22px;
-  font-weight: 900;
-  margin: 0 auto 30px;
-  text-align: center;
-  position: relative;
 }

@@ -173,6 +173,31 @@ $color_4: var(--dark-color);
     }
   }
 }
+.test {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, auto));
+  align-items: center;
+  gap: 1.5rem;
+  .testImg {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 400px;
+  }
+  .testText {
+    span {
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $color_4;
+    }
+    p {
+      font-style: normal;
+      margin: 0.5rem 0 1rem;
+    }
+  }
+}
 .about {
   max-width: 968px;
   margin-left: auto;

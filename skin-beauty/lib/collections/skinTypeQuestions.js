@@ -1,20 +1,41 @@
-import SimpleSchema from 'simpl-schema';
+import SimpleSchema from "simpl-schema";
 
- export const SkinTypeQuestions = new Mongo.Collection('skinTypeQuestions');
+export const SkinTypeQuestions = new Mongo.Collection("skinTypeQuestions");
 
 SkinTypeQuestionSchema = new SimpleSchema({
-  key: String,
-  text: String,
-  choices: {
+  testId: {
+    type: Number,
+  },
+  testName: {
+    type: String,
+  },
+  image: {
+    type: String,
+  },
+  content: {
+    type: String,
+  },
+  questions: {
     type: Array,
   },
-  "choices.$": {
-    type: String,
-   
+  "questions.$": {
+    type: Object,
   },
-  correctAnswer: Number
-
-  
+  "questions.$.key": {
+    type: String,
+  },
+  "questions.$.text": {
+    type: String,
+  },
+  "questions.$.choices": {
+    type: Array,
+  },
+  "questions.$.choices.$": {
+    type: String,
+  },
+  "questions.$.correctAnswer": {
+    type: Number,
+  },
 });
 
 SkinTypeQuestions.attachSchema(SkinTypeQuestionSchema);

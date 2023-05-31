@@ -39,8 +39,7 @@ export const Home = () => {
                 Burada...
               </h1>
               <a href="#" className="btn">
-                Devam Et{" "}
-                <i className='bx bx-right-arrow-alt'/>
+                Devam Et <i className="bx bx-right-arrow-alt" />
               </a>
             </div>
           </SwiperSlide>
@@ -52,12 +51,11 @@ export const Home = () => {
             <div className="slideText">
               <span>Skin Beauty'e Hoş Geldin!</span>
               <h1>
-                Aradığın Her Şey <br />
-                Burada...
+                Blog Sayfamızı İncelemek <br />
+                İster Misin?
               </h1>
-              <a href="#" className="btn">
-                Devam Et{" "}
-                <i className='bx bx-right-arrow-alt'/>
+              <a href="/Blog" className="btn">
+                Devam Et <i className="bx bx-right-arrow-alt" />
               </a>
             </div>
           </SwiperSlide>
@@ -69,12 +67,11 @@ export const Home = () => {
             <div className="slideText">
               <span>Skin Beauty'e Hoş Geldin!</span>
               <h1>
-                Aradığın Her Şey <br />
-                Burada...
+                Testlerimizi İncelemek <br />
+                İster Misin?
               </h1>
-              <a href="#" className="btn">
-                Devam Et{" "}
-                <i className='bx bx-right-arrow-alt'/>
+              <a href="/SkinTypeTests" className="btn">
+                Devam Et <i className="bx bx-right-arrow-alt" />
               </a>
             </div>
           </SwiperSlide>
@@ -88,8 +85,7 @@ export const Home = () => {
             <span>Kategorileri</span>
           </h1>
           <a href="/Product" className="btn">
-            Şimdi İncele{" "}
-            <i className='bx bx-right-arrow-alt'/>
+            Şimdi İncele <i className="bx bx-right-arrow-alt" />
           </a>
         </div>
         <Swiper
@@ -111,7 +107,8 @@ export const Home = () => {
                   <img src={category.image} alt="" />
                   <h2>{category.title}</h2>
                   <span>{category.item}</span>
-                  <i className='bx bx-right-arrow-alt openModal'
+                  <i
+                    className="bx bx-right-arrow-alt openModal"
                     onClick={() => {
                       const boxes = document.querySelectorAll(".boxContainer");
                       boxes.forEach((box) => box.classList.remove("active"));
@@ -128,7 +125,8 @@ export const Home = () => {
                   {skinTypes.map((skinType) => (
                     <a href="/Product">{skinType.title}</a>
                   ))}
-                    <i className='bx bx-right-arrow-alt closeModal'
+                  <i
+                    className="bx bx-right-arrow-alt closeModal"
                     onClick={() => {
                       const boxes = document.querySelectorAll(".boxContainer");
                       boxes[i].classList.remove("active");
@@ -139,6 +137,26 @@ export const Home = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+      </section>
+      <section href="#test" className="test">
+        <div className="testText">
+          <span>Cilt Bakımını Ne Kadar Doğru Biliyorsun</span>
+          <p>
+            Cilt bakımı konusunda çok fazla bilgi kirliliği mevcut. Biz de bu
+            yüzden senin için eğlenceli içerikler oluşturduk. Haydi testleri çöz
+            hem eğlen hem kendini dene. Yanlış bildiklerinin doğrusunu öğren.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+            est corporis quisquam modi earum, tempore possimus magni incidunt
+            saepe inventore.
+          </p>
+          <a href="/SkinTypeTests" className="btn">
+            Devam Et
+            <i className="bx bx-right-arrow-alt" />
+          </a>
+        </div>
+        <img className="testImg" src="/assets/skincare5.jpg" alt="" />
       </section>
       <section href="#about" className="about">
         <img className="aboutImg" src="/assets/cilt-bakimi.jpg" alt="" />
@@ -157,7 +175,7 @@ export const Home = () => {
           </p>
           <a href="/About" className="btn">
             Devam Et
-            <i className='bx bx-right-arrow-alt'/>
+            <i className="bx bx-right-arrow-alt" />
           </a>
         </div>
       </section>

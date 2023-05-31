@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useTracker } from 'meteor/react-meteor-data';
+import { useTracker } from "meteor/react-meteor-data";
 import { Categories } from "../../../../../lib/collections/categories";
 import { Brands } from "../../../../../lib/collections/brands.js";
 import { SkinTypes } from "../../../../../lib/collections/skinTypes";
@@ -26,7 +26,7 @@ export const ProductsPage = () => {
     setSelectedBrand(brand);
     setSelectedCategory(category);
     setSelectedSkinType(skinType);
-    setCurrentPage(1); 
+    setCurrentPage(1);
   };
 
   const filteredProducts = products.filter(
@@ -48,7 +48,7 @@ export const ProductsPage = () => {
 
   return (
     <div className="productSection">
-       <div className="categoryContainer">
+      <div className="categoryContainer">
         <h4>Kategori</h4>
         <div className="skinTypeCategories">
           <div className="categoryDefault">
@@ -63,8 +63,8 @@ export const ProductsPage = () => {
             <div id="skinType" className="panelContainer">
               <div className="panelBody">
                 <ul className="categoryList">
-                 {categories.map((category) => (
-                    <li> 
+                  {categories.map((category) => (
+                    <li>
                       <a
                         href="#"
                         className={
@@ -97,9 +97,11 @@ export const ProductsPage = () => {
                       <a
                         href="#"
                         className={
-                          selectedSkinType === skinType.title? "selected" : ""
+                          selectedSkinType === skinType.title ? "selected" : ""
                         }
-                        onClick={() => handleFilterSelect("", "", skinType.title)}
+                        onClick={() =>
+                          handleFilterSelect("", "", skinType.title)
+                        }
                       >
                         {skinType.title}
                       </a>
@@ -129,15 +131,15 @@ export const ProductsPage = () => {
         </div>
       </div>
       <div className="productContainer">
-      {currentProducts.map((product) => (
-  <div className="productCard" key={product._id}>
-    <a href={`/Product/${product._id}`}>
-      <img src={product.imageLink} alt="" />
-      <h2>{product.name}</h2>
-      <h2>{product.brand}</h2>
-    </a>
-  </div>
-))}
+        {currentProducts.map((product) => (
+          <div className="productCard" key={product._id}>
+            <a href={`/Product/${product._id}`}>
+              <img src={product.imageLink} alt="" />
+              <h2>{product.name}</h2>
+              <h2>{product.brand}</h2>
+            </a>
+          </div>
+        ))}
       </div>
       <div className="pagination">
         {Array.from({ length: totalPages }, (_, index) => index + 1).map(
