@@ -1,13 +1,15 @@
 import React from "react";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
 import { Categories } from "../../../../../lib/collections/categories";
 import { SkinTypes } from "../../../../../lib/collections/skinTypes";
 import { useTracker } from "meteor/react-meteor-data";
+import 'swiper/modules/navigation/navigation.scss';
 
 export const Home = () => {
   const categories = useTracker(() => Categories.find({}).fetch());
+  console.log(categories);
   const skinTypes = useTracker(() => SkinTypes.find({}).fetch());
 
   return (
@@ -20,11 +22,10 @@ export const Home = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          pagination={{
+          navigation={{
             clickable: true,
           }}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
+          modules={[Autoplay, Navigation]}
           className="homeSwiper"
         >
           <SwiperSlide
@@ -99,6 +100,7 @@ export const Home = () => {
           navigation={{
             clickable: true,
           }}
+          modules={[Autoplay, Navigation]}
         >
           {categories.map((category, i) => (
             <SwiperSlide>
@@ -137,8 +139,29 @@ export const Home = () => {
                 </div>
               </div>
             </SwiperSlide>
+           
           ))}
         </Swiper>
+      </section>
+      <section href="#test" className="test">
+        <div className="testText">
+          <span>Cilt Bakımını Ne Kadar Doğru Biliyorsun</span>
+          <p>
+            Cilt bakımı konusunda çok fazla bilgi kirliliği mevcut. Biz de bu
+            yüzden senin için eğlenceli içerikler oluşturduk. Haydi testleri çöz
+            hem eğlen hem kendini dene. Yanlış bildiklerinin doğrusunu öğren.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+            est corporis quisquam modi earum, tempore possimus magni incidunt
+            saepe inventore.
+          </p>
+          <a href="/SkinTypeTests" className="btn">
+            Devam Et
+            <i className="bx bx-right-arrow-alt" />
+          </a>
+        </div>
+        <img className="testImg" src="/assets/skincare5.jpg" alt="" />
       </section>
       <section href="#about" className="about">
         <img className="aboutImg" src="/assets/cilt-bakimi.jpg" alt="" />

@@ -1,0 +1,503 @@
+:root {
+    --secHoverColor: #3ab3a7;
+    --primaryHover: #0c988a;
+    --secondaryColor: #059789;
+    --secHoverColor: #253b53;
+    --greyColor: #f7f7f7;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  span {
+    display: block;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  .grid {
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+  }
+  .input {
+    font-size: 100%;
+  }
+  .spanText {
+    font-size: 14px;
+  }
+  p {
+    font-size: 13px;
+    opacity: 0.7;
+  }
+  .secTitle {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--secHoverColor);
+  }
+  .section {
+    padding: 4rem 0 2rem;
+  }
+//   .container {
+//     padding-left: 1.5rem;
+//     padding-right: 1.5rem;
+//   }
+  img {
+    height: auto;
+    width: 100%;
+  }
+  .testBtn{
+    border: 2px solid var(--secHoverColor);
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    color: var(--secHoverColor);
+    background: transparent;
+    border-radius: 5px;
+  }
+  //media query
+  @media screen and (min-width: 960px) {
+    .container {
+      width: 75%;
+      margin: auto;
+    }
+    .section {
+      padding: 6rem 0 4rem;
+    }
+    .secTitle {
+      font-size: 30px;
+      padding-bottom: 2rem;
+    }
+  }
+  
+  .testSection {
+    .home {
+      height: 90vh;
+      width: 100%;
+      padding: 5rem 1.5rem;
+      background: linear-gradient(rgba(0, 0, 1, 0.42), rgba(0, 0, 1, 0.549));
+      background-image: url("https://i.pinimg.com/564x/cf/d4/b5/cfd4b5bdff8419fd02c38406635fcf37.jpg");
+      background-position: center;
+      object-fit: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      row-gap: 3rem;
+      .homeText {
+        .spanText {
+          color: var(--secHoverColor);
+          font-weight: 800;
+        }
+        .homeTitle {
+          color: var(--secHoverColor);
+  
+          padding: 2rem 0;
+          font-size: 40px;
+        }
+        strong {
+          font-weight: 800;
+        }
+      }
+    }
+  
+    .cards {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      background: var(--greyColor);
+      z-index: 5000;
+      .cardContainer {
+        .singleCard {
+          transform: translateY(-50px);
+          height: 250px;
+          width: 100%;
+          position: relative;
+          transition: 0.5s;
+          &::after {
+            content: "";
+            position: absolute;
+            z-index: 2;
+            height: 100%;
+            width: 100%;
+            bottom: 0;
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.593));
+            border-radius: 10px;
+          }
+          .imgDiv {
+            height: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            img {
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+              border-radius: 10px;
+            }
+          }
+          .textDiv {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translate(-50%);
+            color: white;
+            z-index: 5;
+          }
+        }
+      }
+    }
+    .tours {
+      .secContainer {
+        .tourContainer {
+          display: grid;
+          gap: 2rem;
+          .singleTour {
+            width: 100%;
+            position: relative;
+            border: 3px solid var(--greyColor);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: 0.4s ease;
+            &:hover {
+              background: var(--greyColor);
+            }
+            .imgDiv {
+              height: 250px;
+              width: 100%;
+              overflow: hidden;
+              img {
+                height: 100%;
+                object-fit: cover;
+                transition: 0.3s ease-in-SkinTypeQuestionsout;
+              }
+              &:hover {
+                img {
+                  transform: scale(1.1);
+                }
+              }
+            }
+            .tourInfo {
+              padding: 0.1rem;
+              .tourTitle {
+                font-size: 20px;
+                color: var(--secHoverColor);
+                font-weight: 600;
+              }
+              .starsReview {
+                align-items: center;
+                gap: 0.5rem;
+                padding: 1rem 0;
+              }
+              p {
+                padding-bottom: 1rem;
+              }
+              .testBtn{
+                color: var(--secHoverColor);
+                font-size: 14px;
+                border: 2px solid var(--secHoverColor);
+                transition: 0.3s ease;
+                &:hover {
+                  background: var(--secHoverColor);
+                  color: white;
+                  border: 2px solid var(--secHoverColor);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .discount {
+      width: 100%;
+      .secContainer {
+        height: 400px;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        video {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+        .textDiv {
+          position: absolute;
+          display: grid;
+          padding: 2rem;
+          color: white;
+          text-align: center;
+          gap: 1rem;
+          .title {
+            font-size: 24px;
+            font-weight: 900;
+            color: var(--secHoverColor);
+          }
+          p {
+            opacity: 1;
+          }
+          .inputBtn {
+            flex-direction: column;
+            gap: 1rem;
+            input {
+              background: transparent;
+              border: 1px solid var(--secHoverColor);
+              padding: 0.8rem;
+              outline: none;
+              color: white;
+              font-size: 13px;
+              width: 95%;
+              border-radius: 5px;
+              &::placeholder {
+                color: white;
+              }
+            }
+            .testBtn{
+              border: none;
+              font-size: 15px;
+              padding: 1rem 2rem;
+              width: 95%;
+              color: white;
+              transition: 0.3s ease;
+              &:hover {
+                background: var(--secHoverColor);
+              }
+            }
+          }
+        }
+      }
+    }
+    .review {
+      background: var(--greyColor);
+      .secContainer {
+        .reviewContainer {
+          margin-top: 4rem;
+          gap: 4rem;
+          .singleReview {
+            position: relative;
+            background: white;
+            box-shadow: 0 3px 5px rgb(218, 218, 218);
+            padding: 1.5rem;
+            text-align: center;
+            border-radius: 10px;
+            transition: 0.4s ease;
+            &:hover {
+              transform: translateY(-10px);
+            }
+            .imgDiv {
+              position: absolute;
+              height: 80px;
+              width: 80px;
+              right: 50%;
+              left: 50%;
+              top: -23%;
+              border-radius: 50%;
+              overflow: hidden;
+              transform: translateX(-50%);
+              border: 10px solid white;
+            }
+  
+            p {
+              padding: 10px;
+              line-height: 1.3rem;
+            }
+            .name {
+              color: var(--secHoverColor);
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  //media query home
+  @media screen and (min-width: 690px) {
+    .home {
+      .homeText {
+        transform: translateX(5rem);
+      }
+      .spanText {
+        font-weight: 600;
+        font-size: 20px;
+      }
+      .homeTitle {
+        color: #253b53;
+        padding: 2rem 0;
+        font-size: 45px;
+      }
+      .testBtn{
+        border: 2px solid white;
+        color: white;
+        font-size: 15px;
+        transition: 0.3s;
+      }
+    }
+  }
+  @media screen and (min-width: 840px) {
+    .home {
+      .homeText {
+        transform: translateX(10rem);
+      }
+    }
+  }
+  @media screen and (min-width: 1240px) {
+    .home {
+      .homeText {
+        transform: translateX(20rem);
+      }
+      .spanText {
+        font-size: 25px;
+      }
+      .homeTitle {
+        font-size: 70px;
+      }
+      .testBtn{
+        font-size: 22px;
+      }
+    }
+  }
+  //media query cards
+  
+  @media screen and (min-width: 520px) {
+    .cards .cardContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .discount {
+      .secContainer {
+        .textDiv {
+          gap: 2rem;
+          .title {
+            font-size: 25px;
+          }
+          p {
+            font-size: 18px;
+            max-width: 500px;
+            padding: 0 3rem;
+          }
+          .inputBtn {
+            .testBtn{
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 820px) {
+    .cards .cardContainer {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  //media query tours
+  @media screen and (min-width: 580px) {
+    .tours {
+      .secContainer {
+        .tourContainer {
+          .singleTour {
+            grid-template-columns: repeat(2, 1fr);
+            padding-bottom: 0rem;
+            .imgDiv {
+              height: 100%;
+              width: 100%;
+            }
+            .tourInfo {
+              padding: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1054px) {
+    .tours {
+      .secContainer {
+        .tourContainer {
+          .singleTour {
+            .tourInfo {
+              .tourTitle {
+                font-size: 18px;
+              }
+              .starsReview {
+                .custReview {
+                  font-size: 14px;
+                  transform: translateY(-2.5px);
+                }
+              }
+              p {
+                font-size: 14px;
+                line-height: 1.5rem;
+              }
+              .testBtn{
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1496px) {
+    .tours {
+      .secContainer {
+        .tourContainer {
+          .singleTour {
+            .tourInfo {
+              .tourTitle {
+                font-size: 20px;
+              }
+  
+              p {
+                font-size: 15px;
+              }
+              .testBtn{
+                font-size: 15px;
+                width: max-content;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  //media query discount
+  @media screen and (min-width: 1024px) {
+    .discount {
+      .secContainer {
+        .textDiv {
+          gap: 2rem;
+          .title {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+  
+  //media query review staff
+  @media screen and (min-width: 574px) {
+    .review {
+      .reviewContainer {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+  @media screen and (min-width: 840px) {
+    .review {
+      .reviewContainer {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }

@@ -80,7 +80,7 @@ export const Header = () => {
               </ul>
             </li>
           </ul>
-          <i className="fa-light fa-chevron-down fa-lg mobile-nav-toggle"  onClick={handleMobileNavToggle} />
+          <i className='bx bx-menu bx-md mobileNavToggle' onClick={handleMobileNavToggle} />
 
         </nav>
       </div>

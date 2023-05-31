@@ -177,6 +177,7 @@ $color_5: var(--dark-color);
     }
     .postTitle {
       a {
+        text-decoration: none;
         font-size: 1.2rem;
         color: $color_5;
       }

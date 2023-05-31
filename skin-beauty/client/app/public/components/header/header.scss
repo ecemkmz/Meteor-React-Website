@@ -28,6 +28,7 @@
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
+  display: flex;
   color: #000000;
   text-decoration: none;
 }
@@ -163,8 +164,8 @@
 
 
 
-.mobile-nav-toggle {
-  color: #fff;
+.mobileNavToggle {
+  color: #000000;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -173,7 +174,7 @@
 }
 
 @media (max-width: 991px) {
-  .mobile-nav-toggle {
+  .mobileNavToggle {
     display: block;
   }
 
@@ -194,7 +195,7 @@
   z-index: 999;
 }
 
-.navbar-mobile .mobile-nav-toggle {
+.navbar-mobile .mobileNavToggle {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -260,7 +261,7 @@
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #1acc8d;
+  color: #fd83c8;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {

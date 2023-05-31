@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
@@ -14,14 +14,13 @@ import Container from '@mui/material/Container';
 
 export const SignUp = () => {
        
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  
+
   const handleSubmit = (e) => {
   e.preventDefault();
-  console.log(e.target.firstName.value);
+  const email = e.target.email.value;
+  const password = e.target.password.value;
+  const firstName = e.target.firstName.value;
+  const lastName = e.target.lastName.value;
   const user = {
     password: password,
     email: email,
@@ -66,8 +65,8 @@ fullWidth
 id="firstName"
 label='Ad'
 autoFocus
-value={firstName}
-onChange={(e) => setFirstName(e.target.value)}
+
+
 />
 </Grid>
 <Grid item xs={12} sm={6}>
@@ -78,8 +77,7 @@ id="lastName"
 label="Soyad"
 name="lastName"
 autoComplete="family-name"
-value={lastName}
-onChange={(e) => setLastName(e.target.value)}
+
 />
 </Grid>
 <Grid item xs={12}>
@@ -90,8 +88,7 @@ id="email"
 label="Email"
 name="email"
 autoComplete="email"
-value={email}
-onChange={(e) => setEmail(e.target.value)}
+
 />
 </Grid>
 <Grid item xs={12}>
@@ -103,8 +100,7 @@ label="Şifre"
 type="password"
 id="password"
 autoComplete="new-password"
-value={password}
-onChange={(e) => setPassword(e.target.value)}
+
 />
 </Grid>
 <Grid item xs={12}>
@@ -124,7 +120,7 @@ sx={{ mt: 3, mb: 2 }}
 </Button>
 <Grid container justifyContent="flex-end">
 <Grid item>
-<Link href="#" variant="body2">
+<Link href="/auth/signin" variant="body2">
 Zaten bir hesabın mı var? Giriş yap
 </Link>
 </Grid>

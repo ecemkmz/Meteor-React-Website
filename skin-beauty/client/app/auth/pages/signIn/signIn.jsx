@@ -1,7 +1,6 @@
 import React from "react";
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
@@ -10,12 +9,10 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+
 
 
 export const SignIn = () => {
-  
- 
   const handleSubmit = (event) => {
     event.preventDefault();
     const email = event.target.email.value;
@@ -29,11 +26,8 @@ export const SignIn = () => {
       }
     });
   };
-  const defaultTheme = createTheme();
   return (
-    <ThemeProvider theme={defaultTheme}>
     <Container component="main" maxWidth="xs">
-      <CssBaseline />
       <Box
         sx={{
           marginTop: 8,
@@ -95,6 +89,5 @@ export const SignIn = () => {
         </Box>
       </Box>
     </Container>
-  </ThemeProvider>
   );
 };
