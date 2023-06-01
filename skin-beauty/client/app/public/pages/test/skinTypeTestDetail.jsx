@@ -5,10 +5,13 @@ import { SkinTypeQuestions } from "../../../../../lib/collections/skinTypeQuesti
 
 export const SkinTypeTestDetail = () => {
   const { testId } = useParams();
-  const skinTypeQuestion = useTracker(() =>
-    SkinTypeQuestions.find(testId).fetch()
+  const skinTypeQuestions = useTracker(() =>
+    SkinTypeQuestions.findOne({ testId: parseInt(testId) })
   );
-  console.log(skinTypeQuestion);
+  
+  const skinTypeQuestion = skinTypeQuestions?.questions || [];
+console.log(skinTypeQuestions);
+
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answerIdx, setAnswerIdx] = useState(null);
   const [showResult, setShowResult] = useState(false);
@@ -52,6 +55,7 @@ export const SkinTypeTestDetail = () => {
       wrongAnswers: 0,
     });
   };
+
 
   return (
     <div className="quiz-container">

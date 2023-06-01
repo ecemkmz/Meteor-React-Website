@@ -33,12 +33,12 @@
 }
 
 ::-webkit-scrollbar {
-  width: 0.8rem;
-  background: rgba(225, 219, 225, 0.667);
+  width: 0.5rem;
 }
 ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
   width: 0.5rem;
-  background: rgba(95, 110, 101, 0.382);
+  background: rgba(48, 50, 49, 0.382);
 }
 section {
   padding: 4.5rem 0 1.5rem;
@@ -55,6 +55,7 @@ body {
   min-height: 100vh;
   width: 100%;
 }
+
 
 // @import '{}/node_modules/swiper/swiper.css';
 

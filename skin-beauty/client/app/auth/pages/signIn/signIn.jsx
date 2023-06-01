@@ -1,79 +1,93 @@
 import React from "react";
-import { Form } from "react-bootstrap";
+import Avatar from "@mui/material/Avatar";
+import Button from "@mui/material/Button";
+import TextField from "@mui/material/TextField";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
+import Link from "@mui/material/Link";
+import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+import { useNavigate } from 'react-router-dom';
 
 export const SignIn = () => {
+  const navigate = useNavigate();
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const email = event.target.email.value;
+    const password = event.target.password.value;
+
+    Meteor.loginWithPassword(email, password, (error) => {
+      if (error) {
+        console.log(error.reason);
+      } else {
+        console.log("Kullanıcı girişi başarılı!");
+        navigate('/');
+      }
+    });
+  };
   return (
-    <section className="vh-100">
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-sm-6 text-black">
-            <div className="px-5 ms-xl-4">
-              <i
-                className="fas fa-crow fa-2x me-3 pt-5 mt-xl-4"
-                style={{ color: "#709085" }}
-              />
-              <span className="h1 fw-bold mb-0">Logo</span>
-            </div>
-            <div className="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-              <form style={{ width: "23rem" }}>
-                <h3
-                  className="fw-normal mb-3 pb-3"
-                  style={{ letterSpacing: "1px" }}
-                >
-                  Log in
-                </h3>
-                <div className="form-outline mb-4">
-                  <input
-                    type="email"
-                    id="form2Example18"
-                    className="form-control form-control-lg"
-                  />
-                  <label className="form-label" htmlFor="form2Example18">
-                    Email address
-                  </label>
-                </div>
-                <div className="form-outline mb-4">
-                  <input
-                    type="password"
-                    id="form2Example28"
-                    className="form-control form-control-lg"
-                  />
-                  <label className="form-label" htmlFor="form2Example28">
-                    Password
-                  </label>
-                </div>
-                <div className="pt-1 mb-4">
-                  <button
-                    className="btn btn-info btn-lg btn-block"
-                    type="button"
-                  >
-                    Login
-                  </button>
-                </div>
-                <p className="small mb-5 pb-lg-2">
-                  <a className="text-muted" href="#!">
-                    Forgot password?
-                  </a>
-                </p>
-                <p>
-                  Don't have an account?{" "}
-                  <a href="#!" className="link-info">
-                    Register here
-                  </a>
-                </p>
-              </form>
-            </div>
-          </div>
-          <div className="col-sm-6 px-0 d-none d-sm-block">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp"
-              alt="Login image"
-              className="w-100 vh-100"
-              style={{ objectFit: "cover", objectPosition: "left" }}
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+    <Container component="main" maxWidth="xs">
+      <Box
+        sx={{
+          marginTop: 8,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}></Avatar>
+        <Typography component="h1" variant="h5">
+          Giriş Formu
+        </Typography>
+        <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+          <TextField
+            margin="normal"
+            required
+            fullWidth
+            id="email"
+            label="Email"
+            name="email"
+            autoComplete="email"
+            autoFocus
+          />
+          <TextField
+            margin="normal"
+            required
+            fullWidth
+            name="password"
+            label="Şifre"
+            type="password"
+            id="password"
+            autoComplete="current-password"
+          />
+          <FormControlLabel
+            control={<Checkbox value="remember" color="primary" />}
+            label="Beni Hatırla"
+          />
+          <Button
+            type="submit"
+            fullWidth
+            variant="contained"
+            sx={{ mt: 3, mb: 2 }}
+          >
+            Giriş Yap
+          </Button>
+          <Grid container>
+            <Grid item xs>
+              <Link href="/auth/forgotPassword" variant="body2">
+                Şifreni mi unuttun?
+              </Link>
+            </Grid>
+            <Grid item>
+              <Link href="/auth/signup" variant="body2">
+                {"Hesabın yok mu? Üye Ol"}
+              </Link>
+            </Grid>
+          </Grid>
+        </Box>
+      </Box>
+    </Container>
   );
 };

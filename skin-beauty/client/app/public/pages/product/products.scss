@@ -1,135 +1,73 @@
-$color_1: white;
-$color_2: #ffffff;
-$color_3: #696763;
-$color_4: #333;
-$font-family_1: "Raleway", sans-serif;
+$color-1: white;
+$color-2: #ffffff;
+$color-3: #696763;
+$color-4: #333;
+$font-family-1: "Raleway", sans-serif;
 
 .productSection {
+  display: flex;
   margin: 4rem;
-  display: grid;
-  grid-template-columns: 25% 73%;
+  margin-top: 5rem;
   line-height: 1.5;
-  text-decoration: none;
+
   .categoryContainer {
-    margin-top: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-bottom: 3rem;
-    .skinTypeCategories {
-      border: 1px solid #f7f7f0;
-      margin-bottom: 35px;
-      padding-bottom: 20px;
-      padding-top: 15px;
-      background: #ffffff;
-      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-      .categoryDefault {
-        a {
-          font-family: $font-family_1;
-        }
-        .categoryHeading {
-          border: 0 none;
-          color: $color_2;
-          padding: 5px 20px;
-          .categoryTitle {
-            a {
-              color: $color_3;
-              font-style: normal;
-              font-size: 19px;
-              font-weight: 500;
-              text-decoration: none;
-            }
-          }
-        }
-        .panelContainer {
-          .panelBody {
-            padding-left: 20px;
-            display: none;
-            ul {
-              li {
-                a {
-                  color: $color_3;
-                  font-weight: 400;
-                  font-style: normal;
-                  font-size: 14px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
     .brandContainer {
-      border: 1px solid #f7f7f0;
-      padding-bottom: 20px;
-      padding-top: 15px;
-      background: #ffffff;
-      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      border: 0.2px solid rgba(161, 160, 160, 0.368);
+      border-radius: 4px;
+      background: #ffff;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      margin-bottom: 2rem;
+
       .brandList {
-        li {
-          a {
-            color: $color_3;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            padding: 5px 25px;
-            text-decoration: none;
-          }
-        }
+        height: 18rem;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+
+        
       }
-    }
-    h4 {
-      padding-top: 10px;
-      width: 100%;
-      height: 50px;
-      color: $color_4;
-      border-bottom: 2px solid #ffffff;
-      text-transform: uppercase;
-      font-size: 22px;
-      font-weight: 900;
-      margin: 0 auto 30px;
-      text-align: center;
-      position: relative;
     }
   }
+
   .productContainer {
-    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
+
     .productCard {
       background: #fff;
       text-align: center;
-      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-      padding: 1rem;
+      box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
       position: relative;
-      width: 12rem;
-      height: 16rem;
+      width: 14rem;
+      height: 20rem;
       transition: transform 0.2s;
 
       &:hover {
-        transform: scale(1.1);
+        transform: scale(1.03);
       }
+
       img {
-        border: 0.01rem solid rgba(0, 0, 0, 0.2);
-        border-radius: 1%;
-        box-shadow: 0 0 0 rem rgba(0, 0, 0, 0.1);
         object-fit: cover;
-        width: 9rem;
-        height: 9rem;
-        margin-top: 0.7rem;
+        width: 14rem;
+        height: 14rem;
       }
-      h2 {
-        font-style: normal;
+
+      a,h2{
+        width: 12rem;
+        height: 2.5rem;
+        text-decoration: none;
         font-weight: 400;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         font-size: 1rem;
-        color: $color_4;
+        color: $color-4;
       }
     }
   }
+
   .pagination {
-    display: flex;
+    width: 80%;
+    float: left;
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
@@ -146,4 +84,16 @@ $font-family_1: "Raleway", sans-serif;
       }
     }
   }
+}
+
+h4 {
+  padding-top: 10px;
+  width: 100%;
+  height: 60px;
+  color: $color-4;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 0 auto 30px;
+  text-align: center;
+  position: relative;
 }

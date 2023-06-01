@@ -86,7 +86,7 @@ export const SkinTypeTests = () => {
                         <p>{skinTypeQuestion.content}</p>
                         <a
                           href={`/SkinTypeTests/${skinTypeQuestion.testId}`}
-                          className="btn"
+                          className="testBtn"
                         >
                           Testi Çöz
                         </a>
@@ -169,7 +169,7 @@ export const SkinTypeTests = () => {
               className="inputBtn flex"
             >
               <input type="text" placeholder="Email Adresini Gir"></input>
-              <button className="btn">Gönder</button>
+              <button className="testBtn">Gönder</button>
             </div>
           </div>
         </div>

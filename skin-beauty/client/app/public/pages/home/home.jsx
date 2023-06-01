@@ -1,10 +1,11 @@
 import React from "react";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
 import { Categories } from "../../../../../lib/collections/categories";
 import { SkinTypes } from "../../../../../lib/collections/skinTypes";
 import { useTracker } from "meteor/react-meteor-data";
+import 'swiper/modules/navigation/navigation.scss';
 
 export const Home = () => {
   const categories = useTracker(() => Categories.find({}).fetch());
@@ -20,11 +21,10 @@ export const Home = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          pagination={{
+          navigation={{
             clickable: true,
           }}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
+          modules={[Autoplay, Navigation]}
           className="homeSwiper"
         >
           <SwiperSlide
@@ -33,13 +33,14 @@ export const Home = () => {
           >
             {" "}
             <div className="slideText">
-              <span>Skin Beauty'e Hoş Geldin!</span>
+              <span>Skin Beauty'e Hoş Geldİn!</span>
               <h1>
                 Aradığın Her Şey <br />
                 Burada...
               </h1>
-              <a href="#" className="btn">
-                Devam Et <i className="bx bx-right-arrow-alt" />
+              <a href="/auth/signup" className="btn">
+                Üye Ol
+                <i className='bx bx-right-arrow-alt'/>
               </a>
             </div>
           </SwiperSlide>
@@ -49,13 +50,14 @@ export const Home = () => {
           >
             {" "}
             <div className="slideText">
-              <span>Skin Beauty'e Hoş Geldin!</span>
+              <span>İlgİnİ Çekebİlecek Yazılarımız var...</span>
               <h1>
                 Blog Sayfamızı İncelemek <br />
                 İster Misin?
               </h1>
               <a href="/Blog" className="btn">
-                Devam Et <i className="bx bx-right-arrow-alt" />
+                Devam Et{" "}
+                <i className='bx bx-right-arrow-alt'/>
               </a>
             </div>
           </SwiperSlide>
@@ -65,13 +67,13 @@ export const Home = () => {
           >
             {" "}
             <div className="slideText">
-              <span>Skin Beauty'e Hoş Geldin!</span>
+              <span>Cİlt Bakımı Hakkında Neler Bİlİyorsun?</span>
               <h1>
-                Testlerimizi İncelemek <br />
-                İster Misin?
+                Haydi Kendini Dene..
               </h1>
               <a href="/SkinTypeTests" className="btn">
-                Devam Et <i className="bx bx-right-arrow-alt" />
+                Teste Git{" "}
+                <i className='bx bx-right-arrow-alt'/>
               </a>
             </div>
           </SwiperSlide>
@@ -85,7 +87,8 @@ export const Home = () => {
             <span>Kategorileri</span>
           </h1>
           <a href="/Product" className="btn">
-            Şimdi İncele <i className="bx bx-right-arrow-alt" />
+            Şimdi İncele{" "}
+            <i className='bx bx-right-arrow-alt'/>
           </a>
         </div>
         <Swiper
@@ -95,6 +98,7 @@ export const Home = () => {
           navigation={{
             clickable: true,
           }}
+          modules={[Autoplay, Navigation]}
         >
           {categories.map((category, i) => (
             <SwiperSlide>
@@ -107,8 +111,7 @@ export const Home = () => {
                   <img src={category.image} alt="" />
                   <h2>{category.title}</h2>
                   <span>{category.item}</span>
-                  <i
-                    className="bx bx-right-arrow-alt openModal"
+                  <i className='bx bx-right-arrow-alt openModal'
                     onClick={() => {
                       const boxes = document.querySelectorAll(".boxContainer");
                       boxes.forEach((box) => box.classList.remove("active"));
@@ -125,8 +128,7 @@ export const Home = () => {
                   {skinTypes.map((skinType) => (
                     <a href="/Product">{skinType.title}</a>
                   ))}
-                  <i
-                    className="bx bx-right-arrow-alt closeModal"
+                    <i className='bx bx-right-arrow-alt closeModal'
                     onClick={() => {
                       const boxes = document.querySelectorAll(".boxContainer");
                       boxes[i].classList.remove("active");
@@ -135,6 +137,7 @@ export const Home = () => {
                 </div>
               </div>
             </SwiperSlide>
+           
           ))}
         </Swiper>
       </section>
@@ -173,10 +176,7 @@ export const Home = () => {
             Hakkımızda daha çok şey mi bilmek istiyorsun ama bilemezsin çünkü
             hakkımızda sayfasında bir test var orayı düzeltmedik
           </p>
-          <a href="/About" className="btn">
-            Devam Et
-            <i className="bx bx-right-arrow-alt" />
-          </a>
+          
         </div>
       </section>
     </div>
