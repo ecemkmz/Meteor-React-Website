@@ -9,9 +9,10 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 export const SignUp = () => {
+  const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
@@ -32,7 +33,7 @@ export const SignUp = () => {
         console.log(error.reason);
       } else {
         console.log("Kullanıcı başarıyla oluşturuldu!");
-        navigate('/');
+        navigate("/");
       }
     });
   };

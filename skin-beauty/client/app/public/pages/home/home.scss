@@ -2,6 +2,8 @@ $color_1: var(--text-color);
 $color_2: var(--bg-color);
 $color_3: var(--green-color);
 $color_4: var(--dark-color);
+$color_5: var(--green-font);
+$color_6: var(--purple-font);
 
 .home {
   height: 100vh;
@@ -45,7 +47,7 @@ $color_4: var(--dark-color);
         border-radius: 0.1rem;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
         font-style: normal;
-        .fa-solid {
+        .bx {
           padding: 3px;
           color: $color_1;
           border-radius: 1rem;
@@ -53,7 +55,7 @@ $color_4: var(--dark-color);
           margin: auto;
         }
         &:hover {
-          .fa-solid {
+          .bx {
             color: $color_2;
           }
           background: rgba(225, 219, 225, 0.667);
@@ -74,10 +76,21 @@ $color_4: var(--dark-color);
       font-weight: 600;
     }
     span {
-      color: $color_3;
+      color: $color_5;
+    }
+    .btn {
+      font-size: 17px;
+      &:hover {
+        background-color: $color_5;
+        color: $color_2;
+
+        i {
+          color: $color_2;
+        }
+      }
     }
   }
-  max-width: 968px;
+  max-width: 993px;
   margin-left: auto;
   margin-right: auto;
   .categoryContainer {
@@ -93,7 +106,7 @@ $color_4: var(--dark-color);
         align-items: center;
         padding: 20px;
         border-radius: 0rem;
-        box-shadow: 0 5px 10px #999999;
+        box-shadow: 0 2px 6px #999999;
         img {
           width: 150px;
           height: 150px;
@@ -168,6 +181,7 @@ $color_4: var(--dark-color);
   a {
     color: $color_4;
     margin-top: 0.4rem;
+    text-decoration: none;
     &:hover {
       color: $color_1;
     }
@@ -182,19 +196,32 @@ $color_4: var(--dark-color);
   align-items: center;
   gap: 1.5rem;
   .testImg {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
     height: 300px;
     width: 400px;
   }
   .testText {
     span {
       font-weight: 600;
+      font-size: 1.1rem;
       text-transform: uppercase;
       color: $color_4;
     }
     p {
+      font-size: 0.95rem;
       font-style: normal;
       margin: 0.5rem 0 1rem;
+    }
+    .btn {
+      font-size: 17px;
+      &:hover {
+        background-color: $color_6;
+        color: $color_2;
+
+        i {
+          color: $color_2;
+        }
+      }
     }
   }
 }
@@ -207,15 +234,17 @@ $color_4: var(--dark-color);
   align-items: center;
   gap: 1.5rem;
   .aboutImg {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
   }
   .aboutText {
     span {
+      font-size: 1.1rem;
       font-weight: 600;
       text-transform: uppercase;
       color: $color_4;
     }
     p {
+      font-size: 0.95rem;
       font-style: normal;
       margin: 0.5rem 0 1rem;
     }
