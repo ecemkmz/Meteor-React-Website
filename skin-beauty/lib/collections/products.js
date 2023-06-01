@@ -5,9 +5,10 @@ import SimpleSchema from 'simpl-schema';
 ProductSchema = new SimpleSchema({
   name: String,
   brand: String,
-  categoryId: String,
+  category: String,
   imageLink: String,
-  skinType: String
+  skinType: String,
+  ingredients: String
 });
 
 Products.attachSchema(ProductSchema);
