@@ -13,11 +13,9 @@ export const ForgotPassword = () => {
 
     Accounts.forgotPassword({ email }, (error) => {
       if (error) {
-        // Hata mesajını burada işleyebilirsiniz.
         console.log(error.reason);
       } else {
-        // Şifre sıfırlama e-postası başarıyla gönderildi.
-        console.log('Şifre sıfırlama e-postası gönderildi.');
+        console.log("Şifre sıfırlama e-postası gönderildi.");
       }
     });
   };
@@ -54,7 +52,6 @@ export const ForgotPassword = () => {
           >
             Gönder
           </Button>
-         
         </Box>
       </Box>
     </Container>
