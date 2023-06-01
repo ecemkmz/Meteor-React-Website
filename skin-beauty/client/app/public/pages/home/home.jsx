@@ -5,7 +5,7 @@ import "swiper/swiper.scss";
 import { Categories } from "../../../../../lib/collections/categories";
 import { SkinTypes } from "../../../../../lib/collections/skinTypes";
 import { useTracker } from "meteor/react-meteor-data";
-import 'swiper/modules/navigation/navigation.scss';
+import "swiper/modules/navigation/navigation.scss";
 
 export const Home = () => {
   const categories = useTracker(() => Categories.find({}).fetch());
@@ -40,7 +40,7 @@ export const Home = () => {
               </h1>
               <a href="/auth/signup" className="btn">
                 Üye Ol
-                <i className='bx bx-right-arrow-alt'/>
+                <i className="bx bx-right-arrow-alt" />
               </a>
             </div>
           </SwiperSlide>
@@ -56,8 +56,7 @@ export const Home = () => {
                 İster Misin?
               </h1>
               <a href="/Blog" className="btn">
-                Devam Et{" "}
-                <i className='bx bx-right-arrow-alt'/>
+                Devam Et <i className="bx bx-right-arrow-alt" />
               </a>
             </div>
           </SwiperSlide>
@@ -68,12 +67,9 @@ export const Home = () => {
             {" "}
             <div className="slideText">
               <span>Cİlt Bakımı Hakkında Neler Bİlİyorsun?</span>
-              <h1>
-                Haydi Kendini Dene..
-              </h1>
+              <h1>Haydi Kendini Dene..</h1>
               <a href="/SkinTypeTests" className="btn">
-                Teste Git{" "}
-                <i className='bx bx-right-arrow-alt'/>
+                Teste Git <i className="bx bx-right-arrow-alt" />
               </a>
             </div>
           </SwiperSlide>
@@ -87,8 +83,7 @@ export const Home = () => {
             <span>Kategorileri</span>
           </h1>
           <a href="/Product" className="btn">
-            Şimdi İncele{" "}
-            <i className='bx bx-right-arrow-alt'/>
+            Şimdi İncele <i className="bx bx-right-arrow-alt bx-sm" />
           </a>
         </div>
         <Swiper
@@ -111,7 +106,8 @@ export const Home = () => {
                   <img src={category.image} alt="" />
                   <h2>{category.title}</h2>
                   <span>{category.item}</span>
-                  <i className='bx bx-right-arrow-alt openModal'
+                  <i
+                    className="bx bx-right-arrow-alt openModal"
                     onClick={() => {
                       const boxes = document.querySelectorAll(".boxContainer");
                       boxes.forEach((box) => box.classList.remove("active"));
@@ -128,7 +124,8 @@ export const Home = () => {
                   {skinTypes.map((skinType) => (
                     <a href="/Product">{skinType.title}</a>
                   ))}
-                    <i className='bx bx-right-arrow-alt closeModal'
+                  <i
+                    className="bx bx-right-arrow-alt closeModal"
                     onClick={() => {
                       const boxes = document.querySelectorAll(".boxContainer");
                       boxes[i].classList.remove("active");
@@ -137,13 +134,12 @@ export const Home = () => {
                 </div>
               </div>
             </SwiperSlide>
-           
           ))}
         </Swiper>
       </section>
-      <section href="#test" className="test">
+      <section className="test">
         <div className="testText">
-          <span>Cilt Bakımını Ne Kadar Doğru Biliyorsun</span>
+          <span>CİLT BAKIMINI NE KADAR DOĞRU BİLİYORSUN?</span>
           <p>
             Cilt bakımı konusunda çok fazla bilgi kirliliği mevcut. Biz de bu
             yüzden senin için eğlenceli içerikler oluşturduk. Haydi testleri çöz
@@ -161,7 +157,7 @@ export const Home = () => {
         </div>
         <img className="testImg" src="/assets/skincare5.jpg" alt="" />
       </section>
-      <section href="#about" className="about">
+      <section className="about">
         <img className="aboutImg" src="/assets/cilt-bakimi.jpg" alt="" />
         <div className="aboutText">
           <span>Hakkımızda</span>
@@ -176,7 +172,6 @@ export const Home = () => {
             Hakkımızda daha çok şey mi bilmek istiyorsun ama bilemezsin çünkü
             hakkımızda sayfasında bir test var orayı düzeltmedik
           </p>
-          
         </div>
       </section>
     </div>

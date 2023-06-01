@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
-@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+@import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
 
 * {
   font-family: "Raleway", sans-serif;
   font-style: italic;
-  font-weight: 100 ;
+  font-weight: 100;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,7 +19,7 @@
   --orange-color: #e9ccb1;
   --brown-color: #d3c4be;
   --pink-color: #ebcfc4;
-  --dark-color: #999999;
+  --dark-color: #898888;
   --green-color: #e8e6d9;
   --dark-green-color: #dbf4d2;
   --blue-color: #b5c3cb;
@@ -30,6 +30,16 @@
   --pembebox-color: #faeaea;
   --morbox-color: #eeeef9;
   --sarıbox-color: #f7f6d7;
+  --green-font: #a4bc92;
+  --pink-font: #d5b4b4;
+  --blue-font: #6096b4;
+  --purple-font: #eec6ca;
+  --grey-font: #b7c4cf;
+  --dark-green-font: #576f72;
+  --dark-blue-font: #354259;
+  --red-font: #bb6464;
+  --coldblue-color: #eef1ff;
+  --dark-grey-color: #343a40;
 }
 
 ::-webkit-scrollbar {
@@ -56,8 +66,22 @@ body {
   width: 100%;
 }
 
+.btn {
+  max-width: 160px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  font-style: normal;
+  .bx {
+    padding: 3px;
+    color: var(--text-color);
+    border-radius: 1rem;
+    font-size: 20px;
+    margin: auto;
+  }
+  &:hover {
+    transition: 0.2s ease;
+  }
+}
 
 // @import '{}/node_modules/swiper/swiper.css';
 
 @import "{}/node_modules/bootstrap/scss/bootstrap.scss";
-

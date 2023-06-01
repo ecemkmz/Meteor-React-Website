@@ -14,9 +14,9 @@ a {
 li {
   list-style: none;
 }
-span {
-  display: block;
-}
+// span {
+//   display: block;
+// }
 .flex {
   display: flex;
   align-items: center;
@@ -37,6 +37,7 @@ p {
   opacity: 0.7;
 }
 .secTitle {
+  display: block;
   text-align: center;
   padding: 1rem 0;
   font-size: 25px;
@@ -46,15 +47,15 @@ p {
 .section {
   padding: 4rem 0 2rem;
 }
-.container {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
+//   .container {
+//     padding-left: 1.5rem;
+//     padding-right: 1.5rem;
+//   }
 img {
   height: auto;
   width: 100%;
 }
-.btn {
+.testBtn {
   border: 2px solid var(--secHoverColor);
   padding: 0.5rem 1.5rem;
   font-size: 1.1rem;
@@ -64,6 +65,7 @@ img {
   color: var(--secHoverColor);
   background: transparent;
   border-radius: 5px;
+  text-decoration: none;
 }
 //media query
 @media screen and (min-width: 960px) {
@@ -72,7 +74,7 @@ img {
     margin: auto;
   }
   .section {
-    padding: 6rem 0 4rem;
+    padding: 4rem 0 2rem;
   }
   .secTitle {
     font-size: 30px;
@@ -86,7 +88,7 @@ img {
     width: 100%;
     padding: 5rem 1.5rem;
     background: linear-gradient(rgba(0, 0, 1, 0.42), rgba(0, 0, 1, 0.549));
-    background-image: url("https://i.pinimg.com/564x/cf/d4/b5/cfd4b5bdff8419fd02c38406635fcf37.jpg");
+    background-image: url("https://i.hizliresim.com/73pt448.jpg");
     background-position: center;
     object-fit: cover;
     background-size: cover;
@@ -96,6 +98,7 @@ img {
     row-gap: 3rem;
     .homeText {
       .spanText {
+        display: block;
         color: var(--secHoverColor);
         font-weight: 800;
       }
@@ -190,6 +193,7 @@ img {
           .tourInfo {
             padding: 0.1rem;
             .tourTitle {
+              display: block;
               font-size: 20px;
               color: var(--secHoverColor);
               font-weight: 600;
@@ -202,7 +206,7 @@ img {
             p {
               padding-bottom: 1rem;
             }
-            .btn {
+            .testBtn {
               color: var(--secHoverColor);
               font-size: 14px;
               border: 2px solid var(--secHoverColor);
@@ -221,6 +225,7 @@ img {
   .discount {
     width: 100%;
     .secContainer {
+      padding: 0;
       height: 400px;
       width: 100%;
       position: relative;
@@ -240,6 +245,7 @@ img {
         text-align: center;
         gap: 1rem;
         .title {
+          display: block;
           font-size: 24px;
           font-weight: 900;
           color: var(--secHoverColor);
@@ -263,7 +269,7 @@ img {
               color: white;
             }
           }
-          .btn {
+          .testBtn {
             border: none;
             font-size: 15px;
             padding: 1rem 2rem;
@@ -337,7 +343,7 @@ img {
       padding: 2rem 0;
       font-size: 45px;
     }
-    .btn {
+    .testBtn {
       border: 2px solid white;
       color: white;
       font-size: 15px;
@@ -363,7 +369,7 @@ img {
     .homeTitle {
       font-size: 70px;
     }
-    .btn {
+    .testBtn {
       font-size: 22px;
     }
   }
@@ -387,7 +393,7 @@ img {
           padding: 0 3rem;
         }
         .inputBtn {
-          .btn {
+          .testBtn {
             font-size: 16px;
           }
         }
@@ -440,7 +446,7 @@ img {
               font-size: 14px;
               line-height: 1.5rem;
             }
-            .btn {
+            .testBtn {
               font-size: 15px;
             }
           }
@@ -462,7 +468,7 @@ img {
             p {
               font-size: 15px;
             }
-            .btn {
+            .testBtn {
               font-size: 15px;
               width: max-content;
             }
@@ -501,68 +507,3 @@ img {
     }
   }
 }
-
-/* <div
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              className="singleTour grid"
-            >
-              <div className="imgDiv">
-                <img src="https://www.cildimveben.com/content/cover/796x512/gece-krems-test.webp" />
-              </div>
-              <div
-                data-aos="fade-up"
-                data-aos-duration="3000"
-                className="tourInfo"
-              >
-                <span className="tourTitle">
-                  Cilt Bakımı Hakkında Ne Kadar Bilgilisin?
-                </span>
-                <div className="starsReview">
-                  <small className="custReview">2 Customer Review</small>
-                  <div>
-                    <p>
-                      Belki cilt bakımıyla hiç ilgili değilsindir, belki de bu
-                      işte herkesten usta olduğunu düşünüyorsundur… Bu testi
-                      çözmeden gerçeği bilemeyiz! Bakalım cilt bakımı konusunda
-                      ne kadar bilgilisin?
-                    </p>
-                    <a href="SkinTypeTestDetail" className="btn" >
-                      Testi Çöz
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-duration="3000"
-              className="singleTour grid"
-            >
-              <div className="imgDiv">
-                <img src="https://www.cildimveben.com/content/cover/796x512/fleur-kaan-w4dj3mshhq0-unsplash.webp" />
-              </div>
-              <div
-                data-aos="fade-up"
-                data-aos-duration="3500"
-                className="tourInfo"
-              >
-                <span className="tourTitle">Spain,Benidorm</span>
-                <div className="starsReview">
-                  <small className="custReview">2 Customer Review</small>
-                  <div>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nemo id itaque tenetur quaerat in officia doloremque
-                      iusto, nesciunt vel dolor possimus magni voluptatem
-                      numquam! Veniam, esse. Deserunt, sed nulla? Quibusdam
-                      ullam repellendus officiis quo ab.
-                    </p>
-
-                    <a href="SkinTypeTestDetail" className="btn" >
-                      Testi Çöz
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> */

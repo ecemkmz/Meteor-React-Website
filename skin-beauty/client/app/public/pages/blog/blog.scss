@@ -3,6 +3,8 @@ $color_2: var(--pink-color);
 $color_3: #999999;
 $color_4: var(--text-color);
 $color_5: var(--dark-color);
+$color_6: var(--dark-grey-color);
+$color_7: var(--pink-font);
 
 /* popUpText */
 .imgContainer {
@@ -20,6 +22,10 @@ $color_5: var(--dark-color);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    .imgText {
+      font-size: 1.8rem;
+      color: $color_6;
+    }
   }
 }
 .blogLeftColumn {
@@ -32,7 +38,7 @@ $color_5: var(--dark-color);
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     z-index: 1;
     img {
       max-width: 300px;
@@ -59,15 +65,16 @@ $color_5: var(--dark-color);
       margin: 10px 0px;
       border: 0;
       outline: none;
-      background: var(--pink-color);
+      background: $color_7;
       color: $color_1;
       border-radius: 5px;
+      font-weight: 450;
       cursor: pointer;
-      font-size: 1rem;
+      font-size: 1.1rem;
       &:hover {
-        background: var(--bg-color);
-        color: $color_2;
-        border: 2px solid var(--pink-color);
+        background: $color_1;
+        color: $color_7;
+        border: 2px solid $color_7;
       }
     }
   }
@@ -89,13 +96,17 @@ $color_5: var(--dark-color);
       text-align: left;
       background: #fff;
       position: fixed;
-      margin: 2rem;
-      margin-top: 50px;
+      top: 50%;
+
+      left: 50%;
+
+      transform: translate(-50%, -50%);
+
       vertical-align: middle;
       width: 60rem;
-      height: 30rem;
+      height: 40rem;
       z-index: 10000000;
-      grid-template-columns: 20% 80%;
+      grid-template-columns: 35% 65%;
       .btnClose {
         position: absolute;
         top: 1rem;
@@ -125,9 +136,9 @@ $color_5: var(--dark-color);
         p {
           margin-top: 1.5rem 0 5rem;
           width: 40rem;
-          height: 24rem;
+          height: 28rem;
           line-height: 1.5;
-          padding: 1rem 3rem 3rem 2rem;
+          padding: 1rem 5rem 3rem 2rem;
           font-size: 1.1rem;
           overflow: hidden;
           overflow-x: hidden;
