@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import { useTracker } from 'meteor/react-meteor-data';
 import { Categories } from "../../../../../lib/collections/categories";
 import { Brands } from "../../../../../lib/collections/brands.js";
@@ -17,6 +17,7 @@ export const ProductsPage = () => {
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [selectedSkinTypes, setSelectedSkinTypes] = useState([]);
   const [productCards, setProductCards] = useState(products);
+console.log(setProductCards);
   const handleCheckboxClick = (itemId, type) => {
   if (type === 'categories') {
     setSelectedCategories((prevSelectedCategories) => {
@@ -42,22 +43,25 @@ export const ProductsPage = () => {
         return [...prevSelectedSkinTypes, itemId];
       }
     });
+    handleFilter();
   }
-  };
 
-  const handleFilter = () => {
-    console.log("selectedCategories", selectedCategories);
-    console.log("selectedBrands", selectedBrands);
-    console.log("selectedSkinTypes", selectedSkinTypes);
-    const filteredProducts = products.filter((product) => {
-      const isCategoryMatch = selectedCategories.includes(product.categoryId);
-      const isBrandMatch = selectedBrands.includes(product.brand);
-      const isSkinTypeMatch = selectedSkinTypes.includes(product.skinType);
-      
-      return isCategoryMatch && isBrandMatch && isSkinTypeMatch;
-    });
-    setProductCards(filteredProducts);
   };
+    const handleFilter = () => {
+      const filteredProducts = products.filter((product) => {
+        const isCategoryMatch = selectedCategories.includes(product.category);
+        const isBrandMatch = selectedBrands.includes(product.brand);
+        const isSkinTypeMatch = selectedSkinTypes.includes(product.skinType);
+        return (
+          (selectedCategories.length === 0 || isCategoryMatch) &&
+          (selectedBrands.length === 0 || isBrandMatch) &&
+          (selectedSkinTypes.length === 0 || isSkinTypeMatch)
+        );
+      });
+    
+      setProductCards(filteredProducts);
+    };
+    
   const handleClearFilter= () => {
     setSelectedCategories([]);
     setSelectedBrands([]);
@@ -87,8 +91,8 @@ export const ProductsPage = () => {
             <AccordionDetails>
               <List className="categoryList">
               {categories.map((category) => (
-                <ListItem key={category._id} button onClick={() => handleCheckboxClick(category._id, 'categories')}>
-                <Checkbox checked={selectedCategories.includes(category._id)} />
+                <ListItem key={category._id} button onClick={() => handleCheckboxClick(category.title, 'categories')}>
+                <Checkbox checked={selectedCategories.includes(category.title)} />
                 <Typography variant="body1">{category.title}</Typography>
                 </ListItem>
               ))}
@@ -168,3 +172,4 @@ export const ProductsPage = () => {
     </Box>
   );
 };
+
