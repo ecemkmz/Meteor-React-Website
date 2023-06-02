@@ -43,7 +43,6 @@ console.log(setProductCards);
         return [...prevSelectedSkinTypes, itemId];
       }
     });
-    handleFilter();
   }
 
   };
@@ -82,7 +81,7 @@ console.log(setProductCards);
   return (
     <Box className="productSection">
       <Box className="categoryContainer col-sm-3">
-        <Typography variant="h4">KATEGORİ</Typography>
+        <Typography variant="h4">-KATEGORİ-</Typography>
       
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
@@ -92,7 +91,7 @@ console.log(setProductCards);
               <List className="categoryList">
               {categories.map((category) => (
                 <ListItem key={category._id} button onClick={() => handleCheckboxClick(category.title, 'categories')}>
-                <Checkbox checked={selectedCategories.includes(category.title)} />
+                <Checkbox className="checkbox" checked={selectedCategories.includes(category.title)} />
                 <Typography variant="body1">{category.title}</Typography>
                 </ListItem>
               ))}
@@ -108,7 +107,7 @@ console.log(setProductCards);
               <List className="skinTypeList">
               {skinTypes.map((skinType) => (
                 <ListItem key={skinType._id} button onClick={() => handleCheckboxClick(skinType.title, 'skinTypes')}>
-                <Checkbox checked={selectedSkinTypes.includes(skinType.title)} />
+                <Checkbox className="checkbox" checked={selectedSkinTypes.includes(skinType.title)} />
                 <Typography variant="body1">{skinType.title}</Typography>
                 </ListItem>
               ))}
@@ -117,34 +116,34 @@ console.log(setProductCards);
           </Accordion>
        
 
-        <Typography variant="h4">Marka</Typography>
+        <Typography variant="h4">-Marka-</Typography>
         <Box className="brandContainer">
           <List className="brandList">
           {brands.map((brand) => (
              <ListItem key={brand._id} button onClick={() => handleCheckboxClick(brand.title, 'brands')}>
-             <Checkbox checked={selectedBrands.includes(brand.title)} />
+             <Checkbox className="checkbox"checked={selectedBrands.includes(brand.title)} />
              <Typography variant="body1">{brand.title}</Typography>
              </ListItem>
           ))}
           </List>
         </Box>
         <Box className="filterButtons">
-          <Button variant="contained" color="primary" onClick={handleFilter}>
-            Filtrele
+          <Button onClick={handleFilter}>
+            FİLTRELE
           </Button>
-          <Button variant="contained" onClick={handleClearFilter}>Filtreleri Temizle</Button>
+          <Button onClick={handleClearFilter}>FİLTRELERİ TEMİZLE</Button>
         </Box>
       </Box>
 
       <Box className="productContainer col-sm-9">
-        <Typography variant="h4">Ürünler</Typography>
+        <Typography variant="h4">-Ürünler-</Typography>
         {displayedProducts.map((product) => (
           <Box className="productCard" key={product._id}>
             <a href={`/Product/${product._id}`}>
             <img src={product.imageLink} alt="" />
               <Typography variant="h2">{product.name}</Typography>
               
-              <Typography variant="h2" style={{ color: "#e9ccb1" }}>{product.brand}</Typography>
+              <Typography variant="h2" style={{ color: "#bb6464" }}>{product.brand}</Typography>
             </a>
           </Box>
         ))}

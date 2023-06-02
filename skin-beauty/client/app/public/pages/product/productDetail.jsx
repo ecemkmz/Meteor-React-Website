@@ -13,13 +13,14 @@ export const ProductDetail = () => {
 
   return (
     <div className="productDetail">
-      <h2>{product.category}//{product.brand}//{product.name}</h2>
       <section className="productInfo col-sm-4">
         <img src={product.imageLink} alt="" />
       </section>
-      <section className="col-sm-8">
-         <div className="productMore">
+      <section className="col-sm-7">
+      <h2>{product.category}//{product.brand}//{product.name}</h2>
+         <div className="productMore"> 
 
+          İçerik: {product.ingredients}
          </div>
       </section>
     </div>
