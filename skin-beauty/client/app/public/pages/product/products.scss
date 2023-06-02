@@ -1,29 +1,61 @@
-$color-1: white;
-$color-2: #ffffff;
-$color-3: #696763;
-$color-4: #333;
-$font-family-1: "Raleway", sans-serif;
+
+$color-1: var(--bg-color);
+$color-2: var(--grey-color);
+$color-3: var(--text-color);
+$color-4: var(--red-font);
 
 .productSection {
   display: flex;
   margin: 4rem;
   margin-top: 5rem;
   line-height: 1.5;
+  h4{
+  padding-top: 40px;
+  width: 100%;
+  height: 70px;
+  color: $color-3;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 auto 30px;
+  text-align: center;
+  position: relative;
+  font-size: 2rem;
+  }
 
   .categoryContainer {
+     .checkbox{
+      color: $color-4;
+     }
     .brandContainer {
       border: 0.2px solid rgba(161, 160, 160, 0.368);
-      border-radius: 4px;
-      background: #ffff;
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      border-radius: 2px;
+      background: $color-1;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
       margin-bottom: 2rem;
 
       .brandList {
         height: 18rem;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
-
+         
         
+      }
+    }
+    .filterButtons{
+      button{
+        margin-left: 20px;
+        margin-right: 15px;
+        background-color: $color-4;
+        color: $color-1;
+        font-style: normal;
+        font-size: .9rem;
+        font-weight: 400;
+        &:hover{
+          color: $color-4;
+          background-color: $color-1;
+          border: 1px solid $color-4;
+          transition: .2 ease;
+        }
       }
     }
   }
@@ -35,7 +67,7 @@ $font-family-1: "Raleway", sans-serif;
     justify-content: center;
 
     .productCard {
-      background: #fff;
+      background: $color-1;
       text-align: center;
       box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
       position: relative;
@@ -57,10 +89,11 @@ $font-family-1: "Raleway", sans-serif;
         width: 12rem;
         height: 2.5rem;
         text-decoration: none;
+        text-align: center;
         font-weight: 400;
         margin-top: 0.5rem;
         font-size: 1rem;
-        color: $color-4;
+        color: $color-3;
       }
     }
   }
@@ -86,14 +119,3 @@ $font-family-1: "Raleway", sans-serif;
   }
 }
 
-h4 {
-  padding-top: 10px;
-  width: 100%;
-  height: 60px;
-  color: $color-4;
-  text-transform: uppercase;
-  font-weight: 900;
-  margin: 0 auto 30px;
-  text-align: center;
-  position: relative;
-}
