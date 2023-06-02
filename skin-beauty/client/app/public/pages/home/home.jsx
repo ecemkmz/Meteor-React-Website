@@ -8,7 +8,9 @@ import { useTracker } from "meteor/react-meteor-data";
 import "swiper/modules/navigation/navigation.scss";
 
 export const Home = () => {
-  const categories = useTracker(() => Categories.find({}).fetch());
+  Meteor.subscribe('categories');
+  const categories = useTracker(() => Categories.find().fetch());
+  Meteor.subscribe('skinTypes');
   const skinTypes = useTracker(() => SkinTypes.find({}).fetch());
 
   return (

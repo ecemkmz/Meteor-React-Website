@@ -5,6 +5,7 @@ import { SkinTypeQuestions } from "../../../../../lib/collections/skinTypeQuesti
 
 export const SkinTypeTestDetail = () => {
   const { testId } = useParams();
+  Meteor.subscribe('skinTypeQuestions');
   const skinTypeQuestions = useTracker(() =>
     SkinTypeQuestions.findOne({ testId: parseInt(testId) })
   );

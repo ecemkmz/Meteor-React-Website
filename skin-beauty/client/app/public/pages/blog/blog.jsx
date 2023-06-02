@@ -5,6 +5,7 @@ import { useTracker } from "meteor/react-meteor-data";
 import { BlogTexts } from "../../../../../lib/collections/blogTexts";
 
 export const Blog = () => {
+  Meteor.subscribe('blogTexts');
   const blogTexts = useTracker(() => BlogTexts.find({}).fetch());
   const [popUpBackgroundDisplay, setPopUpBackgroundDisplay] = useState(false);
   const [activePopUpContent, setActivePopUpContent] = useState("");
