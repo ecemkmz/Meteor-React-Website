@@ -1,6 +1,5 @@
 [
   {
-    
     "name": "Köpüren Temizleyici",
     "brand": "CeraVe",
     "category": "Yüz Temizleme",
@@ -9,7 +8,6 @@
     "ingredients": "aqua/water, cocamidopropyl hydroxysultaine, glycerin, sodium lauroyl sarcosinate, propanediol, peg-150 pentaerythrityl tetrastearate, niacinamide, peg-6 caprylic/capric glycerides, ceramide np, ceramide ap, ceramide eop, carbomer, sodium methyl cocoyl taurate, sodium benzoate, sodium chloride, sodium lauroyl lactylate, sodium hyaluronate, cholesterol, phenoxyethanol, disodium edta, citric acid, tetrasodium edta, phytosphingosine, xanthan gum, ethylhexylglycerin."
   },
   {
-    
     "name": "Nemlendiren Temizleyici",
     "brand": "CeraVe",
     "category": "Yüz Temizleme",
@@ -18,134 +16,118 @@
     "ingredients": "aqua/water, glycerin, cetearyl alcohol, peg-40 stearate, stearyl alcohol, potassium phosphate, ceramide np, ceramide ap, ceramide eop, carbomer, glyceryl stearate, behentrimonium methosulfate, sodium lauroyl lactylate, sodium hyaluronate, cholesterol, phenoxyethanol, disodium edta, dipotassium phosphate, tocopherol, phytosphingosine, xanthan gum, cetyl alcohol, polysorbate 20, ethylhexylglycerin."
   },
   {
-    
     "name": "Effaclar Gel",
     "brand": "La Roche Posay",
     "category": "Yüz Temizleme",
     "imageLink": "https://cdn.dermogrup.net//la-roche-posay-effaclar-yagli-ciltler-icin-temizleme-jeli-400ml-la-roche-posay-136200-23-O.jpg",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients" : "water, sodium laureth sulfate, peg-8, coco-betaine, hexylene glycol, sodium chloride, peg-120 methyl glucose dioleate, zinc pca, sodium hydroxide, citric acid, sodium benzoate , phenoxyethanol, caprylyl glycol, parfum/fragrance."
+    "ingredients": "water, sodium laureth sulfate, peg-8, coco-betaine, hexylene glycol, sodium chloride, peg-120 methyl glucose dioleate, zinc pca, sodium hydroxide, citric acid, sodium benzoate , phenoxyethanol, caprylyl glycol, parfum/fragrance."
   },
   {
-    
     "name": "Cleanance Gel Nettoyant Cleansing Gel",
     "brand": "Avene",
     "category": "Yüz Temizleme",
     "imageLink": "https://media-pierre-fabre.wedia-group.com/api/wedia/dam/transform/u5wa3z31qn5sepjsrpih6p5tiq9phkwz4qu384y/pf_square/u5wa3z31qn5sepjsrpih6p5tiq9phkwz4qu384y?t=resize&height=700",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients" : "water (aqua), sodium lauroyl methyl isethionate, zinc coceth sulfate, polysorbate 20, sodium cocoamphoacetate, ceteareth-60 myristyl glycol, peg-40 hydrogenated castor oil, green 5 (c 61570), citric acid, disodium edta, fragrance (parfum), glyceryl laurate, sodium benzoate, sodium hydroxide, sodium sulfate, yellow 5 (ci 19140), zinc gluconate."
-
+    "ingredients": "water (aqua), sodium lauroyl methyl isethionate, zinc coceth sulfate, polysorbate 20, sodium cocoamphoacetate, ceteareth-60 myristyl glycol, peg-40 hydrogenated castor oil, green 5 (c 61570), citric acid, disodium edta, fragrance (parfum), glyceryl laurate, sodium benzoate, sodium hydroxide, sodium sulfate, yellow 5 (ci 19140), zinc gluconate."
   },
   {
-    
     "name": "Atopia Cleansing Cream",
     "brand": "Cosmed",
     "category": "Yüz Temizleme",
     "imageLink": "https://www.cosmed.com.tr/Content/Urun/750x1000%20CLEANSING%20CREAM.jpg",
     "skinType": "Atopik Cilt",
-    "ingredients" : "aqua, caprylic/capric triglyceride, glyceryl stearate, glycerin, cetearyl alcohol, plukenetia volubilis seed oil, cyclopentasiloxane, sodium cocoamphoacetate, stearyl alcohol, heptyl undecylenate, niacinamide, cyclohexasiloxane, caprylyl glycol, sodium polyacrylate, parfum, tocopheryl acetate, caprylhydroxamic acid, xanthan gum, zinc pca, acacia senegal gum, crocus chrysanthus bulb extract."
+    "ingredients": "aqua, caprylic/capric triglyceride, glyceryl stearate, glycerin, cetearyl alcohol, plukenetia volubilis seed oil, cyclopentasiloxane, sodium cocoamphoacetate, stearyl alcohol, heptyl undecylenate, niacinamide, cyclohexasiloxane, caprylyl glycol, sodium polyacrylate, parfum, tocopheryl acetate, caprylhydroxamic acid, xanthan gum, zinc pca, acacia senegal gum, crocus chrysanthus bulb extract."
   },
   {
-    
     "name": "Cleansing Foam",
     "brand": "EffectHA",
     "category": "Yüz Temizleme",
     "imageLink": "https://st.myideasoft.com/idea/fr/60/myassets/products/013/effectha-temizleme-kopugu.jpg?revision=1641200610",
     "skinType": "Kuru Cilt",
-    "ingredients" : " aqua, lauryl glucoside, coco-glucoside, disodium cocoamphodiacetate, sodium lauroyl sarcosinate, glycerin, sorbitol, hyaluronic acid, panthenol, aroma, phenoxyethanol, benzoic acid."
+    "ingredients": " aqua, lauryl glucoside, coco-glucoside, disodium cocoamphodiacetate, sodium lauroyl sarcosinate, glycerin, sorbitol, hyaluronic acid, panthenol, aroma, phenoxyethanol, benzoic acid."
   },
   {
-    
     "name": "Brightening Cleansing Foam",
     "brand": "Mineaderm",
     "category": "Yüz Temizleme",
     "imageLink": "https://www.mineaderm.com/wp-content/uploads/2021/07/Mineaderm-foam-yatay.jpg",
     "skinType": "Tüm Cilt Tipleri",
-    "ingredients":"aqua, glycerin, sodium c14-16 olefin sulfonate, disodium laureth sulfosuccinate, cocamidopropyl betaine, sodium pca, panthenol, parfum, peg-7 glyceryl cocoate, lactic acid, olea europaea exctract, vitis vinifera seed extract, corallina officinalis extract, peg-75 shea butter glycerides, peg-35 castor oil, aesculus hippocastanum seed extract, tocopheryl acetate, inositol, calcium pantothenate, linoleic acid, biotin, arginine, allantoin, polysorbate 20, phenoxyethanol, ethylhexylglycerin, citric acid."
+    "ingredients": "aqua, glycerin, sodium c14-16 olefin sulfonate, disodium laureth sulfosuccinate, cocamidopropyl betaine, sodium pca, panthenol, parfum, peg-7 glyceryl cocoate, lactic acid, olea europaea exctract, vitis vinifera seed extract, corallina officinalis extract, peg-75 shea butter glycerides, peg-35 castor oil, aesculus hippocastanum seed extract, tocopheryl acetate, inositol, calcium pantothenate, linoleic acid, biotin, arginine, allantoin, polysorbate 20, phenoxyethanol, ethylhexylglycerin, citric acid."
   },
   {
-    
     "name": "Beta Glucan Cleanser",
     "brand": "Alchimiste",
     "category": "Yüz Temizleme",
     "imageLink": "https://productimages.hepsiburada.net/s/318/1100/110000312261608.jpg/format:webp",
     "skinType": "Kuru Cilt",
-    "ingredients" : "aqua/water, cocamidopropyl betaine, coco glucoside, glycerin, sodium lactate, glyceryl oleate, , xanthan gum, beta-glucan, allantoin, panthenol, aloe barbadensis leaf juice ,sodyum pca, polysorbate 20, phenoxyethanol, centella asiatica leaf extract, caprylyl glycol, lavandula angustifolia oil, cymbopogon martini oil (palmarosa)"
+    "ingredients": "aqua/water, cocamidopropyl betaine, coco glucoside, glycerin, sodium lactate, glyceryl oleate, , xanthan gum, beta-glucan, allantoin, panthenol, aloe barbadensis leaf juice ,sodyum pca, polysorbate 20, phenoxyethanol, centella asiatica leaf extract, caprylyl glycol, lavandula angustifolia oil, cymbopogon martini oil (palmarosa)"
   },
   {
-    
     "name": "Sebum Balancing Purifying",
     "brand": "Jeuvenile",
     "category": "Yüz Temizleme",
     "imageLink": "https://st.myideasoft.com/idea/cm/58/myassets/products/559/188_min.png?revision=1675516941",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients" : "aqua, disodium laureth sulfosuccinate, glycerin, disodium cocoamphodiacetate, lauryl glucoside, sodium c14-16 olefin sulfonate, salicylic acid, hamamelis virginiana leaf extract, potentilla erecta root extract, vaccinium myrtillus fruit juice, krameria triandra root extract, quercus robur bark extract, corylus avellana leaf extract, juglans regia shell extract, peg-120 methyl glucose dioleate, cocamidopropyl betaine, phenoxyethanol, allantoin, peg-7 glyceryl cocoate, tocopheryl acetate, panthenol, lactic acid, ethylhexylglycerin, tetrasodium edta. salicylic acid skin relief toner: aqua, pentylene glycol, glycerin, propylene glycol, salicylic acid, panthenol, allantoin, hamamelis virginiana leaf extract, phenoxyethanol, lactic acid, vaccinium myrtillus fruit juice, quercus robur bark extract, corylus avellana leaf extract, juglans regia shell extract, krameria triandra root extract, potentilla erecta root extract, ethylhexylglycerin, tetrasodium edta. sebum balancing daily care cream: aqua, glycerin, niacinamide, cetearyl alcohol, caprylic/capric triglyceride, glyceryl stearate, propylene glycol, panthenol, cyclopentasiloxane, dimethicone, salicylic acid, butyrospermum parkii butter, ceteareth-25, ceteareth-20, sodium pca, tocopheryl acetate, potassium cetyl phosphate, phenoxyethanol, ceteareth-12, cetyl palmitate, hamamelis virginiana leaf extract, vaccinium myrtillus fruit juice, corylus avellana leaf extract, juglans regia shell extract, krameria triandra root extract, potentilla erecta root extract, quercus robur bark extract, nordihydroguaiaretic acid, oleanolic acid, carbomer, butylene glycol, peg-60 almond glycerides, acrylates/c10-30 alkyl acrylate crosspolymer, ethylhexylglycerin, allantoin, tetrasodium edta, sodium hydroxide."
+    "ingredients": "aqua, disodium laureth sulfosuccinate, glycerin, disodium cocoamphodiacetate, lauryl glucoside, sodium c14-16 olefin sulfonate, salicylic acid, hamamelis virginiana leaf extract, potentilla erecta root extract, vaccinium myrtillus fruit juice, krameria triandra root extract, quercus robur bark extract, corylus avellana leaf extract, juglans regia shell extract, peg-120 methyl glucose dioleate, cocamidopropyl betaine, phenoxyethanol, allantoin, peg-7 glyceryl cocoate, tocopheryl acetate, panthenol, lactic acid, ethylhexylglycerin, tetrasodium edta. salicylic acid skin relief toner: aqua, pentylene glycol, glycerin, propylene glycol, salicylic acid, panthenol, allantoin, hamamelis virginiana leaf extract, phenoxyethanol, lactic acid, vaccinium myrtillus fruit juice, quercus robur bark extract, corylus avellana leaf extract, juglans regia shell extract, krameria triandra root extract, potentilla erecta root extract, ethylhexylglycerin, tetrasodium edta. sebum balancing daily care cream: aqua, glycerin, niacinamide, cetearyl alcohol, caprylic/capric triglyceride, glyceryl stearate, propylene glycol, panthenol, cyclopentasiloxane, dimethicone, salicylic acid, butyrospermum parkii butter, ceteareth-25, ceteareth-20, sodium pca, tocopheryl acetate, potassium cetyl phosphate, phenoxyethanol, ceteareth-12, cetyl palmitate, hamamelis virginiana leaf extract, vaccinium myrtillus fruit juice, corylus avellana leaf extract, juglans regia shell extract, krameria triandra root extract, potentilla erecta root extract, quercus robur bark extract, nordihydroguaiaretic acid, oleanolic acid, carbomer, butylene glycol, peg-60 almond glycerides, acrylates/c10-30 alkyl acrylate crosspolymer, ethylhexylglycerin, allantoin, tetrasodium edta, sodium hydroxide."
   },
   {
-    
     "name": "Sensitive Skin Cleansing Gel",
     "brand": "Mia Klinika",
     "category": "Yüz Temizleme",
     "imageLink": "https://st1.myideasoft.com/idea/hq/43/myassets/products/038/6.jpg?revision=1635183214",
     "skinType": "Atopik Cilt",
-    "ingredients":"aqua, laurylglucoside, cocamidopropyl betaine, sodium c14-16 olefin sulfonate, glycerin,niacinamide, peg-120 methyl glucose dioleate, salicylic acid, zinc pca,melaleuca alternifolia leaf extract, arctium lappa root extract, nasturtiumofficinale flower/leaf extract, juniperus communis fruit extract, lavandulaangustifolia flower extract, achillea millefolium extract, arnica montana flowerextract, fucus vesiculosus extract, panthenol, benzoate, potassium sorbate,citric acid.copper gluconate, phenoxyethanol, ethylhexylglycerin, benzoic acid,dehydroacetic acid, benzyl alcohol, sodium."
+    "ingredients": "aqua, laurylglucoside, cocamidopropyl betaine, sodium c14-16 olefin sulfonate, glycerin,niacinamide, peg-120 methyl glucose dioleate, salicylic acid, zinc pca,melaleuca alternifolia leaf extract, arctium lappa root extract, nasturtiumofficinale flower/leaf extract, juniperus communis fruit extract, lavandulaangustifolia flower extract, achillea millefolium extract, arnica montana flowerextract, fucus vesiculosus extract, panthenol, benzoate, potassium sorbate,citric acid.copper gluconate, phenoxyethanol, ethylhexylglycerin, benzoic acid,dehydroacetic acid, benzyl alcohol, sodium."
   },
   {
-    
     "name": "Ultra 90 Gel",
     "brand": "Heliocare",
     "category": "Güneş Kremi",
     "imageLink": "https://cdn.dermogrup.net//heliocare-ultra-90-gel-krem-spf50-50-ml-heliocare-152489-12-B.jpg",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients":"aqua, octocrylene, homosalate,peg/ppg-20/6 dimethicone,hexylene glycol,cyclopentasiloxane, glycerin, butylmethoxydibenzoylmethane, zinc oxide(nano),ethylhexyl triazone, polyacrylamide,styrene/acrylates copolymer, polypodiumleucotomos leaf extract, phenoxyethano,diethylamino hydroxybenzoyl hexyl benzoatetris-biphenyl triazine(nano), c13-14 isoparaffin;titanium dioxide(nano), camellia sinensis extract,cetyl dimethicone, laureth-7, tocopheryl acetate,dichlorobenzyl alcohol, plankton extract, parfum,alumina, phytosphingosine hcl, bhtsimethicone,lecithin, linalool,triethoxycaprylylsilane, lactic acid, limonene."
+    "ingredients": "aqua, octocrylene, homosalate,peg/ppg-20/6 dimethicone,hexylene glycol,cyclopentasiloxane, glycerin, butylmethoxydibenzoylmethane, zinc oxide(nano),ethylhexyl triazone, polyacrylamide,styrene/acrylates copolymer, polypodiumleucotomos leaf extract, phenoxyethano,diethylamino hydroxybenzoyl hexyl benzoatetris-biphenyl triazine(nano), c13-14 isoparaffin;titanium dioxide(nano), camellia sinensis extract,cetyl dimethicone, laureth-7, tocopheryl acetate,dichlorobenzyl alcohol, plankton extract, parfum,alumina, phytosphingosine hcl, bhtsimethicone,lecithin, linalool,triethoxycaprylylsilane, lactic acid, limonene."
   },
   {
-    
     "name": "Hyseac Fluide",
     "brand": "Uriage",
     "category": "Güneş Kremi",
     "imageLink": "https://st1.myideasoft.com/idea/cm/58/myassets/products/826/ads-c4-b1z-20tasar-c4-b1m-20-202022-07-07t105743808.png?revision=1657180786",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients":"aqua (water, eau) , dicaprylyl carbonate , methylene bis-benzotriazolyl tetramethylbutylphenol[nano] , butyl methoxydibenzoylmethane , ethylhexyl triazone, nylon-12 ,c20-22 alkyl phosphate , glycerin , c20-22 alcohols , decyl glucoside , butylene glycol , dimethicone , xanthan gum , chlorphenesin , parfum (fragrance) , triacontanyl pvp , benzoic acid , tetrasodium edta , o-cymen-5-ol , tocopheryl acetate , sodium hydroxide , propylene glycol , citric acid , glycyrrhiza inflata root extract."
+    "ingredients": "aqua (water, eau) , dicaprylyl carbonate , methylene bis-benzotriazolyl tetramethylbutylphenol[nano] , butyl methoxydibenzoylmethane , ethylhexyl triazone, nylon-12 ,c20-22 alkyl phosphate , glycerin , c20-22 alcohols , decyl glucoside , butylene glycol , dimethicone , xanthan gum , chlorphenesin , parfum (fragrance) , triacontanyl pvp , benzoic acid , tetrasodium edta , o-cymen-5-ol , tocopheryl acetate , sodium hydroxide , propylene glycol , citric acid , glycyrrhiza inflata root extract."
   },
   {
-    
     "name": "Solar Barrier SPF 50+ PA++++",
     "brand": "Dermaction Plus",
     "category": "Güneş Kremi",
     "imageLink": "https://www.watsons.com.tr/medias/sys_master/prd-images/hae/hbf/9300740964382/prd-front-1343377_365x385/prd-front-1343377-365x385.png",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients":"water, propanediol, butyloctyl salicylate, dibutyl adipate, ethylhexyl triazone, terephthalylidene dicamphor sulfonic acid, niacinamide, tromethamine, polyglyceryl-3 distearate, octyldodecanol, cetearyl alcohol, 1,2-hexanediol, pentylene glycol, diethylamino hydroxybenzoyl hexyl benzoate, caprylyl methicone, polysilicone-15, aloe ferox leaf extract, polymethylsilsesquioxane, glyceryl stearate, bis-ethylhexyloxyphenol methoxyphenyl triazine, potassium cetyl phosphate, methylpropanediol, poly c10-30 alkyl acrylate, carbomer, glyceryl stearate citrate, acrylates/​c10-30 alkyl acrylate crosspolymer, ethylhexylglycerin, ammonium acryloyldimethyltaurate/​vp copolymer, adenosine, polyether-1, sodium guaiazulene sulfonate, biosaccharide gum-1, glutathione, lactobacillus ferment, madecassoside, ceramide np, allantoin, butylene glycol."
+    "ingredients": "water, propanediol, butyloctyl salicylate, dibutyl adipate, ethylhexyl triazone, terephthalylidene dicamphor sulfonic acid, niacinamide, tromethamine, polyglyceryl-3 distearate, octyldodecanol, cetearyl alcohol, 1,2-hexanediol, pentylene glycol, diethylamino hydroxybenzoyl hexyl benzoate, caprylyl methicone, polysilicone-15, aloe ferox leaf extract, polymethylsilsesquioxane, glyceryl stearate, bis-ethylhexyloxyphenol methoxyphenyl triazine, potassium cetyl phosphate, methylpropanediol, poly c10-30 alkyl acrylate, carbomer, glyceryl stearate citrate, acrylates/​c10-30 alkyl acrylate crosspolymer, ethylhexylglycerin, ammonium acryloyldimethyltaurate/​vp copolymer, adenosine, polyether-1, sodium guaiazulene sulfonate, biosaccharide gum-1, glutathione, lactobacillus ferment, madecassoside, ceramide np, allantoin, butylene glycol."
   },
   {
-    
     "name": "Sun Essential SPF 50+ Mineral PA++++",
     "brand": "Cosmed",
     "category": "Güneş Kremi",
     "imageLink": "https://www.cosmed.com.tr/Content/Urun/750%20X%201000%20mineral.jpg",
     "skinType": "Hassas Cilt",
-    "ingredients" : "aqua, diethylamino hydroxybenzoyl hexyl benzoate, niacinamide, diethylhexyl butamido triazone, caprylyl methicone, zinc oxide, bis-ethylhexyloxyphenol methoxyphenyl triazine, dimethicone/​vinyl dimethicone crosspolymer, pentylene glycol, c12-15 alkyl benzoate, dibutyl adipate, ethylhexyl triazone, potassium cetyl phosphate, glycerin, titanium dioxide, c12-16 alcohols, polysilicone-15, polymethyl methacrylate, undecane, caprylyl glycol, silica, palmitic acid, tridecane, sodium stearoyl glutamate, hydrogenated lecithin, ectoin, caprylhydroxamic acid, bisabolol, cannabis sativa seed oil, zinc pca, squalane, butylene glycol, isoceteth-10, acrylates/​c10-30 alkyl acrylate crosspolymer, helianthus annuus seed oil, glycine soja oil, sodium polyacrylate, xanthan gum, acacia senegal gum, hippophae rhamnoides fruit oil, rosmarinus officinalis leaf extract, potassium hydroxide, tocopherol, crocus chrysanthus bulb extract."
+    "ingredients": "aqua, diethylamino hydroxybenzoyl hexyl benzoate, niacinamide, diethylhexyl butamido triazone, caprylyl methicone, zinc oxide, bis-ethylhexyloxyphenol methoxyphenyl triazine, dimethicone/​vinyl dimethicone crosspolymer, pentylene glycol, c12-15 alkyl benzoate, dibutyl adipate, ethylhexyl triazone, potassium cetyl phosphate, glycerin, titanium dioxide, c12-16 alcohols, polysilicone-15, polymethyl methacrylate, undecane, caprylyl glycol, silica, palmitic acid, tridecane, sodium stearoyl glutamate, hydrogenated lecithin, ectoin, caprylhydroxamic acid, bisabolol, cannabis sativa seed oil, zinc pca, squalane, butylene glycol, isoceteth-10, acrylates/​c10-30 alkyl acrylate crosspolymer, helianthus annuus seed oil, glycine soja oil, sodium polyacrylate, xanthan gum, acacia senegal gum, hippophae rhamnoides fruit oil, rosmarinus officinalis leaf extract, potassium hydroxide, tocopherol, crocus chrysanthus bulb extract."
   },
   {
-    
     "name": "Sun Essential SPF 50+ Fluid PA++++",
     "brand": "Cosmed",
     "category": "Güneş Kremi",
     "imageLink": "https://www.cosmed.com.tr/Content/Urun/750%20X%201000%20fluid.jpg",
     "skinType": "Tüm Cilt Tipleri",
-    "ingredients" :"water, bis-ethylhexyloxyphenol methoxyphenyl triazine, pentylene glycol, niacinamide, c12-15 alkyl benzoate, caprylyl methicone, diethylamino hydroxybenzoyl hexyl benzoate, zinc oxide, glycerin, c12-16 alcohols, hydrogenated polyisobutene, dimethicone, polysilicone-15, ethylhexyl triazone, potassium cetyl phosphate, titanium dioxide, palmitic acid, alpha-arbutin, hydrogenated lecithin, caprylyl glycol, caprylic/​capric triglyceride, silica, ectoin, cannabis sativa seed oil, squalane, phenylethyl resorcinol, caprylhydroxamic acid, glutathione, sodium polyacrylate, bisabolol, helianthus annuus seed oil, glycine soja oil, caprylic/​capric triglyceride, acacia senegal gum, glycyrrhiza glabra root extract, hippophae rhamnoides fruit oil, rosmarinus officinalis leaf extract, butyl methoxydibenzoylmethane, tocopherol, bakuchiol, crocus chrysanthus bulb extract."
+    "ingredients": "water, bis-ethylhexyloxyphenol methoxyphenyl triazine, pentylene glycol, niacinamide, c12-15 alkyl benzoate, caprylyl methicone, diethylamino hydroxybenzoyl hexyl benzoate, zinc oxide, glycerin, c12-16 alcohols, hydrogenated polyisobutene, dimethicone, polysilicone-15, ethylhexyl triazone, potassium cetyl phosphate, titanium dioxide, palmitic acid, alpha-arbutin, hydrogenated lecithin, caprylyl glycol, caprylic/​capric triglyceride, silica, ectoin, cannabis sativa seed oil, squalane, phenylethyl resorcinol, caprylhydroxamic acid, glutathione, sodium polyacrylate, bisabolol, helianthus annuus seed oil, glycine soja oil, caprylic/​capric triglyceride, acacia senegal gum, glycyrrhiza glabra root extract, hippophae rhamnoides fruit oil, rosmarinus officinalis leaf extract, butyl methoxydibenzoylmethane, tocopherol, bakuchiol, crocus chrysanthus bulb extract."
   },
   {
-    
     "name": "Organik Sertifikalı Güneş Koruyucu SPF 35+",
     "brand": "Soltis",
     "category": "Güneş Kremi",
     "imageLink": "https://cdn.cimri.io/image/480x480/soltis-spf35-50-ml-organik-sertifikali-gunes-koruyucu-krem_425240917.jpg",
     "skinType": "Kuru Cilt",
-    "ingredients" :"aloe barbadensis leaf juice, caprylic/capric triglyceride, aqua, zinc oxide, helianthus annuus seed oil, polyglyceryl-3 rice branate, cetearyl alcohol, glycerin, sucrose stearate, polyhydroxystearic acid, benzyl alcohol, stearyl alcohol, dehydroacetic acid, benzoic acid, sorbic acid, phenethyl alcohol, sodium carrageenan, amorphophallus konjac root extract, sea salt, olea europaea fruit oil, punica granatum seed oil, simmondsia chinensis seed oil, bixa orellana seed extract, tocopherol (natural vitamin e)."
+    "ingredients": "aloe barbadensis leaf juice, caprylic/capric triglyceride, aqua, zinc oxide, helianthus annuus seed oil, polyglyceryl-3 rice branate, cetearyl alcohol, glycerin, sucrose stearate, polyhydroxystearic acid, benzyl alcohol, stearyl alcohol, dehydroacetic acid, benzoic acid, sorbic acid, phenethyl alcohol, sodium carrageenan, amorphophallus konjac root extract, sea salt, olea europaea fruit oil, punica granatum seed oil, simmondsia chinensis seed oil, bixa orellana seed extract, tocopherol (natural vitamin e)."
   },
   {
-    
     "name": "Anthelios Uvmune 400 50+",
     "brand": "La Roche Posay",
     "category": "Güneş Kremi",
@@ -154,7 +136,6 @@
     "ingredients": "aqua/water/eau, alcohol denat., triethyl citrate, diisopropyl sebacate, silica, ethylhexyl salicylate, bis-ethylhexyloxyphenol methoxyphenyl triazine, ethylhexyl triazone, butyl methoxydibenzoylmethane, glycerin, propanediol, c12-22 alkyl acrylate/hydroxyethylacrylate copolymer, methoxypropylamino cyclohexenylidene ethoxyethylcyanoacetate, perlite, tocopherol, caprylic/capric triglyceride, acrylates/c10-30 alkyl acrylate crosspolymer, caprylyl glycol, diethylamino hydroxybenzoyl hexyl benzoate, drometrizole trisiloxane, hydroxyethylcellulose, terephthalylidene dicamphor sulfonic acid, triethanolamine, trisodium ethylenediamine disuccinate."
   },
   {
-    
     "name": "Revitalift Clinical",
     "brand": "Loreal Paris",
     "category": "Güneş Kremi",
@@ -163,7 +144,6 @@
     "ingredients": "aqua/​water, alcohol denat, diisopropyl sebacate, silica, isopropyl myristate, ethylhexyl salicylate, ethylhexyl triazone, bis-ethylhexyloxyphenol methoxyphenyl triazine, butyl methoxydibenzoylmethane, glycerin, propanediol, c12-22 alkyl acrylate/​hydroxyethylacrylate copolymer, drometrizole trisiloxane, perlite, caprylic/​capric triglyceride, tocopherol, ascorbyl glucoside, hydroxyacetophenone, hydroxyethylcellulose, sodium hyaluronate, triethanolamine, trisodium ethylenediamine disuccinate, caprylyl glycol, terephthalylidene dicamphor sulfonic acid, acrylates/​c10-30 alkyl acrylate crosspolymer, parfum/​fragrance."
   },
   {
-    
     "name": "Acne Mat Face Protection Gel Cream",
     "brand": "Dermoskin",
     "category": "Güneş Kremi",
@@ -172,25 +152,22 @@
     "ingredients": "water, methylene bis-benzotriazolyl tetramethylbutylphenol, octocrylene, titanium dioxide, c12-15 alkylbenzoate, butyl methoxydibenzoylmethane, ethylhexyl salicylate, ethylhexyl methoxycinnamate, glycerin, caprylic/​capric triglyceride, di-c12-13 alkyl malate, bis-ethylhexyloxyphenol methoxyphenyl triazine, potassium cetyl phosphate, aloe barbadensis extract, glyceryl stearate, peg-100 stearate, cetyl alcohol, hydrogenated dimer dilinoleyl/​dimethylcarbonate copolymer, panthenol, tocopherol, dimethicone, allantoin, helianthus annuus seed oil, magnesium aluminum silicate, xanthan gum, ethyl ferulate, polyglyceryl-5 trioleate, rosmarinus officinalis leaf extract, tocopherol, disodium uridine phosphate, phenoxyethanol, caprylyl glycol, benzyl alcohol, tetrasodium edta."
   },
   {
-    
     "name": "Pigmentyl Sun Protection SPF 50+ Cream",
     "brand": "Dermoskin",
     "category": "Güneş Kremi",
     "imageLink": "https://cdn.suslusozluk.com/content/images/original/4598_1589224089.jpg",
     "skinType": "Kuru Cilt",
-    "ingredients":"water, octocrylene, methylene bis-benzotriazolyl tetramethylbutylphenol, c12-15 alkyl benzoate, butyl methoxydibenzoylmethane, titanium dioxide, isohexadecane, peg-100 stearate, glycerin, caprylic/​capric triglyceride, ppg-15 stearyl ether, butyrospermum parkii (shea) butter, propylene glycol, potassium cetyl phosphate, niacinamide, cetearyl alcohol, glyceryl stearate, bis-ethylhexyloxyphenol methoxyphenyl triazine, dimethicone, tranexamic acid, panthenol, tocopheryl acetate, trimethylsiloxysilicate, glycyrrhiza glabra root extract, allantoin, laminaria ochroleuca extract, sodium ascorbyl phosphate, zanthoxylum bungeanum fruit extract, kojic acid, magnesium aluminum silicate, benzyl alcohol, sodium metabisulfite, xanthan gum, phenoxyethanol, tetrasodium edta, caprylyl glycol, bht."
+    "ingredients": "water, octocrylene, methylene bis-benzotriazolyl tetramethylbutylphenol, c12-15 alkyl benzoate, butyl methoxydibenzoylmethane, titanium dioxide, isohexadecane, peg-100 stearate, glycerin, caprylic/​capric triglyceride, ppg-15 stearyl ether, butyrospermum parkii (shea) butter, propylene glycol, potassium cetyl phosphate, niacinamide, cetearyl alcohol, glyceryl stearate, bis-ethylhexyloxyphenol methoxyphenyl triazine, dimethicone, tranexamic acid, panthenol, tocopheryl acetate, trimethylsiloxysilicate, glycyrrhiza glabra root extract, allantoin, laminaria ochroleuca extract, sodium ascorbyl phosphate, zanthoxylum bungeanum fruit extract, kojic acid, magnesium aluminum silicate, benzyl alcohol, sodium metabisulfite, xanthan gum, phenoxyethanol, tetrasodium edta, caprylyl glycol, bht."
   },
   {
-    
     "name": "Nemlendirici Krem",
     "brand": "CeraVe",
     "category": "Nemlendirici",
     "imageLink": "https://cdn.dsmcdn.com/ty330/product/media/images/20220213/15/49691298/386735412/1/1_org_zoom.jpg",
     "skinType": "Kuru Cilt",
     "ingredients": "aqua/water, glycerin, cetearyl alcohol,caprylic/capric triglyceride, cetyl alcohol, ceteareth-20, petrolatum, potassium phosphate, ceramide np, ceramide ap, ceramide eop,carbomer, dimethicone, behentrimonium methosulfate, sodium lauroyl lactylate, sodium hyaluronate, cholesterol, phenoxyethanol, disodium edta, dipotassium phosphate, tocopherol, phytosphingosine,xanthan gum, ethylhexylglycerin."
-    },
+  },
   {
-    
     "name": "Nemlendirici Losyon",
     "brand": "CeraVe",
     "category": "Nemlendirici",
@@ -199,7 +176,6 @@
     "ingredients": "aqua/water, glycerin, caprylic/capric triglyceride, cetearyl alcohol, cetyl alcohol, dimethicone, phenoxyethanol, polysorbate 20, ceteareth-20, behentrimonium methosulfate, polyglyceryl-3 diisostearate, sodium lauroyl lactylate, ethylhexylglycerin, potassium phosphate, disodium edta, dipotassium phosphate, ceramide np, ceramide ap, phytosphingosine, cholesterol, xanthan gum, carbomer, sodium hyaluronate, tocopherol, ceramide eop."
   },
   {
-    
     "name": "Ultra Moisturizing & Nourishing Cream",
     "brand": "Cosmed",
     "category": "Nemlendirici",
@@ -208,7 +184,6 @@
     "ingredients": "aqua, glyceryl stearate, heptyl undecylenate, glycerin, dimethicone, butyrospermum parkii butter, cyclopentasiloxane, saccharide isomerate, cetearyl alcohol, adansonia digitata oil, hydrogenated vegetable oil, squalane, sodium polyacrylate, cetearyl olivate, caprylyl glycol, sorbitan olivate, cyclohexasiloxane, stearic acid, polysorbate 20, aloe barbadensis leaf juice, panthenol, sodium lauroyl glutamate, sodium pca, caprylhydroxamic acid, parfum, glycine soja oil, acacia senegal gum, citric acid, sodium citrate, tocopherol, sodium benzoate, potassium sorbate, crocus chrysanthus bulb extract."
   },
   {
-    
     "name": "Protecting & Moisturizing Cream ",
     "brand": "Cosmed",
     "category": "Nemlendirici",
@@ -217,25 +192,22 @@
     "ingredients": "aqua, caprylic/capric triglyceride, glyceryl stearate, glycerin, cetearyl alcohol, cyclopentasiloxane, stearyl alcohol, heptyl undecylenate, bis-diglyceryl polyacyladipate-2, niacinamide, cyclohexasiloxane, plukenetia volubilis seed oil, caprylyl glycol, sodium polyacrylate, tocopheryl acetate, caprylhydroxamic acid, parfum, xanthan gum, zinc pca, acacia senegal gum, phragmites kharka extract, poria cocos extract, crocus chrysanthus bulb extract."
   },
   {
-    
     "name": "Mineral 89 Boosting Nemlendirici Bakım Kremi",
     "brand": "Vichy",
     "category": "Nemlendirici",
     "imageLink": "https://st3.myideasoft.com/idea/cm/58/myassets/products/308/ads-c4-b1z-20tasar-c4-b1m-20-202023-05-04t094724868.png?revision=1683185626",
     "skinType": "Kuru",
-    "ingredients":"aqua (water), propanediol, glycerin,peg/ppg/polybutylene glycol,8/5/3 glycerin, methyl gluceth-20, citric acid, hydroxyacetophenone, sodium hyaluronate , biosaccharide gum-1, butylene glycol, caprylyl glycol, carbomer, maltodextrin."
+    "ingredients": "aqua (water), propanediol, glycerin,peg/ppg/polybutylene glycol,8/5/3 glycerin, methyl gluceth-20, citric acid, hydroxyacetophenone, sodium hyaluronate , biosaccharide gum-1, butylene glycol, caprylyl glycol, carbomer, maltodextrin."
   },
   {
-    
     "name": "Vinergetic 3 in 1 C Vitamini Enerji Verici Nemlendirici",
     "brand": "Caudalie",
     "category": "Nemlendirici",
     "imageLink": "https://st1.myideasoft.com/idea/cm/58/myassets/products/043/43.png?revision=1668238672",
     "skinType": "Tüm Cilt Tipleri",
-    "ingredients":"aqua/​water/​eau, butylene glycol, caprylic/​capric triglyceride, coco-caprylate/​caprate, caffeine, cetearyl alcohol, cetearyl glucoside, niacinamide, triheptanoin, hydrogenated vegetable oil, squalane, palmitoyl grapevine shoot extract, oleic acid, glyceryl caprylate, cetyl alcohol, potassium cetyl phosphate, carbomer, terminalia arjuna extract, xanthan gum, helianthus annuus (sunflower) seed oil, sodium dehydroacetate, tocopherol, sodium hydroxide, lecithin, sodium phytate."
+    "ingredients": "aqua/​water/​eau, butylene glycol, caprylic/​capric triglyceride, coco-caprylate/​caprate, caffeine, cetearyl alcohol, cetearyl glucoside, niacinamide, triheptanoin, hydrogenated vegetable oil, squalane, palmitoyl grapevine shoot extract, oleic acid, glyceryl caprylate, cetyl alcohol, potassium cetyl phosphate, carbomer, terminalia arjuna extract, xanthan gum, helianthus annuus (sunflower) seed oil, sodium dehydroacetate, tocopherol, sodium hydroxide, lecithin, sodium phytate."
   },
   {
-    
     "name": "Cicaplast Baume B5 Nemlendirici",
     "brand": "La Roche Posay",
     "category": "Nemlendirici",
@@ -244,7 +216,6 @@
     "ingredients": "water aqua, hydrogenated polyisobutene, dimethicone, glycerin, butyrospermum parkii butter/shea butter, panthenol, butylene glycol, aluminum starch octenylsuccinate, propanediol, cetyl peg/ppg-10/1, dimethicone, tristearin, zinc gluconate, madecassoside, manganese gluconate, magnesium sulfate, disodium edta, copper gluconate, acetylated glycol stearate, polyglyceryl-4 isostearate, sodium benzoate, phenoxyethanol, chlorhexidine digluconate, ci 77891/titanium dioxide."
   },
   {
-    
     "name": "Eau Thermale Hafif Su Bazlı Nemlendirici Krem",
     "brand": "Uriage",
     "category": "Nemlendirici",
@@ -253,70 +224,62 @@
     "ingredients": "aqua (water, eau), ethylhexyl methoxycinamate, ethylhexyl salicylate, butyl methoxydibenzoylmethane, dimethicone, isononyl isononanoate, polymethyl methacrylate, hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer, squalane, steareth-2, steareth-21, phenoxyethanol, butylene glycol, parfum (fragrance), glycerin, trhalose, urea, cetyl alcohol, chlorphenesin, tetrasodium edta, xylitylglucoside, ahdroxylitol, citric acid, o-cy-men-5-ol, tocopheryl acetate, xanthan gum, pentylene glycol, serine, polysorbate 60, sorbitan isostearate, xylitol, glucose, algin, caprylyl glycol, disodium phosphate, glyceryl polyacrylate, pullulan, sodium hyaluronate, ascorbyl tetraisopalmitate, bht, potassium phosphate."
   },
   {
-    
     "name": "Sebium Hydra Yatıştırıcı Krem ",
     "brand": "Bioderma",
     "category": "Nemlendirici",
     "imageLink": "https://st.myideasoft.com/idea/cm/58/myassets/products/233/adsiz-tasarim-4.png?revision=1676643931",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients":"water, glycerin, mineral oil, ethylhexyl palmitate, dipropylene glycol, xylitol, bis-peg/ppg-16/16 peg/ppg-16/16 dimethicone, sodium acrylate/sodium acryloyldimethyl taurate copolymer, ceramide 3, glycyrrhetinic acid, allantoin, isohexadecane, caprylic/capric triglyceride, tocopheryl acetate, polysorbate 80, fructooligosaccharides, mannitol, rhamnose, laminaria ochroleuca extract, disodium edta, cetrimonium bromide, fragrance."
+    "ingredients": "water, glycerin, mineral oil, ethylhexyl palmitate, dipropylene glycol, xylitol, bis-peg/ppg-16/16 peg/ppg-16/16 dimethicone, sodium acrylate/sodium acryloyldimethyl taurate copolymer, ceramide 3, glycyrrhetinic acid, allantoin, isohexadecane, caprylic/capric triglyceride, tocopheryl acetate, polysorbate 80, fructooligosaccharides, mannitol, rhamnose, laminaria ochroleuca extract, disodium edta, cetrimonium bromide, fragrance."
   },
   {
-    
     "name": "Collagen Booster Lotion",
     "brand": "Mary & May",
     "category": "Nemlendirici",
     "imageLink": "https://st2.myideasoft.com/idea/cm/58/myassets/products/350/ads-c4-b1z-20tasar-c4-b1m-20-202023-04-10t145222377.png?revision=1681127606",
     "skinType": "Olgun Cilt",
-    "ingredients":"purified water, glycerin, glycereth-26, caprylic/​capric triglyceride, niacinamide, cetearyl alcohol, adenosine, hydrolyzed collagen (453ppm), soluble collagen (453ppm), collagen extract (453ppm), acetyl hexapeptide-8 (1ppm), glyceryl stearate se, dipropylene glycol, cetyl ethylhexanoate, sorbitan stearate, palmitic acid, hydroxyacetophenone, stearic acid, carbomer, arginine, allantoin, jojoba oil/​macadamia seed oil esters, butylene glycol, caprylyl glycol, glyceryl acrylate/​acrylic acid copolymer, disodium edta, squalene, 1,2-hexanediol, phytosteryl macadamiate, phytosterols, ethylhexylglycerin, tocopherol, fragrance."
+    "ingredients": "purified water, glycerin, glycereth-26, caprylic/​capric triglyceride, niacinamide, cetearyl alcohol, adenosine, hydrolyzed collagen (453ppm), soluble collagen (453ppm), collagen extract (453ppm), acetyl hexapeptide-8 (1ppm), glyceryl stearate se, dipropylene glycol, cetyl ethylhexanoate, sorbitan stearate, palmitic acid, hydroxyacetophenone, stearic acid, carbomer, arginine, allantoin, jojoba oil/​macadamia seed oil esters, butylene glycol, caprylyl glycol, glyceryl acrylate/​acrylic acid copolymer, disodium edta, squalene, 1,2-hexanediol, phytosteryl macadamiate, phytosterols, ethylhexylglycerin, tocopherol, fragrance."
   },
   {
-    
     "name": "Centella Özlü Leke Kremi",
     "brand": "Luv it!",
     "category": "Nemlendirici",
     "imageLink": "https://st.myideasoft.com/idea/cm/58/myassets/products/211/7.png?revision=1676453988",
     "skinType": "Tüm Cilt Tipleri",
-    "ingredients":"aqua, cetearyl alcohol, glyceryl stearate, paraffinum liquidum, caprylic/capric triglyceride, dicaprylyl carbonate, niacinamide, centella asiatica leaf extract, ceteareth-25, panthenol, sodium hyaluronate, soluble collagen, glycerin, phenoxyethanol, butyrospermum parkii butter, arnica montana flower extract, allantoin, tocopherol, ubiquinone (coenzyme q10), ethyl ascorbic acid, propylene glycol, ethylhexylglycerin."
+    "ingredients": "aqua, cetearyl alcohol, glyceryl stearate, paraffinum liquidum, caprylic/capric triglyceride, dicaprylyl carbonate, niacinamide, centella asiatica leaf extract, ceteareth-25, panthenol, sodium hyaluronate, soluble collagen, glycerin, phenoxyethanol, butyrospermum parkii butter, arnica montana flower extract, allantoin, tocopherol, ubiquinone (coenzyme q10), ethyl ascorbic acid, propylene glycol, ethylhexylglycerin."
   },
   {
-    
     "name": " Niacinamide 10% + Zinc 1%",
     "brand": "The Ordinary",
     "category": "Serum",
     "imageLink": "https://shimmer.com.tr/wp-content/uploads/2019/02/the-ordinary-niacinamide-10pct-zinc-1pct-30ml-769915190311.png",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients":"aqua (water), niacinamide, pentylene glycol, zinc pca, tamarindus indica seed gum, carrageenan, acacia senegal gum, xanthan gum, cocoyl proline, ethoxydiglycol, phenoxyethanol, chlorphenesin."
+    "ingredients": "aqua (water), niacinamide, pentylene glycol, zinc pca, tamarindus indica seed gum, carrageenan, acacia senegal gum, xanthan gum, cocoyl proline, ethoxydiglycol, phenoxyethanol, chlorphenesin."
   },
   {
-    
     "name": " AHA 30% + BHA 2% Peeling Solution",
     "brand": "The Ordinary",
     "category": "Serum",
     "imageLink": "https://shimmer.com.tr/wp-content/uploads/2019/02/the-ordinary-aha-30pct-bha-2pct-peeling-solution-30ml.png",
     "skinType": "Tüm Cilt Tipleri",
-    "ingredients":"glycolic acid, aqua (water), aloe barbadensis leaf water, sodium hydroxide, daucus carota sativa extract, propanediol, cocamidopropyl dimethylamine, salicylic acid, potassium citrate, lactic acid, tartaric acid, citric acid, panthenol, sodium hyaluronate crosspolymer, tasmannia lanceolata fruit/​leaf extract, glycerin, pentylene glycol, xanthan gum, polysorbate 20, trisodium ethylenediamine disuccinate, potassium sorbate, sodium benzoate, ethylhexylglycerin, 1,2-hexanediol, caprylyl glycol."
+    "ingredients": "glycolic acid, aqua (water), aloe barbadensis leaf water, sodium hydroxide, daucus carota sativa extract, propanediol, cocamidopropyl dimethylamine, salicylic acid, potassium citrate, lactic acid, tartaric acid, citric acid, panthenol, sodium hyaluronate crosspolymer, tasmannia lanceolata fruit/​leaf extract, glycerin, pentylene glycol, xanthan gum, polysorbate 20, trisodium ethylenediamine disuccinate, potassium sorbate, sodium benzoate, ethylhexylglycerin, 1,2-hexanediol, caprylyl glycol."
   },
   {
-    
     "name": "Tranaxamic Serum",
     "brand": "Cos De Baha",
     "category": "Serum",
     "imageLink": "https://productimages.hepsiburada.net/s/255/500/110000238206856.jpg",
     "skinType": "Tüm Cilt Tipleri",
-    "ingredients":"aloe barbadensis leaf extract, tranexamic acid, niacinamide, glycereth-26, betaine, propanediol, 1,2-hexanediol, sodium hyaluronate, allantoin, xanthan gum, citric acid, camellia sinensis leaf ext, sambucus nigra flower ext, momordica charantia fruit ext."
+    "ingredients": "aloe barbadensis leaf extract, tranexamic acid, niacinamide, glycereth-26, betaine, propanediol, 1,2-hexanediol, sodium hyaluronate, allantoin, xanthan gum, citric acid, camellia sinensis leaf ext, sambucus nigra flower ext, momordica charantia fruit ext."
   },
   {
-    
     "name": "Liposomal Vitamin C %17 Serum",
     "brand": "Jeuvenile",
     "category": "Serum",
     "imageLink": "https://caudalie-europe.imgix.net/media/catalog/product/2/9/297-2-instant-firming-serum.jpg?auto=format,compress&cs=srgb&fm=auto&w=600",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients":"aqua, niacinamide, panthenol, glycerin, sorbitol, peg-12 dimethicone, pentylene glycol, sodium ascorbyl phosphate, hyaluronic acid, sodium hyaluronate, hydrolyzed hyaluronic acid, sodium hyaluronate crosspolymer, hydrolyzed glycosaminoglycans, phenoxyethanol, lecithin, hydroxyethylcellulose, lactic acid, allantoin, ethylhexylglycerin, propanediol, xanthan gum, tetrasodium edta, caprylyl glycol, disodium edta, glyceryl caprylate."
+    "ingredients": "aqua, niacinamide, panthenol, glycerin, sorbitol, peg-12 dimethicone, pentylene glycol, sodium ascorbyl phosphate, hyaluronic acid, sodium hyaluronate, hydrolyzed hyaluronic acid, sodium hyaluronate crosspolymer, hydrolyzed glycosaminoglycans, phenoxyethanol, lecithin, hydroxyethylcellulose, lactic acid, allantoin, ethylhexylglycerin, propanediol, xanthan gum, tetrasodium edta, caprylyl glycol, disodium edta, glyceryl caprylate."
   },
   {
-    
     "name": "Alight Brightening Vitamin C Serum",
     "brand": "Cosmed",
     "category": "Serum",
@@ -325,61 +288,54 @@
     "ingredients": "dibutyl adipate, adansonia digitata oil, ascorbyl tetraisopalmitate, caprylic / capric triglyceride, morus alba root extract, pentylene glycol, citrus limon peel oil, phenylethyl resorcinol, bisabolol, acacia senegal gum, butyl methoxydibenzoylmethane, aqua, crocus chrysanthus bulb extract."
   },
   {
-    
     "name": "H.A. Intense Hyaluronıc Serum",
     "brand": "Mineaderm",
     "category": "Serum",
     "imageLink": "https://www.mineaderm.com/wp-content/uploads/2022/05/Intense-HA-scaled.jpg",
     "skinType": "Olgun Cilt",
-    "ingredients":"aqua, sodium hyaluronate, saccharide isomerate, ethoxydiglycol, pentylene glycol, panthenol, propanediol, hydrolyzed glycosaminoglycans, glycerin, 3-o-ethyl ascorbic acid, hydrolyzed hyaluronic acid, hyaluronic acid, sodium hyaluronate crosspolymer, hydroxyethylcellulose, peg-75 shea butter glycerides, oryza sativa callus culture extract, arctostaphylos uva ursi leaf extract, phenoxyethanol, benzoic acid, citric acid, sodium citrate, disodium edta."
+    "ingredients": "aqua, sodium hyaluronate, saccharide isomerate, ethoxydiglycol, pentylene glycol, panthenol, propanediol, hydrolyzed glycosaminoglycans, glycerin, 3-o-ethyl ascorbic acid, hydrolyzed hyaluronic acid, hyaluronic acid, sodium hyaluronate crosspolymer, hydroxyethylcellulose, peg-75 shea butter glycerides, oryza sativa callus culture extract, arctostaphylos uva ursi leaf extract, phenoxyethanol, benzoic acid, citric acid, sodium citrate, disodium edta."
   },
   {
-    
     "name": "Leke Gidermeye Yardımcı Aydınlatıcı Arbutin Serum",
     "brand": "Mineaderm",
     "category": "Serum",
     "imageLink": "https://www.mineaderm.com/wp-content/uploads/2023/02/arbutin_dikey_kutulu.jpg",
     "skinType": "Normal Cilt",
-    "ingredients":"aqua, glycerin, …liposom….alpha-arbutin, sodium pca, glycyrrhiza glabra(licorice) root extract, arctostaphylos uva ursi leaf extract, sodium hyaluronate, hydrolyzed glycosaminoglycans, hydrolyzed hyaluronic acid, hyaluronic acid, sodium hyaluronate crosspolymer, niacinamide,rumex occidentalis extract, hamamelis virginiana (witch hazel) extract, panthenol (provitamin b5), tocopheryl acetate (vitamin e), oryza sativa (rice) callus culture extract, phenoxyethanol, ethylhexylglycerin, xanthan gum, hydroxyethylcellulose, parfum, citric acid."
+    "ingredients": "aqua, glycerin, …liposom….alpha-arbutin, sodium pca, glycyrrhiza glabra(licorice) root extract, arctostaphylos uva ursi leaf extract, sodium hyaluronate, hydrolyzed glycosaminoglycans, hydrolyzed hyaluronic acid, hyaluronic acid, sodium hyaluronate crosspolymer, niacinamide,rumex occidentalis extract, hamamelis virginiana (witch hazel) extract, panthenol (provitamin b5), tocopheryl acetate (vitamin e), oryza sativa (rice) callus culture extract, phenoxyethanol, ethylhexylglycerin, xanthan gum, hydroxyethylcellulose, parfum, citric acid."
   },
   {
-    
     "name": "Be Bright Liposomal Collagen Peptide Complex Serum",
     "brand": "Dermoskin",
     "category": "Serum",
     "imageLink": "https://www.dermoskin.com.tr/content/images/Serum/LipCollagen.jpg",
     "skinType": "Olgun Cilt",
-    "ingredients":"water, collagen amino acids, lecithin,saccharide isomerate, niacinamide,panthenol, glycerin, hyaluronic acid,xylitol, pentylene glycol, polysorbate20, palmitoyl pentapeptide-4, acetylhexapeptide-37, allantoin, xanthangum, phenoxyethanol,ethylhexylglycerin, tocopherol,disodium edta."
+    "ingredients": "water, collagen amino acids, lecithin,saccharide isomerate, niacinamide,panthenol, glycerin, hyaluronic acid,xylitol, pentylene glycol, polysorbate20, palmitoyl pentapeptide-4, acetylhexapeptide-37, allantoin, xanthangum, phenoxyethanol,ethylhexylglycerin, tocopherol,disodium edta."
   },
   {
-    
     "name": "Peptide + Hyaluronic Acid Serum",
     "brand": "Cyrene",
     "category": "Serum",
-    "imageLink": "https://cdn.shopify.com/s/files/1/0020/7405/0639/products/peptide_yeni3_1024x1024.jpg?v=1596111399",
+    "imageLink": "https://cdn.dsmcdn.com/ty147/product/media/images/20210728/9/113208083/213144577/1/1_org_zoom.jpg",
     "skinType": "Tüm Cilt Tipleri",
-    "ingredients":"aqua, glycerin, hydrolyzed yeast protein, butylene glycol, pentylene glycol, sodium polyacrylate, sodium hyaluronate, hyaluronic acid, carbomer, polysorbate 20, phenoxyethanol, ethylhexylglycerin, palmitoyl tripeptide-1, palmitoyl tetrapeptide-7."
+    "ingredients": "aqua, glycerin, hydrolyzed yeast protein, butylene glycol, pentylene glycol, sodium polyacrylate, sodium hyaluronate, hyaluronic acid, carbomer, polysorbate 20, phenoxyethanol, ethylhexylglycerin, palmitoyl tripeptide-1, palmitoyl tetrapeptide-7."
   },
   {
-    
     "name": "Leke Karşıtı Cilt Beyazlatıcı Serum",
     "brand": "Pure Choice",
     "category": "Serum",
     "imageLink": "https://cdn.shopify.com/s/files/1/0436/6152/5157/files/pc1.png?v=1682437230",
     "skinType": "Tüm Cilt Tipleri",
-    "ingredients":"aqua, niacinamide, glycerin, butylene glycol, sodium pca, sodium hyaluronate, glycolic acid, lactic acid, glutathione, alpha-arbutin, glycyrrhiza glabra root extract, phenoxyethanol, tranexamic acid, beta-alanine, polysorbate 80, xanthan gum, carbomer, triethanolamine, tetrasodium edta, 3-o-ethyl ascorbic acid, sodium benzoate, chlorphenesin."
+    "ingredients": "aqua, niacinamide, glycerin, butylene glycol, sodium pca, sodium hyaluronate, glycolic acid, lactic acid, glutathione, alpha-arbutin, glycyrrhiza glabra root extract, phenoxyethanol, tranexamic acid, beta-alanine, polysorbate 80, xanthan gum, carbomer, triethanolamine, tetrasodium edta, 3-o-ethyl ascorbic acid, sodium benzoate, chlorphenesin."
   },
   {
-    
     "name": "Cosmic Shimmer Hologram Foil Sheet Yüz Maskesi",
     "brand": "Pure Beauty",
     "category": "Maske",
     "imageLink": "https://cdn.dsmcdn.com/ty23/product/media/images/20201116/20/26798770/66823402/1/1_org_zoom.jpg",
     "skinType": "Tüm Cilt Tipleri",
-    "ingredients" :"."
+    "ingredients": "."
   },
   {
-    
     "name": "Air Snowy Dengeleyici Maske",
     "brand": "Frudia",
     "category": "Maske",
@@ -388,7 +344,6 @@
     "ingredients": "."
   },
   {
-    
     "name": "Stres Karşıtı Papatya Özlü Kağıt Maske",
     "brand": "Skinlite",
     "category": "Maske",
@@ -397,7 +352,6 @@
     "ingredients": "."
   },
   {
-    
     "name": "Aloe vera Kil Maske",
     "brand": "Peau",
     "category": "Maske",
@@ -406,7 +360,6 @@
     "ingredients": "."
   },
   {
-    
     "name": "Peptaronic Hyaluronic Maske",
     "brand": "Snp Prep",
     "category": "Maske",
@@ -415,7 +368,6 @@
     "ingredients": "."
   },
   {
-    
     "name": "Peach Pore Refining Maske",
     "brand": "Love My Glow",
     "category": "Maske",
@@ -424,7 +376,6 @@
     "ingredients": "."
   },
   {
-    
     "name": "Vita Caviar Black Maske",
     "brand": "Dewytree",
     "category": "Maske",
@@ -433,7 +384,6 @@
     "ingredients": "."
   },
   {
-    
     "name": "Amazon Red Clay Pore Mask",
     "brand": "Missha",
     "category": "Maske",
@@ -442,7 +392,6 @@
     "ingredients": "."
   },
   {
-    
     "name": "AcGun Arındırıcı Maske",
     "brand": "Dermoskin",
     "category": "Maske",
@@ -451,7 +400,6 @@
     "ingredients": "."
   },
   {
-    
     "name": "AHA/BHA Vitamin C Daily Tonik",
     "brand": "Cream Co.",
     "category": "Tonik",
@@ -460,7 +408,6 @@
     "ingredients": "aqua, sodium lactate, glycolic acid, lactic acid,potassium azeloyl diglycinate,sodium pca, pentylene glycol, salix purpurea bark extract, lauryl glucoside, salicylic acid, citrus nobilis fruit extract, citrus aurantium peel extract,  3-o-ethyl ascorbic acid, phenoxyethanol, ehylhexylglycerin, polysorbate 20, triethanolamine."
   },
   {
-    
     "name": "Manuka Akneli Cilt Gözenek Sıkılaştırıcı Arındırıcı Tonik",
     "brand": "Ziaja",
     "category": "Tonik",
@@ -469,7 +416,6 @@
     "ingredients": "aqua (water), glycerin, panthenol, propylene glycol, zinc gluconate, lactobionic acid, mandelic acid, leptospermum scoparium leaf extract, polysorbate 20, sodium benzoate, parfum (fragrance), hexyl cinnamal, limonene, linalool, citral."
   },
   {
-    
     "name": "Effaclar Mikro Soyucu Tonik",
     "brand": "La Roche Posay",
     "category": "Tonik",
@@ -478,7 +424,6 @@
     "ingredients": "water aqua, alcohol denat., glycerin, sodium citrate, propylene glycol, peg-60 hydrogenated castor oil, disodium edta, capryloyl salicylic acid, citric acid, salicylic acid, parfum / fragrance."
   },
   {
-    
     "name": "Gözenek Sıkılıştarıcı Ve Arındırıcı Glycolic Acid 7%",
     "brand": "The Ordinary",
     "category": "Tonik",
@@ -487,7 +432,6 @@
     "ingredients": "aqua (water), glycolic acid, rosa damascena flower water, centaurea cyanus flower water, aloe barbadensis leaf water, propanediol, glycerin, triethanolamine, aminomethyl propanol, panax ginseng root extract, tasmannia lanceolata fruit/​leaf extract, aspartic acid, alanine, glycine, serine, valine, isoleucine, proline, threonine, histidine, phenylalanine, glutamic acid, arginine, pca, sodium pca, sodium lactate, fructose, glucose, sucrose, urea, hexyl nicotinate, dextrin, citric acid, polysorbate 20, gellan gum, trisodium ethylenediamine disuccinate, sodium chloride, hexylene glycol, potassium sorbate, sodium benzoate, 1,2-hexanediol, caprylyl glycol."
   },
   {
-    
     "name": "Clarifying Lotion Arındırıcı Losyon Tonik ",
     "brand": "Clinique",
     "category": "Tonik",
@@ -496,48 +440,43 @@
     "ingredients": "."
   },
   {
-    
     "name": "Vinopure Temizleyici Tonik",
     "brand": "Caudalie",
     "category": "Tonik",
     "imageLink": "https://cdn.dermogrup.net//caudalie-vinopure-temizleyici-tonik-200-ml-caudalie-155134-48-B.jpg",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients":"aqua/water, alcohol denat., rosa damascena flower water, vıtıs vınıfera (grape) fruıt water, caprylyl/capryl glucosıde, argınıne, salıcylıc acıd, vıtıs vınıfera (grape) juıce, cıtrıc acıd, pelargonıum graveolens flower oıl, mentha pıperıta (peppermınt) oıl, cıtral, cymbopogon cıtratus leaf oıl, rosmarınus offıcınalıs (rosemary) leaf oıl, sodıum benzoate, cıtronellol, sodıum phytate, geranıol, potassıum sorbate, lınalool, lavandula hybrıda oıl*, melıssa offıcınalıs leaf oıl, lımonene."
+    "ingredients": "aqua/water, alcohol denat., rosa damascena flower water, vıtıs vınıfera (grape) fruıt water, caprylyl/capryl glucosıde, argınıne, salıcylıc acıd, vıtıs vınıfera (grape) juıce, cıtrıc acıd, pelargonıum graveolens flower oıl, mentha pıperıta (peppermınt) oıl, cıtral, cymbopogon cıtratus leaf oıl, rosmarınus offıcınalıs (rosemary) leaf oıl, sodıum benzoate, cıtronellol, sodıum phytate, geranıol, potassıum sorbate, lınalool, lavandula hybrıda oıl*, melıssa offıcınalıs leaf oıl, lımonene."
   },
   {
-    
     "name": "Sebo Pure Vegetal Tonik",
     "brand": "Yves Rocher",
     "category": "Tonik",
     "imageLink": "https://productimages.hepsiburada.net/s/33/500/10406123667506.jpg",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients":"aqua/water/eau,alcohol,aloe barbadensis leaf juice,glycerin, hamamelis virginiana (witch hazel) water,peg-40 hydrogenated castor oil,xanthan gum,parfum/fragrance,salicylic acid,sodium hydroxide,pyrus malus (apple) fruit extract,scutellaria baicalensis root extract,sodium benzoate,citric acid,potassium sorbate,ledum groenlandicum extract,acacia senegal gum."
+    "ingredients": "aqua/water/eau,alcohol,aloe barbadensis leaf juice,glycerin, hamamelis virginiana (witch hazel) water,peg-40 hydrogenated castor oil,xanthan gum,parfum/fragrance,salicylic acid,sodium hydroxide,pyrus malus (apple) fruit extract,scutellaria baicalensis root extract,sodium benzoate,citric acid,potassium sorbate,ledum groenlandicum extract,acacia senegal gum."
   },
   {
-    
     "name": "Vitamin Hyaluronic Acid Vitalizing Tonik",
     "brand": "Iunik",
     "category": "Tonik",
     "imageLink": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty751/product/media/images/20230227/19/291407514/136556643/1/1_org_zoom.jpg",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients":"sodium hyaluronate (45%), water, hippophae rhamnoides fruit extract, glycerin, butylene glycol, niacinamide, 1,2-hexanediol, trehalose, caprylyl glycol, thuja orientalis leaf extract, zanthoxylum schinifolium leaf extract, polygonum cuspidatum root, ethylhexylglycerin, hydroxyethylcellulose, pentylene glycol, aspalathus linearis extract, glycyrrhiza glabra (licorice) root extract."
+    "ingredients": "sodium hyaluronate (45%), water, hippophae rhamnoides fruit extract, glycerin, butylene glycol, niacinamide, 1,2-hexanediol, trehalose, caprylyl glycol, thuja orientalis leaf extract, zanthoxylum schinifolium leaf extract, polygonum cuspidatum root, ethylhexylglycerin, hydroxyethylcellulose, pentylene glycol, aspalathus linearis extract, glycyrrhiza glabra (licorice) root extract."
   },
   {
-    
     "name": "Mature Skin Micellar Skin Tonik",
     "brand": "Janssen Cosmetics",
     "category": "Tonik",
     "imageLink": "https://cdn.dsmcdn.com/ty499/product/media/images/20220804/10/154524374/64946062/1/1_org_zoom.jpg",
     "skinType": "Tüm Cilt Tipleri",
-    "ingredients":"aqua (water), butylene glycol, polyglyceryl-4 caprate, glycerin, sodium hyaluronate, saccharide isomerate, sodium levulinate, levulinic acid, tetrasodium glutamate diacetate, sodium hydroxide, sodium citrate, citric acid, parfum [fragrance], butylphenyl methylpropional, phenoxyethanol."
+    "ingredients": "aqua (water), butylene glycol, polyglyceryl-4 caprate, glycerin, sodium hyaluronate, saccharide isomerate, sodium levulinate, levulinic acid, tetrasodium glutamate diacetate, sodium hydroxide, sodium citrate, citric acid, parfum [fragrance], butylphenyl methylpropional, phenoxyethanol."
   },
   {
-    
     "name": "Glyc-Alright Gözenek Sıkılaştırıcı Tonik",
     "brand": "She Vec",
     "category": "Tonik",
     "imageLink": "https://www.dermokozmetika.com.tr/she-vec-glyc-alright-tonic-gozenek-karsiti-tonik-200ml-45481-33-O.jpg",
     "skinType": "Karma-Yağlı Cilt",
-    "ingredients":"aqua, glycolic acid, glycerin, propanediol, c12-13 pareth-9, niacinamide, rosa damascena flower water, phenethyl alcohol, inulin, aloe barbadensis leaf extract, panthenol, caprylyl glycol, hydroxyethylcellulose, potassium sorbate, sodium hyaluronate, panax ginseng root extract, tasmania lanceolata fruit/leaf extract, sodium pca, sodium lactate, fructose, arginine, aspartic acid, hamamelis virginiana extract, pca, pentylene glycol, glycine, alanine, serine, valine, proline, threonine, isoleucine, histidine, phenylalanine, ascorbyl palmitate."
+    "ingredients": "aqua, glycolic acid, glycerin, propanediol, c12-13 pareth-9, niacinamide, rosa damascena flower water, phenethyl alcohol, inulin, aloe barbadensis leaf extract, panthenol, caprylyl glycol, hydroxyethylcellulose, potassium sorbate, sodium hyaluronate, panax ginseng root extract, tasmania lanceolata fruit/leaf extract, sodium pca, sodium lactate, fructose, arginine, aspartic acid, hamamelis virginiana extract, pca, pentylene glycol, glycine, alanine, serine, valine, proline, threonine, isoleucine, histidine, phenylalanine, ascorbyl palmitate."
   }
 ]
