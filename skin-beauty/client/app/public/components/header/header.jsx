@@ -43,22 +43,22 @@ export const Header = () => {
         <nav id="navbar" className={` ${mobileNavOpen ? "navbar-mobile" : "navbar"}`}>
           <ul>
             <li>
-              <NavLink exact to="/" className="nav-link scrollto" activeClassName="active">
+              <NavLink  to="/" className="nav-link scrollto" activeclassname="active">
                 Anasayfa
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Product" className="nav-link scrollto" activeClassName="active">
+              <NavLink to="/Product" className="nav-link scrollto" activeclassname="active">
                 Ürünler
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Blog" className="nav-link scrollto" activeClassName="active">
+              <NavLink to="/Blog" className="nav-link scrollto" activeclassname="active">
                 Blog
               </NavLink>
             </li>
             <li>
-              <NavLink to="/SkinTypeTests" className="nav-link scrollto" activeClassName="active">
+              <NavLink to="/SkinTypeTests" className="nav-link scrollto" activeclassname="active">
                 Testler
               </NavLink>
             </li>
@@ -66,7 +66,7 @@ export const Header = () => {
               <a href="#" >
               {user? (Meteor.user().profile.firstName):(`Kullanıcı`)}<i className="bx bx-chevron-down bx-sm"/>
               </a>
-              <ul ul style={{"display": "block"}}>
+              <ul style={{"display": "block"}}>
                 <li>
                   <a href="#">Hesabım</a>
                 </li>

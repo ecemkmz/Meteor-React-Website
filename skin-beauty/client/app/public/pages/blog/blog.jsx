@@ -85,7 +85,7 @@ export const Blog = () => {
                   </button>
                 </div>
               </div>
-              <popup
+              <div
                 className="popUpBackground"
                 style={{
                   display:
@@ -110,12 +110,12 @@ export const Blog = () => {
                     <p>{blogText.detailedContent}</p>
                   </div>
                 </div>
-              </popup>
+              </div>
             </div>
           );
         })}
       </section>
-      <sidebar className="sidebar">
+      <section className="sidebar">
         <div className="popularPosts">
           <h2>Popüler Postlar</h2>
           <div className="popularPost">
@@ -149,7 +149,7 @@ export const Blog = () => {
             </div>
           </div>
         </div>
-      </sidebar>
+      </section>
     </div>
   );
 };

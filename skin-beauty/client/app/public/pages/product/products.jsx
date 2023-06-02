@@ -198,8 +198,8 @@ export const ProductsPage = () => {
               {...item}
             />
           )}
-          nextIconButtonProps={{ disabled: currentPage === totalPages }}
-          prevIconButtonProps={{ disabled: currentPage === 1 }}
+          nexticonbuttonprops={{ disabled: currentPage === totalPages }}
+          previconbuttonprops={{ disabled: currentPage === 1 }}
           siblingCount={1}
           boundaryCount={1}
           showFirstButton

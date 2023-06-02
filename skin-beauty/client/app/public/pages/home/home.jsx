@@ -98,8 +98,8 @@ export const Home = () => {
           modules={[Autoplay, Navigation]}
         >
           {categories.map((category, i) => (
-            <SwiperSlide>
-              <div className="boxContainer" key={category._id}>
+            <SwiperSlide key={i}>
+              <div className="boxContainer"  >
                 <div
                   className="box"
                   id="boxProducts"
@@ -112,7 +112,7 @@ export const Home = () => {
                     className="bx bx-right-arrow-alt openModal"
                     onClick={() => {
                       const boxes = document.querySelectorAll(".boxContainer");
-                      boxes.forEach((box) => box.classList.remove("active"));
+                      boxes.forEach(box => box.classList.remove("active"));
                       boxes[i].classList.add("active");
                     }}
                   />
@@ -124,7 +124,7 @@ export const Home = () => {
                 >
                   <h2>Cilt Tipi</h2>
                   {skinTypes.map((skinType) => (
-                    <a href="/Product">{skinType.title}</a>
+                    <a  key={skinType._id} href="/Product">{skinType.title}</a>
                   ))}
                   <i
                     className="bx bx-right-arrow-alt closeModal"
