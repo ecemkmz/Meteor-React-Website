@@ -8,7 +8,9 @@ import { useTracker } from "meteor/react-meteor-data";
 import "swiper/modules/navigation/navigation.scss";
 
 export const Home = () => {
-  const categories = useTracker(() => Categories.find({}).fetch());
+  Meteor.subscribe("categories");
+  const categories = useTracker(() => Categories.find().fetch());
+  Meteor.subscribe("skinTypes");
   const skinTypes = useTracker(() => SkinTypes.find({}).fetch());
 
   return (
@@ -96,8 +98,8 @@ export const Home = () => {
           modules={[Autoplay, Navigation]}
         >
           {categories.map((category, i) => (
-            <SwiperSlide>
-              <div className="boxContainer" key={category._id}>
+            <SwiperSlide key={i}>
+              <div className="boxContainer">
                 <div
                   className="box"
                   id="boxProducts"
@@ -122,7 +124,9 @@ export const Home = () => {
                 >
                   <h2>Cilt Tipi</h2>
                   {skinTypes.map((skinType) => (
-                    <a href="/Product">{skinType.title}</a>
+                    <a key={skinType._id} href="/Product">
+                      {skinType.title}
+                    </a>
                   ))}
                   <i
                     className="bx bx-right-arrow-alt closeModal"

@@ -20,6 +20,10 @@ import {
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export const ProductsPage = () => {
+  Meteor.subscribe("categories");
+  Meteor.subscribe("brands");
+  Meteor.subscribe("skinTypes");
+  Meteor.subscribe("products");
   const categories = useTracker(() => Categories.find({}).fetch());
   const brands = useTracker(() => Brands.find({}).fetch());
   const skinTypes = useTracker(() => SkinTypes.find({}).fetch());
@@ -29,7 +33,6 @@ export const ProductsPage = () => {
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [selectedSkinTypes, setSelectedSkinTypes] = useState([]);
   const [productCards, setProductCards] = useState(products);
-  console.log(setProductCards);
   const handleCheckboxClick = (itemId, type) => {
     if (type === "categories") {
       setSelectedCategories((prevSelectedCategories) => {
@@ -195,8 +198,8 @@ export const ProductsPage = () => {
               {...item}
             />
           )}
-          nextIconButtonProps={{ disabled: currentPage === totalPages }}
-          prevIconButtonProps={{ disabled: currentPage === 1 }}
+          nexticonbuttonprops={{ disabled: currentPage === totalPages }}
+          previconbuttonprops={{ disabled: currentPage === 1 }}
           siblingCount={1}
           boundaryCount={1}
           showFirstButton
