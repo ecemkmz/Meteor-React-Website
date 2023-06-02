@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useTracker } from "meteor/react-meteor-data";
+import {useTracker} from 'meteor/react-meteor-data';
 import { NavLink } from "react-router-dom";
 
 export const Header = () => {
@@ -23,6 +23,7 @@ export const Header = () => {
     setMobileNavOpen(!mobileNavOpen);
   };
 
+
   return (
     <header
       id="header"
@@ -39,53 +40,33 @@ export const Header = () => {
             </a>
           </h1>
         </div>
-        <nav
-          id="navbar"
-          className={` ${mobileNavOpen ? "navbar-mobile" : "navbar"}`}
-        >
+        <nav id="navbar" className={` ${mobileNavOpen ? "navbar-mobile" : "navbar"}`}>
           <ul>
             <li>
-              <NavLink
-                to="/"
-                className="nav-link scrollto"
-                activeclassname="active"
-              >
+              <NavLink  to="/" className="nav-link scrollto" activeclassname="active">
                 Anasayfa
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/Product"
-                className="nav-link scrollto"
-                activeclassname="active"
-              >
+              <NavLink to="/Product" className="nav-link scrollto" activeclassname="active">
                 Ürünler
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/Blog"
-                className="nav-link scrollto"
-                activeclassname="active"
-              >
+              <NavLink to="/Blog" className="nav-link scrollto" activeclassname="active">
                 Blog
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/SkinTypeTests"
-                className="nav-link scrollto"
-                activeclassname="active"
-              >
+              <NavLink to="/SkinTypeTests" className="nav-link scrollto" activeclassname="active">
                 Testler
               </NavLink>
             </li>
             <li className="dropdown">
-              <a href="#">
-                {user ? Meteor.user().profile.firstName : `Kullanıcı`}
-                <i className="bx bx-chevron-down bx-sm" />
+              <a href="#" >
+              {user? (Meteor.user().profile.firstName):(`Kullanıcı`)}<i className="bx bx-chevron-down bx-sm"/>
               </a>
-              <ul style={{ display: "block" }}>
+              <ul style={{"display": "block"}}>
                 <li>
                   <a href="#">Hesabım</a>
                 </li>
@@ -96,25 +77,14 @@ export const Header = () => {
                   <a href="#">Yardım&amp;Sorular</a>
                 </li>
                 <li>
-                  {user ? (
-                    <a
-                      onClick={() => {
-                        Meteor.logout();
-                      }}
-                    >
-                      Çıkış Yap
-                    </a>
-                  ) : (
-                    <a href="/auth/signup">Üye Ol</a>
-                  )}
+
+                  {user? (<a onClick={() => { Meteor.logout()}}>Çıkış Yap</a>) :(<a href="/auth/signup">Üye Ol</a>)}
                 </li>
               </ul>
             </li>
           </ul>
-          <i
-            className="bx bx-menu bx-md mobileNavToggle"
-            onClick={handleMobileNavToggle}
-          />
+          <i className='bx bx-menu bx-md mobileNavToggle' onClick={handleMobileNavToggle} />
+
         </nav>
       </div>
     </header>

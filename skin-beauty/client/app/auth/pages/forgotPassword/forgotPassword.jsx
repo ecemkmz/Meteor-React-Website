@@ -20,7 +20,7 @@ export const ForgotPassword = () => {
     });
   };
   return (
-    <Container component="main" maxWidth="md">
+    <Container component="main" maxWidth="md" >
       <Box
         sx={{
           marginTop: 20,

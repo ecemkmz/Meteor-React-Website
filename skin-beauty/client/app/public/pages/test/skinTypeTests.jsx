@@ -8,6 +8,7 @@ export const SkinTypeTests = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+  Meteor.subscribe('skinTypeQuestions');
   const skinTypeQuestions = useTracker(() =>
     SkinTypeQuestions.find({}).fetch()
   );

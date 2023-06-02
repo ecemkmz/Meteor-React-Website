@@ -20,10 +20,10 @@ import {
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export const ProductsPage = () => {
-  Meteor.subscribe("categories");
-  Meteor.subscribe("brands");
-  Meteor.subscribe("skinTypes");
-  Meteor.subscribe("products");
+  Meteor.subscribe('categories');
+  Meteor.subscribe('brands');
+  Meteor.subscribe('skinTypes');
+  Meteor.subscribe('products');
   const categories = useTracker(() => Categories.find({}).fetch());
   const brands = useTracker(() => Brands.find({}).fetch());
   const skinTypes = useTracker(() => SkinTypes.find({}).fetch());

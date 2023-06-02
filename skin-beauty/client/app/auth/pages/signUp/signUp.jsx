@@ -33,7 +33,7 @@ export const SignUp = () => {
         console.log(error.reason);
       } else {
         console.log("Kullanıcı başarıyla oluşturuldu!");
-        navigate("/auth/signin");
+        navigate("/");
       }
     });
   };

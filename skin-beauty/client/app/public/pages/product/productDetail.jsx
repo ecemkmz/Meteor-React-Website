@@ -5,6 +5,7 @@ import {useTracker} from 'meteor/react-meteor-data';
 
 export const ProductDetail = () => {
   const { productId } = useParams();
+  Meteor.subscribe('products');
   const product = useTracker(() => Products.findOne(productId));
 
   if (!product) {
