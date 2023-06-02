@@ -125,6 +125,23 @@
     "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Reiciendis modi ex, id saepe aliquid asperiores autem cupiditate.Excepturi saepe blanditiis, natus nostrum distinctio expeditanulla perspiciatis! Totam animi enim vitae!",
     "questions": [
       {
+        "key": "question3",
+        "text": "Hangi içerik ciltteki kırışıklıkları azaltabilir?",
+        "choices": [
+          "Hyalüronik Asit",
+          "Retinol",
+          "C vitamini",
+          "Glikolik Asit"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "key": "question5",
+        "text": "Hangi içerik ciltteki gözenekleri sıkılaştırabilir?",
+        "choices": ["Salisilik Asit", "Hyalüronik Asit", "Retinol", "AHA"],
+        "correctAnswer": 0
+      },
+      {
         "key": "question1",
         "text": "Hangi vitamini güzellik için en çok duyuyoruz?",
         "choices": ["Vitamin A", "Vitamin C", "Vitamin E", "Vitamin K"],
@@ -141,29 +158,14 @@
         ],
         "correctAnswer": 1
       },
-      {
-        "key": "question3",
-        "text": "Hangi içerik ciltteki kırışıklıkları azaltabilir?",
-        "choices": [
-          "Hyalüronik Asit",
-          "Retinol",
-          "C vitamini",
-          "Glikolik Asit"
-        ],
-        "correctAnswer": 1
-      },
+
       {
         "key": "question4",
         "text": "Cilt bakımında hangi adım güneş korumasını içermelidir?",
         "choices": ["Temizleme", "Tonik", "Peeling", "Nemlendirme"],
         "correctAnswer": 3
       },
-      {
-        "key": "question5",
-        "text": "Hangi içerik ciltteki gözenekleri sıkılaştırabilir?",
-        "choices": ["Salisilik Asit", "Hyalüronik Asit", "Retinol", "AHA"],
-        "correctAnswer": 0
-      },
+
       {
         "key": "question6",
         "text": "Hangi içerik cildin parlaklığını artırabilir?",

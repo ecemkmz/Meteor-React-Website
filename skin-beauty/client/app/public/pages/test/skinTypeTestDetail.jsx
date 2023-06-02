@@ -8,9 +8,8 @@ export const SkinTypeTestDetail = () => {
   const skinTypeQuestions = useTracker(() =>
     SkinTypeQuestions.findOne({ testId: parseInt(testId) })
   );
-  
+
   const skinTypeQuestion = skinTypeQuestions?.questions || [];
-console.log(skinTypeQuestions);
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answerIdx, setAnswerIdx] = useState(null);
@@ -55,7 +54,6 @@ console.log(skinTypeQuestions);
       wrongAnswers: 0,
     });
   };
-
 
   return (
     <div className="quiz-container">
