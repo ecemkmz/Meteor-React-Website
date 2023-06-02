@@ -33,7 +33,7 @@ export const SignUp = () => {
         console.log(error.reason);
       } else {
         console.log("Kullanıcı başarıyla oluşturuldu!");
-        navigate("/");
+        navigate("/auth/signin");
       }
     });
   };
@@ -42,7 +42,9 @@ export const SignUp = () => {
     <Container component="main" maxWidth="xs">
       <Box
         sx={{
-          marginTop: 8,
+          marginTop: 20,
+          marginBottom: 15,
+
           display: "flex",
           flexDirection: "column",
           alignItems: "center",

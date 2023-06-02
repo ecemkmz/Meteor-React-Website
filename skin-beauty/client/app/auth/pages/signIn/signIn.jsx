@@ -9,7 +9,7 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 export const SignIn = () => {
   const navigate = useNavigate();
@@ -23,7 +23,7 @@ export const SignIn = () => {
         console.log(error.reason);
       } else {
         console.log("Kullanıcı girişi başarılı!");
-        navigate('/');
+        navigate("/");
       }
     });
   };
@@ -31,7 +31,9 @@ export const SignIn = () => {
     <Container component="main" maxWidth="xs">
       <Box
         sx={{
-          marginTop: 8,
+          marginTop: 20,
+          marginBottom: 15,
+
           display: "flex",
           flexDirection: "column",
           alignItems: "center",

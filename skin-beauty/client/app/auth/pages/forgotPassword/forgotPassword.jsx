@@ -20,10 +20,11 @@ export const ForgotPassword = () => {
     });
   };
   return (
-    <Container component="main" maxWidth="xs">
+    <Container component="main" maxWidth="md" minHeight="md">
       <Box
         sx={{
-          marginTop: 8,
+          marginTop: 20,
+          marginBottom: 15,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
