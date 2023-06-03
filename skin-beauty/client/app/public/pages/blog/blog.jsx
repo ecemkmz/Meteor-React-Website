@@ -3,12 +3,16 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTracker } from "meteor/react-meteor-data";
 import { BlogTexts } from "../../../../../lib/collections/blogTexts";
+import { PaginationComponent } from "../../components/pagination/pagination";
 
 export const Blog = () => {
   Meteor.subscribe('blogTexts');
   const blogTexts = useTracker(() => BlogTexts.find({}).fetch());
   const [popUpBackgroundDisplay, setPopUpBackgroundDisplay] = useState(false);
   const [activePopUpContent, setActivePopUpContent] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const [displayedBlog, setDisplayedBlog] = useState([]);
+  const perPage = 3;
 
   const openPopUp = (id) => {
     setPopUpBackgroundDisplay(true);
@@ -22,8 +26,15 @@ export const Blog = () => {
   };
 
   useEffect(() => {
+    const startIndex = (currentPage - 1) * perPage;
+    const endIndex = startIndex + perPage;
+    setDisplayedBlog(blogTexts.slice(startIndex, endIndex));
     AOS.init();
-  }, []);
+  }, [currentPage,blogTexts]);
+  const totalPages = Math.ceil(blogTexts.length / perPage);
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
 
   return (
     <div>
@@ -61,7 +72,7 @@ export const Blog = () => {
       </div>
 
       <section className="blogLeftColumn">
-        {blogTexts.map((blogText) => {
+        {displayedBlog.map((blogText) => {
           return (
             <div key={blogText.dataId}>
               <div
@@ -114,6 +125,11 @@ export const Blog = () => {
             </div>
           );
         })}
+        <PaginationComponent
+        totalPages={totalPages}
+        currentPage={currentPage}
+        onPageChange={handlePageChange}
+        />
       </section>
       <section className="sidebar">
         <div className="popularPosts">

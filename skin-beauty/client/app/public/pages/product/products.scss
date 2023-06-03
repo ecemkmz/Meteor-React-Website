@@ -64,11 +64,10 @@ $color-4: var(--red-font);
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    justify-content: center;
+    margin-left: 2rem;
 
     .productCard {
       background: $color-1;
-      text-align: center;
       box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
       position: relative;
       width: 14rem;
@@ -94,26 +93,6 @@ $color-4: var(--red-font);
         margin-top: 0.5rem;
         font-size: 1rem;
         color: $color-3;
-      }
-    }
-  }
-
-  .pagination {
-    width: 80%;
-    float: left;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 20px;
-
-    button {
-      margin: 0 5px;
-      padding: 5px 10px;
-      border: 1px solid #ccc;
-      background-color: #fff;
-      cursor: pointer;
-
-      &.active {
-        background-color: #ccc;
       }
     }
   }

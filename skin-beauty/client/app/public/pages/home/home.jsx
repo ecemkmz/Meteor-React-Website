@@ -85,7 +85,7 @@ export const Home = () => {
             <span>Kategorileri</span>
           </h1>
           <a href="/Product" className="btn">
-            Şimdi İncele <i className="bx bx-right-arrow-alt bx-sm" />
+            Şimdi İncele <i className="bx bx-right-arrow-alt bx-xs" />
           </a>
         </div>
         <Swiper
@@ -154,7 +154,7 @@ export const Home = () => {
           </p>
           <a href="/SkinTypeTests" className="btn">
             Devam Et
-            <i className="bx bx-right-arrow-alt" />
+            <i className="bx bx-right-arrow-alt bx-xs" />
           </a>
         </div>
         <img className="testImg" src="/assets/skincare5.jpg" alt="" />
