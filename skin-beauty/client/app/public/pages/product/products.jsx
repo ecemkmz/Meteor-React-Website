@@ -5,8 +5,6 @@ import { Brands } from "../../../../../lib/collections/brands.js";
 import { SkinTypes } from "../../../../../lib/collections/skinTypes";
 import { Products } from "../../../../../lib/collections/products.js";
 import {
-  Pagination,
-  PaginationItem,
   List,
   ListItem,
   Checkbox,
@@ -18,6 +16,7 @@ import {
   Button,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { PaginationComponent } from "../../components/pagination/pagination";
 
 export const ProductsPage = () => {
   Meteor.subscribe('categories');
@@ -33,6 +32,15 @@ export const ProductsPage = () => {
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [selectedSkinTypes, setSelectedSkinTypes] = useState([]);
   const [productCards, setProductCards] = useState(products);
+  const [displayedProducts, setDisplayedProducts] = useState([]);
+  const perPage = 16;
+
+  useEffect(() => {
+    const startIndex = (currentPage - 1) * perPage;
+    const endIndex = startIndex + perPage;
+    setDisplayedProducts(productCards.slice(startIndex, endIndex));
+  }, [currentPage, productCards]);
+
   const handleCheckboxClick = (itemId, type) => {
     if (type === "categories") {
       setSelectedCategories((prevSelectedCategories) => {
@@ -60,20 +68,22 @@ export const ProductsPage = () => {
       });
     }
   };
-  const handleFilter = () => {
-    const filteredProducts = products.filter((product) => {
-      const isCategoryMatch = selectedCategories.includes(product.category);
-      const isBrandMatch = selectedBrands.includes(product.brand);
-      const isSkinTypeMatch = selectedSkinTypes.includes(product.skinType);
-      return (
-        (selectedCategories.length === 0 || isCategoryMatch) &&
-        (selectedBrands.length === 0 || isBrandMatch) &&
-        (selectedSkinTypes.length === 0 || isSkinTypeMatch)
-      );
-    });
 
-    setProductCards(filteredProducts);
-    setCurrentPage(1);
+  const handleFilter = () => {
+    Meteor.call(
+      'filterProducts',
+      selectedCategories,
+      selectedBrands,
+      selectedSkinTypes,
+      (error, result) => {
+        if (error) {
+          console.log(error);
+        } else {
+          setProductCards(result);
+          setCurrentPage(1);
+        }
+      }
+    );
   };
 
   const handleClearFilter = () => {
@@ -81,15 +91,12 @@ export const ProductsPage = () => {
     setSelectedBrands([]);
     setSelectedSkinTypes([]);
     setProductCards(products);
+    setCurrentPage(1);
   };
 
-  const perPage = 16;
   const totalPages = Math.ceil(productCards.length / perPage);
-  const startIndex = (currentPage - 1) * perPage;
-  const endIndex = Math.min(startIndex + perPage, productCards.length);
-  const displayedProducts = productCards.slice(startIndex, endIndex);
 
-  const handlePageChange = (event, pageNumber) => {
+  const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
 
@@ -179,32 +186,16 @@ export const ProductsPage = () => {
             <a href={`/Product/${product._id}`}>
               <img src={product.imageLink} alt="" />
               <Typography variant="h2">{product.name}</Typography>
-
               <Typography variant="h2" style={{ color: "#bb6464" }}>
                 {product.brand}
               </Typography>
             </a>
           </Box>
         ))}
-        <Pagination
-          className="pagination"
-          count={totalPages}
-          page={currentPage}
-          onChange={handlePageChange}
-          renderItem={(item) => (
-            <PaginationItem
-              component={item.page === currentPage ? "div" : "button"}
-              disabled={item.page === currentPage}
-              {...item}
-            />
-          )}
-          nexticonbuttonprops={{ disabled: currentPage === totalPages }}
-          previconbuttonprops={{ disabled: currentPage === 1 }}
-          siblingCount={1}
-          boundaryCount={1}
-          showFirstButton
-          showLastButton
-          size="large"
+        <PaginationComponent
+          totalPages={totalPages}
+          currentPage={currentPage}
+          onPageChange={handlePageChange}
         />
       </Box>
     </Box>

@@ -76,6 +76,7 @@ $color_6: var(--purple-font);
       font-weight: 600;
     }
     span {
+      font-weight: 450;
       color: $color_5;
     }
     .btn {
@@ -94,6 +95,8 @@ $color_6: var(--purple-font);
   margin-left: auto;
   margin-right: auto;
   .categoryContainer {
+    padding-left: 1rem;
+    padding-right: 1rem;
     height: 310px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, auto));
@@ -203,17 +206,17 @@ $color_6: var(--purple-font);
   .testText {
     span {
       font-weight: 600;
-      font-size: 1.1rem;
+      font-size: 1.4rem;
       text-transform: uppercase;
       color: $color_4;
     }
     p {
-      font-size: 0.95rem;
+      font-size: 1.1rem;
       font-style: normal;
       margin: 0.5rem 0 1rem;
     }
     .btn {
-      font-size: 17px;
+      font-size: 14px;
       &:hover {
         background-color: $color_6;
         color: $color_2;
@@ -238,13 +241,13 @@ $color_6: var(--purple-font);
   }
   .aboutText {
     span {
-      font-size: 1.1rem;
+      font-size: 1.4rem;
       font-weight: 600;
       text-transform: uppercase;
       color: $color_4;
     }
     p {
-      font-size: 0.95rem;
+      font-size: 1.1rem;
       font-style: normal;
       margin: 0.5rem 0 1rem;
     }
